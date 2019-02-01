@@ -5,123 +5,340 @@ provides-nominal:
 - "5LetUs12CustomTabBarC"
 provides-member:
 - ["5LetUs12CustomTabBarC", ""]
+- ["So7UIImageC", ""]
+- ["So7UIImageC", "imageWithColor"]
 provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
 - "viewDidLoad"
 depends-top-level:
+- !private "BooleanLiteralType"
+- !private "CGRect"
+- "CGSize"
 - "CustomTabBar"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "UIColor"
+- !private "UIGraphicsBeginImageContextWithOptions"
+- !private "UIGraphicsEndImageContext"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- "UIImage"
+- !private "UIRectFill"
 - "UITabBarController"
+- "UITabBarItem"
 depends-member:
+- !private ["So6CGRectV", "init"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "CGRect"]
+- !private ["s7CVarArgP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s7CVarArgP", "UIGraphicsEndImageContext"]
+- !private ["s7CVarArgP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s7CVarArgP", "UIRectFill"]
+- ["s7CVarArgP", "UITabBarItem"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
-- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setFill"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsEndImageContext"]
+- !private ["s28CustomDebugStringConvertibleP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s28CustomDebugStringConvertibleP", "UIRectFill"]
+- ["s28CustomDebugStringConvertibleP", "UITabBarItem"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setFill"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsEndImageContext"]
+- !private ["s23CustomStringConvertibleP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s23CustomStringConvertibleP", "UIRectFill"]
+- ["s23CustomStringConvertibleP", "UITabBarItem"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setFill"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["5LetUs12CustomTabBarC", "UITabBarItem"]
+- ["5LetUs12CustomTabBarC", "didReceiveMemoryWarning"]
 - ["5LetUs12CustomTabBarC", "init"]
+- ["5LetUs12CustomTabBarC", "tabBarIteam"]
 - ["5LetUs12CustomTabBarC", "viewDidLoad"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "width"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "width"]
+- !private ["SQ", "CGRect"]
+- !private ["SQ", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["SQ", "UIGraphicsEndImageContext"]
+- !private ["SQ", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["SQ", "UIRectFill"]
+- ["SQ", "UITabBarItem"]
 - ["SQ", ""]
+- !private ["SQ", "didReceiveMemoryWarning"]
+- !private ["SQ", "height"]
+- ["SQ", "init"]
 - !private ["SQ", "init"]
-- !private ["SQ", "init"]
+- !private ["SQ", "setFill"]
 - !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "width"]
+- !private ["SH", "CGRect"]
+- !private ["SH", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["SH", "UIGraphicsEndImageContext"]
+- !private ["SH", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["SH", "UIRectFill"]
+- ["SH", "UITabBarItem"]
 - ["SH", ""]
+- !private ["SH", "didReceiveMemoryWarning"]
+- ["SH", "init"]
 - !private ["SH", "init"]
-- !private ["SH", "init"]
+- !private ["SH", "setFill"]
 - !private ["SH", "viewDidLoad"]
+- !private ["So8NSCodingP", "CGRect"]
+- !private ["So8NSCodingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSCodingP", "UIGraphicsEndImageContext"]
+- !private ["So8NSCodingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So8NSCodingP", "UIRectFill"]
+- ["So8NSCodingP", "UITabBarItem"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "init"]
-- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setFill"]
 - !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "setFill"]
+- ["So26NSExtensionRequestHandlingP", "UITabBarItem"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "init"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "CGRect"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsEndImageContext"]
+- !private ["So21NSItemProviderReadingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So21NSItemProviderReadingP", "UIRectFill"]
+- !private ["So21NSItemProviderReadingP", "setFill"]
+- !private ["So21NSItemProviderWritingP", "CGRect"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsEndImageContext"]
+- !private ["So21NSItemProviderWritingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So21NSItemProviderWritingP", "UIRectFill"]
+- !private ["So21NSItemProviderWritingP", "setFill"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "CGSize"]
+- ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSObjectC", "UIGraphicsEndImageContext"]
+- !private ["So8NSObjectC", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UIRectFill"]
+- ["So8NSObjectC", "UITabBarItem"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "imageWithColor"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "setFill"]
+- ["So8NSObjectC", "tabBarIteam"]
 - ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "CGRect"]
+- !private ["So8NSObjectP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So8NSObjectP", "UIGraphicsEndImageContext"]
+- !private ["So8NSObjectP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So8NSObjectP", "UIRectFill"]
+- ["So8NSObjectP", "UITabBarItem"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "didReceiveMemoryWarning"]
+- ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
-- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "setFill"]
 - !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "CGRect"]
+- !private ["So14NSSecureCodingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So14NSSecureCodingP", "UIGraphicsEndImageContext"]
+- !private ["So14NSSecureCodingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So14NSSecureCodingP", "UIRectFill"]
+- !private ["So14NSSecureCodingP", "setFill"]
+- !private ["So29UIAccessibilityIdentificationP", "CGRect"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsEndImageContext"]
+- !private ["So29UIAccessibilityIdentificationP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So29UIAccessibilityIdentificationP", "UIRectFill"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- ["So12UIAppearanceP", "init"]
+- ["So21UIAppearanceContainerP", "UITabBarItem"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So9UIBarItemC", "init"]
+- !private ["So7UIColorC", "setFill"]
+- ["So18UIContentContainerP", "UITabBarItem"]
 - ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "init"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "UITabBarItem"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So7UIImageC", "CGRect"]
+- ["So7UIImageC", "CGSize"]
+- ["So7UIImageC", "UIColor"]
+- !private ["So7UIImageC", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So7UIImageC", "UIGraphicsEndImageContext"]
+- !private ["So7UIImageC", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["So7UIImageC", "UIImage"]
+- !private ["So7UIImageC", "UIRectFill"]
+- ["So7UIImageC", "imageWithColor"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "CGRect"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsEndImageContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "UIRectFill"]
+- ["So30UIPasteConfigurationSupportingP", "UITabBarItem"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "UITabBarItem"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "tabBarIteam"]
 - ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "UITabBarItem"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So35UISpringLoadedInteractionSupportingP", "init"]
+- ["So16UIStateRestoringP", "UITabBarItem"]
 - ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "init"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITabBarControllerC", "UITabBarItem"]
 - ["So18UITabBarControllerC", ""]
+- ["So18UITabBarControllerC", "didReceiveMemoryWarning"]
 - ["So18UITabBarControllerC", "init"]
 - !private ["So18UITabBarControllerC", "init"]
+- ["So18UITabBarControllerC", "tabBarIteam"]
 - ["So18UITabBarControllerC", "viewDidLoad"]
+- ["So16UITabBarDelegateP", "UITabBarItem"]
 - ["So16UITabBarDelegateP", ""]
+- !private ["So16UITabBarDelegateP", "didReceiveMemoryWarning"]
 - !private ["So16UITabBarDelegateP", "init"]
 - !private ["So16UITabBarDelegateP", "init"]
 - !private ["So16UITabBarDelegateP", "viewDidLoad"]
+- ["So12UITabBarItemC", "init"]
+- ["So18UITraitEnvironmentP", "UITabBarItem"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "UITabBarItem"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "didReceiveMemoryWarning"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "UITabBarItem"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
 - ["So16UIViewControllerC", "init"]
 - !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "tabBarIteam"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s26_ExpressibleByColorLiteralP", "setFill"]
+- !private ["s26_ExpressibleByImageLiteralP", "CGRect"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsEndImageContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["s26_ExpressibleByImageLiteralP", "UIRectFill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsEndImageContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIRectFill"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UITabBarItem"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setFill"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
 depends-nominal:
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "5LetUs12CustomTabBarC"
+- !private "Se"
+- !private "SE"
 - "SQ"
 - "SH"
 - "So8NSCodingP"
+- !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
+- "So9UIBarItemC"
+- !private "So7UIColorC"
 - "So18UIContentContainerP"
 - "So18UIFocusEnvironmentP"
+- "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
+- "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
 - "So18UITabBarControllerC"
 - "So16UITabBarDelegateP"
+- "So12UITabBarItemC"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So16UIViewControllerC"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -148,4 +365,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6ceabef93f8f489381e806f00975ab26"
+interface-hash: "0ad43e78425bcab0b9d9681169ea0136"
