@@ -13,24 +13,76 @@
         <!--Scan-->
         <scene sceneID="vQd-re-dTv">
             <objects>
-                <viewController id="u4r-bz-a3R" sceneMemberID="viewController">
+                <viewController id="u4r-bz-a3R" customClass="ViewController" customModule="LetUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dOi-xJ-1cJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera" translatesAutoresizingMaskIntoConstraints="NO" id="Dsb-n3-sCR">
-                                <rect key="frame" x="65" y="306" width="285" height="285"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BOA-Pm-Pbn">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fC2-ic-iHP"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Scan" id="aOP-i4-75k"/>
+                    <connections>
+                        <outlet property="qrScan" destination="BOA-Pm-Pbn" id="pHp-vM-yg0"/>
+                        <segue destination="lkZ-gb-Fyy" kind="show" identifier="ScannedUI" id="G7b-0G-JOa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r5x-e2-h5T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-330" y="-135"/>
+            <point key="canvasLocation" x="-330.43478260869568" y="-135.26785714285714"/>
+        </scene>
+        <!--Help-->
+        <scene sceneID="nme-aT-tQB">
+            <objects>
+                <viewController id="Hud-qr-4hp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kxx-1z-5Ra">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="e1K-yD-HWB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Help" id="iaX-yq-gmB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H8J-LV-IxE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1587" y="189"/>
+        </scene>
+        <!--Cart-->
+        <scene sceneID="BNQ-fE-CMf">
+            <objects>
+                <viewController id="lkZ-gb-Fyy" customClass="WebViewController" customModule="LetUs" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZzU-ID-xzb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iOY-7g-9NP">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iOY-7g-9NP" firstAttribute="top" secondItem="NxZ-46-U8V" secondAttribute="top" id="78v-lc-eZI"/>
+                            <constraint firstItem="iOY-7g-9NP" firstAttribute="bottom" secondItem="NxZ-46-U8V" secondAttribute="bottom" id="MO1-Dq-C7n"/>
+                            <constraint firstItem="iOY-7g-9NP" firstAttribute="leading" secondItem="ZzU-ID-xzb" secondAttribute="leading" id="Ou2-eH-5Dj"/>
+                            <constraint firstAttribute="trailing" secondItem="iOY-7g-9NP" secondAttribute="trailing" id="r8E-Hf-Am8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NxZ-46-U8V"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cart" id="nbS-5U-xmU"/>
+                    <connections>
+                        <outlet property="webView" destination="iOY-7g-9NP" id="hxU-Cb-r1U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BX2-mz-iDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657.97101449275362" y="-135.26785714285714"/>
         </scene>
         <!--Setting-->
         <scene sceneID="71F-bi-6Kx">
@@ -112,7 +164,4 @@
             <point key="canvasLocation" x="-1353" y="-63"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="camera" width="280.79998779296875" height="280.79998779296875"/>
-    </resources>
 </document>

@@ -163,6 +163,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # define SWIFT_DEPRECATED_OBJC(Msg) SWIFT_DEPRECATED_MSG(Msg)
 #endif
 #if __has_feature(modules)
+@import AVFoundation;
 @import UIKit;
 #endif
 
@@ -209,9 +210,21 @@ SWIFT_CLASS("_TtC5LetUs12CustomTabBar")
 
 
 
+@class UIView;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC5LetUs14ViewController")
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AVCaptureMetadataOutputObjectsDelegate>
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified qrScan;
+- (void)viewDidLoad;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5LetUs17WebViewController")
+@interface WebViewController : UITabBarController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
