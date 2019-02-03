@@ -14,15 +14,15 @@ class CustomTabBar: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*needed later when there is images for the tab bar
+        //needed later when there is images for the tab bar
         UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.white], for: .selected)
         UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor : UIColor.gray], for: .normal)
         
-        let selectedImageList = UIImage(named: "List_white")?.withRenderingMode(.alwaysOriginal)
-        let deselectedImageList = UIImage(named: "List_gray")?.withRenderingMode(.alwaysOriginal)
+        let selectedImageHome = UIImage(named: "Home_white")?.withRenderingMode(.alwaysOriginal)
+        let deselectedImageHome = UIImage(named: "Home_gray")?.withRenderingMode(.alwaysOriginal)
         tabBarIteam = (self.tabBar.items?[0])!
-        tabBarIteam.image = deselectedImageList
-        tabBarIteam.selectedImage = selectedImageList
+        tabBarIteam.image = deselectedImageHome
+        tabBarIteam.selectedImage = selectedImageHome
         
         let selectedImageScan =  UIImage(named: "Scan_white")?.withRenderingMode(.alwaysOriginal)
         let deselectedImageScan = UIImage(named: "Scan_gray")?.withRenderingMode(.alwaysOriginal)
@@ -30,28 +30,23 @@ class CustomTabBar: UITabBarController {
         tabBarIteam.image = deselectedImageScan
         tabBarIteam.selectedImage =  selectedImageScan
         
-        let selectedImageCart =  UIImage(named: "Cart_white")?.withRenderingMode(.alwaysOriginal)
-        let deselectedImageCart = UIImage(named: "Cart_gray")?.withRenderingMode(.alwaysOriginal)
+        let selectedImageSetting =  UIImage(named: "Setting_white")?.withRenderingMode(.alwaysOriginal)
+        let deselectedImageSetting = UIImage(named: "Setting_gray")?.withRenderingMode(.alwaysOriginal)
         tabBarIteam = (self.tabBar.items?[2])!
-        tabBarIteam.image = deselectedImageCart
-        tabBarIteam.selectedImage = selectedImageCart
-        
-        let selectedImageHelp =  UIImage(named: "Help_white")?.withRenderingMode(.alwaysOriginal)
-        let deselectedImageHelp = UIImage(named: "Help_gray")?.withRenderingMode(.alwaysOriginal)
-        tabBarIteam = (self.tabBar.items?[3])!
-        tabBarIteam.image = deselectedImageHelp
-        tabBarIteam.selectedImage = selectedImageHelp
+        tabBarIteam.image = deselectedImageSetting
+        tabBarIteam.selectedImage = selectedImageSetting
         
         
-        // selected tab background color
+        
+        /* selected tab background color
         let numberOfItems = CGFloat(tabBar.items!.count)
         let tabBarItemSize = CGSize(width: tabBar.frame.width / numberOfItems, height: tabBar.frame.height)
         
         
-        tabBar.selectionIndicatorImage = UIImage.imageWithColor(color: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1) , size: tabBarItemSize)
+        tabBar.selectionIndicatorImage = UIImage.imageWithColor(color: #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1) , size: tabBarItemSize)*/
         
         // initaial tab bar index
-        self.selectedIndex = 0*/
+        self.selectedIndex = 0
     }
     
     override func didReceiveMemoryWarning() {

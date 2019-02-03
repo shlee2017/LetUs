@@ -30,25 +30,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r5x-e2-h5T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="529" y="-400"/>
+            <point key="canvasLocation" x="-330" y="-135"/>
         </scene>
-        <!--Help-->
-        <scene sceneID="xvk-uW-vUI">
-            <objects>
-                <viewController id="xNg-ja-9Ww" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dXH-mM-TQP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="RL8-tp-fc3"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Help" id="Z7m-UK-Gzu"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTg-w8-Qh9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-330" y="248"/>
-        </scene>
-        <!--Cart-->
+        <!--Setting-->
         <scene sceneID="71F-bi-6Kx">
             <objects>
                 <viewController id="7xI-jX-OMS" sceneMemberID="viewController">
@@ -58,13 +42,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="C53-dG-XFS"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Cart" id="Kur-sJ-9cJ"/>
+                    <tabBarItem key="tabBarItem" title="Setting" id="Kur-sJ-9cJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m3b-TE-u5N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="529" y="248"/>
+            <point key="canvasLocation" x="-330" y="511"/>
         </scene>
-        <!--List-->
+        <!--Home-->
         <scene sceneID="KT7-pr-Mme">
             <objects>
                 <viewController id="H8C-4Q-uBn" sceneMemberID="viewController">
@@ -74,16 +58,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="6aE-Ji-gHr"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="List" id="dcn-3Q-gks"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="dcn-3Q-gks"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Shg-eL-lHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-330" y="-400"/>
+            <point key="canvasLocation" x="-330" y="-788"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Custom Tab Bar-->
         <scene sceneID="YXS-j1-Y71">
             <objects>
-                <tabBarController id="8mG-Ir-vtO" sceneMemberID="viewController">
+                <tabBarController id="8mG-Ir-vtO" customClass="CustomTabBar" customModule="LetUs" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="A1t-d8-Rw4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -95,7 +79,6 @@
                         <segue destination="H8C-4Q-uBn" kind="relationship" relationship="viewControllers" id="mAO-sS-AgV"/>
                         <segue destination="u4r-bz-a3R" kind="relationship" relationship="viewControllers" id="d1l-l5-CgF"/>
                         <segue destination="7xI-jX-OMS" kind="relationship" relationship="viewControllers" id="6CJ-15-Afu"/>
-                        <segue destination="xNg-ja-9Ww" kind="relationship" relationship="viewControllers" id="kBU-ie-jj8"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jzK-xD-fDO" userLabel="First Responder" sceneMemberID="firstResponder"/>
