@@ -102,11 +102,12 @@ extension HomeViewController {
     
     override func tableView(_ tableView: UITableView,
                             cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "RestaurantCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RestaurantCell",
+                                                 for: indexPath) as! RestaurantCell
         
         let restaurant = restaurants[indexPath.row]
-        cell.textLabel?.text = restaurant.name
-        cell.detailTextLabel?.text = restaurant.address
+        cell.restaurant = restaurant
         return cell
     }
+
 }

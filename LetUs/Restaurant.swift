@@ -7,10 +7,12 @@
 //
 
 import Foundation
+import UIKit
 
 struct Restaurant {
     
     // MARK: - Properties
     var name: String
     var address: String
+    var picture: UIImage? = nil
 }
