@@ -9,11 +9,14 @@ provides-dynamic-lookup:
 depends-top-level:
 - "Restaurant"
 - "String"
+- "UIImage"
 depends-member:
 - ["5LetUs10RestaurantV", "String"]
+- ["5LetUs10RestaurantV", "UIImage"]
 - ["5LetUs10RestaurantV", "address"]
 - ["5LetUs10RestaurantV", "init"]
 - ["5LetUs10RestaurantV", "name"]
+- ["5LetUs10RestaurantV", "picture"]
 depends-nominal:
 - "5LetUs10RestaurantV"
 depends-dynamic-lookup:
@@ -50,4 +53,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "f52110e11aa75448a8234202113d41af"
+interface-hash: "b39dc4bcb7d7c5977fcfcb823ea798b3"
