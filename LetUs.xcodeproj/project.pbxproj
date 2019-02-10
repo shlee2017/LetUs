@@ -13,12 +13,12 @@
 		14D054AB2210C83B008806F5 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D054AA2210C83B008806F5 /* RestaurantCell.swift */; };
 		2D0AE83122078E2E00961FDC /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AE83022078E2E00961FDC /* WebViewController.swift */; };
 		2D246C892204A7C800166E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246C882204A7C800166E8A /* AppDelegate.swift */; };
-		2D246C8B2204A7C800166E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246C8A2204A7C800166E8A /* ViewController.swift */; };
 		2D246C8E2204A7C800166E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D246C8C2204A7C800166E8A /* Main.storyboard */; };
 		2D246C902204A7C800166E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D246C8F2204A7C800166E8A /* Assets.xcassets */; };
 		2D246C932204A7C800166E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D246C912204A7C800166E8A /* LaunchScreen.storyboard */; };
 		2D246C9E2204A7C800166E8A /* LetUsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246C9D2204A7C800166E8A /* LetUsTests.swift */; };
 		2D246CAB2204B22400166E8A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246CAA2204B22400166E8A /* CustomTabBar.swift */; };
+		2D6349292210CACE00AE5E77 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6349282210CACD00AE5E77 /* QRScannerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		2D0AE83022078E2E00961FDC /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		2D246C852204A7C800166E8A /* LetUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D246C882204A7C800166E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D246C8A2204A7C800166E8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D246C8D2204A7C800166E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D246C8F2204A7C800166E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D246C922204A7C800166E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +47,7 @@
 		2D246C9D2204A7C800166E8A /* LetUsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetUsTests.swift; sourceTree = "<group>"; };
 		2D246C9F2204A7C900166E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D246CAA2204B22400166E8A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		2D6349282210CACD00AE5E77 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,14 +90,14 @@
 			isa = PBXGroup;
 			children = (
 				2D246C882204A7C800166E8A /* AppDelegate.swift */,
-				2D246C8A2204A7C800166E8A /* ViewController.swift */,
-				2D0AE83022078E2E00961FDC /* WebViewController.swift */,
 				2D246C8C2204A7C800166E8A /* Main.storyboard */,
 				141660C4220791560066CDF5 /* RestaurantData.swift */,
 				141660C222078E650066CDF5 /* Restaurant.swift */,
 				141660C022078D650066CDF5 /* HomeViewController.swift */,
 				14D054AA2210C83B008806F5 /* RestaurantCell.swift */,
 				2D246CAA2204B22400166E8A /* CustomTabBar.swift */,
+				2D0AE83022078E2E00961FDC /* WebViewController.swift */,
+				2D6349282210CACD00AE5E77 /* QRScannerController.swift */,
 				2D246C8F2204A7C800166E8A /* Assets.xcassets */,
 				2D246C912204A7C800166E8A /* LaunchScreen.storyboard */,
 				2D246C942204A7C800166E8A /* Info.plist */,
@@ -217,10 +217,10 @@
 			files = (
 				14D054AB2210C83B008806F5 /* RestaurantCell.swift in Sources */,
 				141660C322078E650066CDF5 /* Restaurant.swift in Sources */,
-				2D246C8B2204A7C800166E8A /* ViewController.swift in Sources */,
 				141660C5220791560066CDF5 /* RestaurantData.swift in Sources */,
 				2D246CAB2204B22400166E8A /* CustomTabBar.swift in Sources */,
 				2D246C892204A7C800166E8A /* AppDelegate.swift in Sources */,
+				2D6349292210CACE00AE5E77 /* QRScannerController.swift in Sources */,
 				141660C122078D650066CDF5 /* HomeViewController.swift in Sources */,
 				2D0AE83122078E2E00961FDC /* WebViewController.swift in Sources */,
 			);
@@ -385,13 +385,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78G3K9TQHP;
+				DEVELOPMENT_TEAM = J5L9AYFLDT;
 				INFOPLIST_FILE = LetUs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ethlee.tk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.LetUs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -403,13 +403,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78G3K9TQHP;
+				DEVELOPMENT_TEAM = J5L9AYFLDT;
 				INFOPLIST_FILE = LetUs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ethlee.tk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.LetUs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

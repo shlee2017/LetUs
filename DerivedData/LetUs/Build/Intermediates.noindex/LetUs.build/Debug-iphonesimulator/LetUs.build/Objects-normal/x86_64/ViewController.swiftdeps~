@@ -8,6 +8,7 @@ provides-member:
 - ["5LetUs14ViewControllerC", ""]
 - ["5LetUs14ViewControllerC5errorO", ""]
 provides-dynamic-lookup:
+- "metadataOutput"
 - "prepare"
 - "qrScan"
 - "viewDidLoad"
@@ -17,15 +18,14 @@ depends-top-level:
 - "AVCaptureConnection"
 - !private "AVCaptureDevice"
 - !private "AVCaptureDeviceInput"
-- !private "AVCaptureMetadataOutput"
+- "AVCaptureMetadataOutput"
 - "AVCaptureMetadataOutputObjectsDelegate"
-- "AVCaptureOutput"
 - !private "AVCaptureSession"
 - !private "AVCaptureVideoPreviewLayer"
 - !private "AVLayerVideoGravity"
 - !private "AVMediaType"
 - !private "AVMetadataMachineReadableCodeObject"
-- !private "AVMetadataObject"
+- "AVMetadataObject"
 - !private "Array"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
@@ -338,9 +338,7 @@ depends-member:
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "bounds"]
-- !private ["s23ExpressibleByNilLiteralP", "count"]
 - !private ["s23ExpressibleByNilLiteralP", "layer"]
-- !private ["s23ExpressibleByNilLiteralP", "subscript"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
@@ -464,14 +462,13 @@ depends-member:
 - ["So8NSObjectC", "AVCaptureConnection"]
 - !private ["So8NSObjectC", "AVCaptureDevice"]
 - !private ["So8NSObjectC", "AVCaptureDeviceInput"]
-- !private ["So8NSObjectC", "AVCaptureMetadataOutput"]
-- ["So8NSObjectC", "AVCaptureOutput"]
+- ["So8NSObjectC", "AVCaptureMetadataOutput"]
 - !private ["So8NSObjectC", "AVCaptureSession"]
 - !private ["So8NSObjectC", "AVCaptureVideoPreviewLayer"]
 - !private ["So8NSObjectC", "AVLayerVideoGravity"]
 - !private ["So8NSObjectC", "AVMediaType"]
 - !private ["So8NSObjectC", "AVMetadataMachineReadableCodeObject"]
-- !private ["So8NSObjectC", "AVMetadataObject"]
+- ["So8NSObjectC", "AVMetadataObject"]
 - !private ["So8NSObjectC", "DispatchQueue"]
 - ["So8NSObjectC", "Error"]
 - !private ["So8NSObjectC", "ObjectType"]
@@ -557,9 +554,7 @@ depends-member:
 - !private ["So9OS_objectC", "main"]
 - !private ["So20AVMetadataObjectTypea", "qr"]
 - !private ["Sq", "bounds"]
-- !private ["Sq", "count"]
 - !private ["Sq", "layer"]
-- !private ["Sq", "subscript"]
 - !private ["Sk", "count"]
 - !private ["Sk", "subscript"]
 - !private ["Sm", "count"]
@@ -699,14 +694,13 @@ depends-member:
 - ["So11UIResponderC", "AVCaptureConnection"]
 - !private ["So11UIResponderC", "AVCaptureDevice"]
 - !private ["So11UIResponderC", "AVCaptureDeviceInput"]
-- !private ["So11UIResponderC", "AVCaptureMetadataOutput"]
-- ["So11UIResponderC", "AVCaptureOutput"]
+- ["So11UIResponderC", "AVCaptureMetadataOutput"]
 - !private ["So11UIResponderC", "AVCaptureSession"]
 - !private ["So11UIResponderC", "AVCaptureVideoPreviewLayer"]
 - !private ["So11UIResponderC", "AVLayerVideoGravity"]
 - !private ["So11UIResponderC", "AVMediaType"]
 - !private ["So11UIResponderC", "AVMetadataMachineReadableCodeObject"]
-- !private ["So11UIResponderC", "AVMetadataObject"]
+- ["So11UIResponderC", "AVMetadataObject"]
 - !private ["So11UIResponderC", "DispatchQueue"]
 - ["So11UIResponderC", "Error"]
 - ["So11UIResponderC", "String"]
@@ -840,14 +834,13 @@ depends-member:
 - ["So16UIViewControllerC", "AVCaptureConnection"]
 - !private ["So16UIViewControllerC", "AVCaptureDevice"]
 - !private ["So16UIViewControllerC", "AVCaptureDeviceInput"]
-- !private ["So16UIViewControllerC", "AVCaptureMetadataOutput"]
-- ["So16UIViewControllerC", "AVCaptureOutput"]
+- ["So16UIViewControllerC", "AVCaptureMetadataOutput"]
 - !private ["So16UIViewControllerC", "AVCaptureSession"]
 - !private ["So16UIViewControllerC", "AVCaptureVideoPreviewLayer"]
 - !private ["So16UIViewControllerC", "AVLayerVideoGravity"]
 - !private ["So16UIViewControllerC", "AVMediaType"]
 - !private ["So16UIViewControllerC", "AVMetadataMachineReadableCodeObject"]
-- !private ["So16UIViewControllerC", "AVMetadataObject"]
+- ["So16UIViewControllerC", "AVMetadataObject"]
 - !private ["So16UIViewControllerC", "DispatchQueue"]
 - ["So16UIViewControllerC", "Error"]
 - ["So16UIViewControllerC", "String"]
@@ -873,14 +866,13 @@ depends-member:
 - ["5LetUs14ViewControllerC", "AVCaptureConnection"]
 - !private ["5LetUs14ViewControllerC", "AVCaptureDevice"]
 - !private ["5LetUs14ViewControllerC", "AVCaptureDeviceInput"]
-- !private ["5LetUs14ViewControllerC", "AVCaptureMetadataOutput"]
-- ["5LetUs14ViewControllerC", "AVCaptureOutput"]
+- ["5LetUs14ViewControllerC", "AVCaptureMetadataOutput"]
 - !private ["5LetUs14ViewControllerC", "AVCaptureSession"]
 - !private ["5LetUs14ViewControllerC", "AVCaptureVideoPreviewLayer"]
 - !private ["5LetUs14ViewControllerC", "AVLayerVideoGravity"]
 - !private ["5LetUs14ViewControllerC", "AVMediaType"]
 - !private ["5LetUs14ViewControllerC", "AVMetadataMachineReadableCodeObject"]
-- !private ["5LetUs14ViewControllerC", "AVMetadataObject"]
+- ["5LetUs14ViewControllerC", "AVMetadataObject"]
 - !private ["5LetUs14ViewControllerC", "DispatchQueue"]
 - ["5LetUs14ViewControllerC", "Error"]
 - ["5LetUs14ViewControllerC", "String"]
@@ -1121,4 +1113,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "9478140b56b400b21e4d178aa0f2396f"
+interface-hash: "461659189054143592613c1955f13db5"

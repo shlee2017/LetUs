@@ -13,29 +13,31 @@
         <!--Scan-->
         <scene sceneID="vQd-re-dTv">
             <objects>
-                <viewController id="u4r-bz-a3R" customClass="ViewController" customModule="LetUs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="u4r-bz-a3R" customClass="QRScannerController" customModule="LetUs" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dOi-xJ-1cJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BOA-Pm-Pbn">
-                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="No QR Code Detected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txl-1p-mTT">
+                                <rect key="frame" x="0.0" y="683" width="375" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fC2-ic-iHP"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Scan" id="aOP-i4-75k"/>
                     <connections>
-                        <outlet property="qrScan" destination="BOA-Pm-Pbn" id="pHp-vM-yg0"/>
-                        <segue destination="lkZ-gb-Fyy" kind="show" identifier="ScannedUI" id="G7b-0G-JOa"/>
+                        <outlet property="messageLabel" destination="txl-1p-mTT" id="dkO-0p-BsR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r5x-e2-h5T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-330.43478260869568" y="-135.26785714285714"/>
+            <point key="canvasLocation" x="-332" y="-135.96059113300493"/>
         </scene>
         <!--Help-->
         <scene sceneID="nme-aT-tQB">
