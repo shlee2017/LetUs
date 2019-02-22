@@ -6,6 +6,35 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
+		<key>D3347D2D-02E6-4A6D-8063-18A8C3BCC1E4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D3347D2D-02E6-4A6D-8063-18A8C3BCC1E4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LetUs project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LetUs</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug LetUs</string>
+			<key>timeStartedRecording</key>
+			<real>571532615.44014096</real>
+			<key>timeStoppedRecording</key>
+			<real>571532641.59734201</real>
+			<key>title</key>
+			<string>Debug LetUs</string>
+			<key>uniqueIdentifier</key>
+			<string>D3347D2D-02E6-4A6D-8063-18A8C3BCC1E4</string>
+		</dict>
 		<key>EDA21D1F-86A5-43E1-B9CE-0A4C4E1ED917</key>
 		<dict>
 			<key>className</key>
