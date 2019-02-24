@@ -1,0 +1,14 @@
+{
+    "letus": {
+        "awscloudformation": {
+            "AuthRoleName": "letus-20190224162504-authRole",
+            "UnauthRoleArn": "arn:aws:iam::720697164529:role/letus-20190224162504-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::720697164529:role/letus-20190224162504-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "letus-20190224162504-deployment",
+            "UnauthRoleName": "letus-20190224162504-unauthRole",
+            "StackName": "letus-20190224162504",
+            "StackId": "arn:aws:cloudformation:us-east-1:720697164529:stack/letus-20190224162504/a6a186c0-387a-11e9-ac09-0a009cdf2216"
+        }
+    }
+}
