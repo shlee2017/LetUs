@@ -7,6 +7,18 @@
 //
 
 import UIKit
+import AWSAppSync
+
+class Todos: UIViewController{
+    //Reference AppSync client
+    var appSyncClient: AWSAppSyncClient?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appSyncClient = appDelegate.appSyncClient
+    }
+}
 
 class HomeViewController: UITableViewController {
 

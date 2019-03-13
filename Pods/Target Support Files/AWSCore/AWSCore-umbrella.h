@@ -30,7 +30,6 @@
 #import "AWSFMDatabaseAdditions.h"
 #import "AWSFMDatabasePool.h"
 #import "AWSFMDatabaseQueue.h"
-#import "AWSFMDB+AWSHelpers.h"
 #import "AWSFMDB.h"
 #import "AWSFMResultSet.h"
 #import "AWSGZIP.h"

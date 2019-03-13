@@ -9,6 +9,11 @@
             "UnauthRoleName": "letus-20190224162504-unauthRole",
             "StackName": "letus-20190224162504",
             "StackId": "arn:aws:cloudformation:us-east-1:720697164529:stack/letus-20190224162504/a6a186c0-387a-11e9-ac09-0a009cdf2216"
+        },
+        "categories": {
+            "auth": {
+                "cognito8f4771a6": {}
+            }
         }
     }
 }
