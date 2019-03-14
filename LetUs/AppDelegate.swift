@@ -13,10 +13,8 @@ import AWSAppSync
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-<<<<<<< HEAD
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-=======
     var appSyncClient: AWSAppSyncClient?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -69,3 +67,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+}
