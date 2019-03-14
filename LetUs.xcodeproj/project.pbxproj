@@ -11,6 +11,7 @@
 		14124265223A1AE90011E813 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14124264223A1AE90011E813 /* MenuItem.swift */; };
 		14124267223A1BB60011E813 /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14124266223A1BB60011E813 /* MenuData.swift */; };
 		14124269223A215D0011E813 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14124268223A215D0011E813 /* MenuItemCell.swift */; };
+		0C4CDF0E2220697300E3961C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4CDF0D2220697300E3961C /* Constants.swift */; };
 		141660C122078D650066CDF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141660C022078D650066CDF5 /* HomeViewController.swift */; };
 		141660C322078E650066CDF5 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141660C222078E650066CDF5 /* Restaurant.swift */; };
 		141660C5220791560066CDF5 /* RestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141660C4220791560066CDF5 /* RestaurantData.swift */; };
@@ -22,6 +23,7 @@
 		2D246C9E2204A7C800166E8A /* LetUsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246C9D2204A7C800166E8A /* LetUsTests.swift */; };
 		2D246CAB2204B22400166E8A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246CAA2204B22400166E8A /* CustomTabBar.swift */; };
 		2D6349292210CACE00AE5E77 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6349282210CACD00AE5E77 /* QRScannerController.swift */; };
+		6839A45EA39D631B82574688 /* Pods_LetUs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827FEDE66FAD50D4E4F95014 /* Pods_LetUs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,7 @@
 		14124264223A1AE90011E813 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		14124266223A1BB60011E813 /* MenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
 		14124268223A215D0011E813 /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		0C4CDF0D2220697300E3961C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		141660C022078D650066CDF5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		141660C222078E650066CDF5 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		141660C4220791560066CDF5 /* RestaurantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantData.swift; sourceTree = "<group>"; };
@@ -54,6 +57,9 @@
 		2D246C9F2204A7C900166E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D246CAA2204B22400166E8A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		2D6349282210CACD00AE5E77 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		439BAD3B37C80CCB46AFC7AF /* Pods-LetUs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetUs.debug.xcconfig"; path = "Target Support Files/Pods-LetUs/Pods-LetUs.debug.xcconfig"; sourceTree = "<group>"; };
+		827FEDE66FAD50D4E4F95014 /* Pods_LetUs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetUs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA01966F0970E489C1BC8853 /* Pods-LetUs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetUs.release.xcconfig"; path = "Target Support Files/Pods-LetUs/Pods-LetUs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6839A45EA39D631B82574688 /* Pods_LetUs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0467012D477E8198B6EB273A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				827FEDE66FAD50D4E4F95014 /* Pods_LetUs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2D246C7C2204A7C800166E8A = {
 			isa = PBXGroup;
 			children = (
 				2D246C872204A7C800166E8A /* LetUs */,
 				2D246C9C2204A7C800166E8A /* LetUsTests */,
 				2D246C862204A7C800166E8A /* Products */,
+				403A0CF4E35EAC82D47F1B13 /* Pods */,
+				0467012D477E8198B6EB273A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +122,7 @@
 				141660C222078E650066CDF5 /* Restaurant.swift */,
 				141660C022078D650066CDF5 /* HomeViewController.swift */,
 				14D054AA2210C83B008806F5 /* RestaurantCell.swift */,
+				0C4CDF0D2220697300E3961C /* Constants.swift */,
 				2D246CAA2204B22400166E8A /* CustomTabBar.swift */,
 				2D6349282210CACD00AE5E77 /* QRScannerController.swift */,
 				2D246C8F2204A7C800166E8A /* Assets.xcassets */,
@@ -123,6 +141,16 @@
 			path = LetUsTests;
 			sourceTree = "<group>";
 		};
+		403A0CF4E35EAC82D47F1B13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				439BAD3B37C80CCB46AFC7AF /* Pods-LetUs.debug.xcconfig */,
+				AA01966F0970E489C1BC8853 /* Pods-LetUs.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -130,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D246CA22204A7C900166E8A /* Build configuration list for PBXNativeTarget "LetUs" */;
 			buildPhases = (
+				3BB9B59A60B57177067EAB49 /* [CP] Check Pods Manifest.lock */,
 				2D246C812204A7C800166E8A /* Sources */,
 				2D246C822204A7C800166E8A /* Frameworks */,
 				2D246C832204A7C800166E8A /* Resources */,
+				AFB567C3A7A05F4A9C7B6286 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,6 +249,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BB9B59A60B57177067EAB49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LetUs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFB567C3A7A05F4A9C7B6286 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LetUs/Pods-LetUs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAppSync/AWSAppSync.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAppSync.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LetUs/Pods-LetUs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D246C812204A7C800166E8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -235,6 +330,7 @@
 				14124265223A1AE90011E813 /* MenuItem.swift in Sources */,
 				141660C122078D650066CDF5 /* HomeViewController.swift in Sources */,
 				14124263223A1AAD0011E813 /* MenuViewController.swift in Sources */,
+				0C4CDF0E2220697300E3961C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,15 +490,17 @@
 		};
 		2D246CA32204A7C900166E8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 439BAD3B37C80CCB46AFC7AF /* Pods-LetUs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78G3K9TQHP;
+				DEVELOPMENT_TEAM = J5L9AYFLDT;
 				INFOPLIST_FILE = LetUs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lett.us;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -412,10 +510,11 @@
 		};
 		2D246CA42204A7C900166E8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA01966F0970E489C1BC8853 /* Pods-LetUs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78G3K9TQHP;
+				DEVELOPMENT_TEAM = J5L9AYFLDT;
 				INFOPLIST_FILE = LetUs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

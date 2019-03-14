@@ -1,0 +1,16 @@
+projects:
+  letus:
+    schemaPath: graphql/schema.json
+    includes:
+      - graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: swift
+        generatedFileName: API.swift
+        docsFilePath: graphql
+        graphQLApiId: 5s3hx2flpnalnjqq5lpc4dqkaq
+      endpoints:
+        prod: >-
+          https://lzhvlh4qmfgpjpah4hnyqulnfy.appsync-api.us-east-1.amazonaws.com/graphql
