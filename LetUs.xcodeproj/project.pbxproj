@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14124263223A1AAD0011E813 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14124262223A1AAD0011E813 /* MenuViewController.swift */; };
+		14124265223A1AE90011E813 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14124264223A1AE90011E813 /* MenuItem.swift */; };
+		14124267223A1BB60011E813 /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14124266223A1BB60011E813 /* MenuData.swift */; };
+		14124269223A215D0011E813 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14124268223A215D0011E813 /* MenuItemCell.swift */; };
 		141660C122078D650066CDF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141660C022078D650066CDF5 /* HomeViewController.swift */; };
 		141660C322078E650066CDF5 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141660C222078E650066CDF5 /* Restaurant.swift */; };
 		141660C5220791560066CDF5 /* RestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141660C4220791560066CDF5 /* RestaurantData.swift */; };
@@ -31,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14124262223A1AAD0011E813 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		14124264223A1AE90011E813 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		14124266223A1BB60011E813 /* MenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
+		14124268223A215D0011E813 /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
 		141660C022078D650066CDF5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		141660C222078E650066CDF5 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		141660C4220791560066CDF5 /* RestaurantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantData.swift; sourceTree = "<group>"; };
@@ -88,7 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				2D246C882204A7C800166E8A /* AppDelegate.swift */,
+				14124262223A1AAD0011E813 /* MenuViewController.swift */,
 				2D246C8C2204A7C800166E8A /* Main.storyboard */,
+				14124268223A215D0011E813 /* MenuItemCell.swift */,
+				14124266223A1BB60011E813 /* MenuData.swift */,
+				14124264223A1AE90011E813 /* MenuItem.swift */,
 				141660C4220791560066CDF5 /* RestaurantData.swift */,
 				141660C222078E650066CDF5 /* Restaurant.swift */,
 				141660C022078D650066CDF5 /* HomeViewController.swift */,
@@ -214,11 +226,15 @@
 			files = (
 				14D054AB2210C83B008806F5 /* RestaurantCell.swift in Sources */,
 				141660C322078E650066CDF5 /* Restaurant.swift in Sources */,
+				14124269223A215D0011E813 /* MenuItemCell.swift in Sources */,
+				14124267223A1BB60011E813 /* MenuData.swift in Sources */,
 				141660C5220791560066CDF5 /* RestaurantData.swift in Sources */,
 				2D246CAB2204B22400166E8A /* CustomTabBar.swift in Sources */,
 				2D246C892204A7C800166E8A /* AppDelegate.swift in Sources */,
 				2D6349292210CACE00AE5E77 /* QRScannerController.swift in Sources */,
+				14124265223A1AE90011E813 /* MenuItem.swift in Sources */,
 				141660C122078D650066CDF5 /* HomeViewController.swift in Sources */,
+				14124263223A1AAD0011E813 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +403,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LetUs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lett.us;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -405,7 +421,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.LetUs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lett.us;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
