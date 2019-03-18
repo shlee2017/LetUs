@@ -13,10 +13,16 @@ class Todos: UIViewController{
     //Reference AppSync client
     var appSyncClient: AWSAppSyncClient?
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        appSyncClient = appDelegate.appSyncClient
+    
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Override point for customization after application launch.
+        
+        // Create AWSMobileClient to connect with AWS
+        return AWSIoTMQTTClient.sharedInstance().interceptApplication(
+            application,
+            didFinishLaunchingWithOptions: launchOptions)
+        
     }
 }
 
