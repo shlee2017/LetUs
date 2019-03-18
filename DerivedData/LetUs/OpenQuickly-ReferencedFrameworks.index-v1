@@ -2,10 +2,43 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>XCTest</string>
 	<string>AVFoundation</string>
+	<string>Reachability</string>
+	<string>CommonCrypto</string>
+	<string>objc</string>
+	<string>SQLite3</string>
+	<string>the</string>
+	<string>AWSCognitoIdentityProvider</string>
+	<string>sqlite3</string>
+	<string>AWSMobileClient</string>
+	<string>AWSAuthCore</string>
+	<string>CoreData</string>
+	<string>CSQLite</string>
+	<string>SQLiteObjc</string>
 	<string>LetUs</string>
-	<string>UIKit</string>
+	<string>AWSCore</string>
+	<string>sys</string>
+	<string>arpa</string>
+	<string>SQLite</string>
+	<string>StoreKit</string>
+	<string>dispatch</string>
+	<string>CoreServices</string>
+	<string>AWSUserPoolsSignIn</string>
+	<string>AWSAppSync</string>
+	<string>unicode</string>
+	<string>libkern</string>
+	<string>AWSPinpoint</string>
+	<string>XCTest</string>
+	<string>Dispatch</string>
+	<string>SQLCipher</string>
 	<string>Foundation</string>
+	<string>Security</string>
+	<string>os</string>
+	<string>mach</string>
+	<string>AppKit</string>
+	<string>AWSAuthUI</string>
+	<string>CocoaLumberjack</string>
+	<string>SystemConfiguration</string>
+	<string>UIKit</string>
 </array>
 </plist>

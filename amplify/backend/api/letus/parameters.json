@@ -1,10 +1,4 @@
 {
     "AppSyncApiName": "letus",
-    "DynamoDBBillingMode": "PAY_PER_REQUEST",
-    "AuthCognitoUserPoolId": {
-        "Fn::GetAtt": [
-            "authcognito8f4771a6",
-            "Outputs.UserPoolId"
-        ]
-    }
+    "DynamoDBBillingMode": "PAY_PER_REQUEST"
 }

@@ -15,5 +15,22 @@
                 "cognito8f4771a6": {}
             }
         }
+    },
+    "ios": {
+        "awscloudformation": {
+            "AuthRoleName": "letus-20190318153658-authRole",
+            "UnauthRoleArn": "arn:aws:iam::720697164529:role/letus-20190318153658-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::720697164529:role/letus-20190318153658-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "letus-20190318153658-deployment",
+            "UnauthRoleName": "letus-20190318153658-unauthRole",
+            "StackName": "letus-20190318153658",
+            "StackId": "arn:aws:cloudformation:us-east-2:720697164529:stack/letus-20190318153658/32c74860-49b5-11e9-87f4-06ba3123ae48"
+        },
+        "categories": {
+            "auth": {
+                "cognito8f4771a6": {}
+            }
+        }
     }
 }

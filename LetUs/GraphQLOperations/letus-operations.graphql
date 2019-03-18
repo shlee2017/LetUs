@@ -1,0 +1,35 @@
+query GetProfile($id:ID!) {
+    getProfile(id:$id) {
+        id
+        username
+        email
+        password
+    }
+}
+
+mutation CreateProfile($input:CreateProfileInput!) {
+    createProfile(input:$input) {
+        id
+        username
+        email
+        password
+    }
+}
+
+mutation UpdateProfile($input:UpdateProfileInput!) {
+    updateProfile(input:$input) {
+        id
+        username
+        email
+        password
+    }
+}
+
+mutation DeleteProfile($id:ID!) {
+    deleteProfile(input: { id: $id }) {
+        id
+        username
+        email
+        password
+    }
+}

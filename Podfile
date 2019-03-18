@@ -12,6 +12,7 @@ target :'LetUs' do
   pod 'AWSAuthCore'
   pod 'AWSCognitoIdentityProvider'
   pod 'AWSCognitoIdentityProviderASF'
+  pod 'AWSPinpoint'
   
   # other pods
 end

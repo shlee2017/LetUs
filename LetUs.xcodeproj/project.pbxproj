@@ -24,6 +24,9 @@
 		2D246C9E2204A7C800166E8A /* LetUsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246C9D2204A7C800166E8A /* LetUsTests.swift */; };
 		2D246CAB2204B22400166E8A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246CAA2204B22400166E8A /* CustomTabBar.swift */; };
 		2D6349292210CACE00AE5E77 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6349282210CACD00AE5E77 /* QRScannerController.swift */; };
+		2D7087BD224025B4002751B0 /* letus-operations.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 2D7087BC224025B4002751B0 /* letus-operations.graphql */; };
+		2D7087C122402E11002751B0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7087C022402E11002751B0 /* API.swift */; };
+		2D7087C722403FEE002751B0 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D7087C622403FEE002751B0 /* awsconfiguration.json */; };
 		6839A45EA39D631B82574688 /* Pods_LetUs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827FEDE66FAD50D4E4F95014 /* Pods_LetUs.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		2D246C9F2204A7C900166E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D246CAA2204B22400166E8A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		2D6349282210CACD00AE5E77 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		2D7087BC224025B4002751B0 /* letus-operations.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = "letus-operations.graphql"; sourceTree = "<group>"; };
+		2D7087C022402E11002751B0 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = SOURCE_ROOT; };
+		2D7087C622403FEE002751B0 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
 		439BAD3B37C80CCB46AFC7AF /* Pods-LetUs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetUs.debug.xcconfig"; path = "Target Support Files/Pods-LetUs/Pods-LetUs.debug.xcconfig"; sourceTree = "<group>"; };
 		827FEDE66FAD50D4E4F95014 /* Pods_LetUs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetUs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA01966F0970E489C1BC8853 /* Pods-LetUs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetUs.release.xcconfig"; path = "Target Support Files/Pods-LetUs/Pods-LetUs.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,7 +120,9 @@
 		2D246C872204A7C800166E8A /* LetUs */ = {
 			isa = PBXGroup;
 			children = (
+				2D7087BB22402572002751B0 /* GraphQLOperations */,
 				2D246C882204A7C800166E8A /* AppDelegate.swift */,
+				2D7087C622403FEE002751B0 /* awsconfiguration.json */,
 				14124262223A1AAD0011E813 /* MenuViewController.swift */,
 				2D246C8C2204A7C800166E8A /* Main.storyboard */,
 				1412429A223F58EF0011E813 /* SettingsViewController.swift */,
@@ -128,6 +136,7 @@
 				0C4CDF0D2220697300E3961C /* Constants.swift */,
 				2D246CAA2204B22400166E8A /* CustomTabBar.swift */,
 				2D6349282210CACD00AE5E77 /* QRScannerController.swift */,
+				2D7087C022402E11002751B0 /* API.swift */,
 				2D246C8F2204A7C800166E8A /* Assets.xcassets */,
 				2D246C912204A7C800166E8A /* LaunchScreen.storyboard */,
 				2D246C942204A7C800166E8A /* Info.plist */,
@@ -142,6 +151,14 @@
 				2D246C9F2204A7C900166E8A /* Info.plist */,
 			);
 			path = LetUsTests;
+			sourceTree = "<group>";
+		};
+		2D7087BB22402572002751B0 /* GraphQLOperations */ = {
+			isa = PBXGroup;
+			children = (
+				2D7087BC224025B4002751B0 /* letus-operations.graphql */,
+			);
+			path = GraphQLOperations;
 			sourceTree = "<group>";
 		};
 		403A0CF4E35EAC82D47F1B13 /* Pods */ = {
@@ -236,9 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D7087C722403FEE002751B0 /* awsconfiguration.json in Resources */,
 				2D246C932204A7C800166E8A /* LaunchScreen.storyboard in Resources */,
 				2D246C902204A7C800166E8A /* Assets.xcassets in Resources */,
 				2D246C8E2204A7C800166E8A /* Main.storyboard in Resources */,
+				2D7087BD224025B4002751B0 /* letus-operations.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +309,7 @@
 				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSMobileClient/AWSMobileClient.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
@@ -305,6 +325,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSMobileClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
@@ -327,6 +348,7 @@
 				14124267223A1BB60011E813 /* MenuData.swift in Sources */,
 				141660C5220791560066CDF5 /* RestaurantData.swift in Sources */,
 				2D246CAB2204B22400166E8A /* CustomTabBar.swift in Sources */,
+				2D7087C122402E11002751B0 /* API.swift in Sources */,
 				2D246C892204A7C800166E8A /* AppDelegate.swift in Sources */,
 				2D6349292210CACE00AE5E77 /* QRScannerController.swift in Sources */,
 				14124265223A1AE90011E813 /* MenuItem.swift in Sources */,

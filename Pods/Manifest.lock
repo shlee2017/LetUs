@@ -16,6 +16,8 @@ PODS:
   - AWSMobileClient (2.8.4):
     - AWSAuthCore (= 2.8.4)
     - AWSCognitoIdentityProvider (= 2.8.4)
+  - AWSPinpoint (2.8.4):
+    - AWSCore (= 2.8.4)
   - AWSUserPoolsSignIn (2.8.4):
     - AWSAuthCore (= 2.8.4)
     - AWSCognitoIdentityProvider (= 2.8.4)
@@ -32,6 +34,7 @@ DEPENDENCIES:
   - AWSCognitoIdentityProviderASF
   - AWSCore
   - AWSMobileClient
+  - AWSPinpoint
   - AWSUserPoolsSignIn
 
 SPEC REPOS:
@@ -43,6 +46,7 @@ SPEC REPOS:
     - AWSCognitoIdentityProviderASF
     - AWSCore
     - AWSMobileClient
+    - AWSPinpoint
     - AWSUserPoolsSignIn
     - ReachabilitySwift
     - SQLite.swift
@@ -55,10 +59,11 @@ SPEC CHECKSUMS:
   AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
   AWSCore: 734b0d67c2c77f6edae9e5520431a37310ea4193
   AWSMobileClient: 59072ca49e82706c6d958f7a08e4a285d7197af1
+  AWSPinpoint: 289a3f2e6cd25a387283ee47467c57654b9f4182
   AWSUserPoolsSignIn: 1eb61512db85bf0d043f79eda77de0ee09035bcf
   ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
   SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
 
-PODFILE CHECKSUM: c8bf3741c5e2e1cfdb5c2c852c1d2efe4351808c
+PODFILE CHECKSUM: 30d89c5393250d14b16a0cdf17a9a7e546f2df80
 
 COCOAPODS: 1.6.1
