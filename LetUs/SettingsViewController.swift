@@ -10,7 +10,7 @@ import UIKit
 
 class SettingsViewController: UITableViewController, UITextFieldDelegate {
     
-    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     
@@ -19,12 +19,12 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.nameTextField.delegate = self
+        self.usernameTextField.delegate = self
         self.passwordTextField.delegate = self
         self.emailTextField.delegate = self
         
         // Set text fields to stored values
-        nameTextField.text = defaults.string(forKey: "name")
+        usernameTextField.text = defaults.string(forKey: "name")
         passwordTextField.text = defaults.string(forKey: "password")
         emailTextField.text = defaults.string(forKey: "email")
         
@@ -36,7 +36,7 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         // Store text fields when finished editing
-        defaults.set(nameTextField.text, forKey: "name")
+        defaults.set(usernameTextField.text, forKey: "name")
         defaults.set(passwordTextField.text, forKey: "password")
         defaults.set(emailTextField.text, forKey: "email")
     }
