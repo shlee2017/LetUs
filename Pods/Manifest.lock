@@ -26,7 +26,10 @@ PODS:
 
 DEPENDENCIES:
   - AWSAppSync
+  - AWSAuthCore
   - AWSAuthUI
+  - AWSCognitoIdentityProvider
+  - AWSCognitoIdentityProviderASF
   - AWSCore
   - AWSMobileClient
   - AWSUserPoolsSignIn
@@ -56,6 +59,6 @@ SPEC CHECKSUMS:
   ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
   SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
 
-PODFILE CHECKSUM: 408a34449d176d8db8ac639dbb6e41c66be1fc6b
+PODFILE CHECKSUM: c8bf3741c5e2e1cfdb5c2c852c1d2efe4351808c
 
 COCOAPODS: 1.6.1

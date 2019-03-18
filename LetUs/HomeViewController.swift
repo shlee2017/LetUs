@@ -8,6 +8,7 @@
 
 import UIKit
 import AWSAppSync
+import AWSMobileClient
 
 class Todos: UIViewController{
     //Reference AppSync client
@@ -19,7 +20,7 @@ class Todos: UIViewController{
         // Override point for customization after application launch.
         
         // Create AWSMobileClient to connect with AWS
-        return AWSIoTMQTTClient.sharedInstance().interceptApplication(
+        return AWSMobileClient.sharedInstance().interceptApplication(
             application,
             didFinishLaunchingWithOptions: launchOptions)
         
