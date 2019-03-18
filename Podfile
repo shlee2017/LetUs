@@ -9,6 +9,9 @@ target :'LetUs' do
   pod 'AWSMobileClient'      # Required dependency
   pod 'AWSAuthUI'           # Optional dependency required to use drop-in UI
   pod 'AWSUserPoolsSignIn'
+  pod 'AWSAuthCore'
+  pod 'AWSCognitoIdentityProvider'
+  pod 'AWSCognitoIdentityProviderASF'
   
   # other pods
 end

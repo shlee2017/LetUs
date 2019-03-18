@@ -23,6 +23,14 @@
 		0AD784E4EF2A7FFE42C4B2CAC84BCA50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A36C5EACDC137598315C539E1E51B9 /* Foundation.framework */; };
 		0C34805D7DBE59C2363B6246359B2C31 /* GraphQLInputValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDFF44089919A148626B7AB9B86C2E /* GraphQLInputValue.swift */; };
 		0C81716706AE72351BE079E12D0A3A75 /* AWSMQTTDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = BAB206E62B4CCA35E35A80C79208A2BE /* AWSMQTTDecoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		0C9A246422400FBF008EF146 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
+		0C9A246522400FC0008EF146 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
+		0C9A246622400FC2008EF146 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
+		0C9A246722400FC3008EF146 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
+		0C9A246822400FC4008EF146 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
+		0C9A246922400FC4008EF146 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
+		0C9A246A22400FC5008EF146 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
+		0C9A246B22400FC5008EF146 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9D940727FF8FB9C785EB98E56350EF41 /* Podfile */; };
 		0CE16A6322246813005FD291 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CE16A6222246813005FD291 /* awsconfiguration.json */; };
 		0FDBF467C768079871B45401115AA692 /* AWSSignInButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF1D8995B6FE0B2DE80A8FA3582A52D /* AWSSignInButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1098A06EA7EE799ACF57174C5954249F /* AWSAuthCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7FF6334A5530CA1DB7A5236E15C8061 /* AWSAuthCore.framework */; };
@@ -2456,6 +2464,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9A246722400FC3008EF146 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2472,6 +2481,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9A246922400FC4008EF146 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2479,6 +2489,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9A246822400FC4008EF146 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2486,6 +2497,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9A246B22400FC5008EF146 /* Podfile in Resources */,
 				BA9552AB80F78E16CD06986298079697 /* AWSUserPoolsSignIn.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2494,6 +2506,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9A246622400FC2008EF146 /* Podfile in Resources */,
 				599F9530FE3D5DA822E5D878C9DD65C8 /* AWSAuthUI.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2516,6 +2529,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9A246522400FC0008EF146 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2523,6 +2537,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9A246422400FBF008EF146 /* Podfile in Resources */,
 				0CE16A6322246813005FD291 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2531,6 +2546,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9A246A22400FC5008EF146 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
