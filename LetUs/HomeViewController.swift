@@ -39,7 +39,7 @@ class HomeViewController: UITableViewController {
     }
     
     //signin stuff
-    @IBOutlet weak var signInStateLabel: UILabel!
+    //@IBOutlet weak var signInStateLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,7 +48,7 @@ class HomeViewController: UITableViewController {
                 switch(userState){
                 case .signedIn:
                     DispatchQueue.main.async {
-                        self.signInStateLabel.text = "Logged In"
+                        //self.signInStateLabel.text = "Logged In"
                     }
                 case .signedOut:
                     AWSMobileClient.sharedInstance()
@@ -59,7 +59,7 @@ class HomeViewController: UITableViewController {
                                         backgroundColor: UIColor.white)) { (result, err) in
                                             if(error == nil){       //Successful signin
                                                 DispatchQueue.main.async {
-                                                    self.signInStateLabel.text = "Logged In"
+                                                    //self.signInStateLabel.text = "Logged In"
                                                 }
                                             }
                     }

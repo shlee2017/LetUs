@@ -29,6 +29,29 @@
 			<key>uniqueIdentifier</key>
 			<string>06F675B8-120B-4DA5-8B6A-B76C6F1AA546</string>
 		</dict>
+		<key>10417305-680F-46C8-B382-DEAA71FF5F92</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>10417305-680F-46C8-B382-DEAA71FF5F92.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>signature</key>
+			<string>LetUs-dxumiegqslsegxbidpnwxcjjnbku</string>
+			<key>timeStartedRecording</key>
+			<real>574709392.24969196</real>
+			<key>timeStoppedRecording</key>
+			<real>574709399.88144505</real>
+			<key>title</key>
+			<string>Build target LetUs</string>
+			<key>uniqueIdentifier</key>
+			<string>10417305-680F-46C8-B382-DEAA71FF5F92</string>
+		</dict>
 		<key>277A4081-0BF6-44B2-8AFC-7A33E6B724B5</key>
 		<dict>
 			<key>className</key>
@@ -143,29 +166,6 @@
 			<string>Build target ReachabilitySwift</string>
 			<key>uniqueIdentifier</key>
 			<string>7B83CC0B-690D-4C2A-A0D6-6832BCBF148A</string>
-		</dict>
-		<key>7C16475C-15D1-43B3-ACEF-B1D42E2E7FEC</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>7C16475C-15D1-43B3-ACEF-B1D42E2E7FEC.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>signature</key>
-			<string>LetUs-dxumiegqslsegxbidpnwxcjjnbku</string>
-			<key>timeStartedRecording</key>
-			<real>574706893.009408</real>
-			<key>timeStoppedRecording</key>
-			<real>574706906.43830597</real>
-			<key>title</key>
-			<string>Build target LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>7C16475C-15D1-43B3-ACEF-B1D42E2E7FEC</string>
 		</dict>
 		<key>B2BD217F-E0F9-480C-8635-0144C7212D89</key>
 		<dict>
