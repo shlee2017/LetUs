@@ -20,9 +20,7 @@ class Todos: UIViewController{
         // Override point for customization after application launch.
         
         // Create AWSMobileClient to connect with AWS
-        return AWSMobileClient.sharedInstance().interceptApplication(
-            application,
-            didFinishLaunchingWithOptions: launchOptions)
+        return AWSMobileClient.sharedInstance().interceptApplication(application,didFinishLaunchingWithOptions: launchOptions)
         
     }
 }
