@@ -26,31 +26,31 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/33v-N4-06A-view-Utq-yN-PTl.nib</key>
 		<data>
-		fbByOQcjpS00mt/fwMaRbNVzzF8=
+		/RD5wsJB3mIXm7uHprXbtelQ/gc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/H8C-4Q-uBn-view-Anx-bj-jrb.nib</key>
 		<data>
-		8hIz9x3dUOpRSufvwAUTwPUILtA=
+		jRvu7oNOtBBSLhAF0TpJd13QL+c=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		2kI9ZDIeMXvHDshk9iAcCvh2uWA=
+		Af/gZgBUwH1boMgmx2bBM3GEGwo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-8mG-Ir-vtO.nib</key>
 		<data>
-		AVfJdfcoRG4pRzzoFD57X5iiZSw=
+		EGt2wOCi87BNWrAKiZMjAKLN+hI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-gE1-hX-3AT.nib</key>
 		<data>
-		MpfOENg7FVDJWxITWbGTj+YFpMg=
+		A29P+7aBSkmedmkXoFII6dNsfm0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/gE1-hX-3AT-view-YOb-7H-EbT.nib</key>
 		<data>
-		poW+R9FLo90yklwdMtgupKQztl8=
+		7MLEVw4fAWRUycrP9icEWMcnS7I=
 		</data>
 		<key>Base.lproj/Main.storyboardc/u4r-bz-a3R-view-dOi-xJ-1cJ.nib</key>
 		<data>
-		vfdfdOwcdCSIFSILzOf4xB/AH9U=
+		kB6wwCLz0uH7//l0Dq+W9ypWvrc=
 		</data>
 		<key>Frameworks/AWSAppSync.framework/AWSAppSync</key>
 		<data>
@@ -394,49 +394,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kFtQB6oFKLugZ9CjRJ7LIbBtzg7DefGZk4CED03a5+I=
+			rJk/ZL2GVLZha1POc0vSnO/7CdWy2OPrq3ut1+o55Eg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/H8C-4Q-uBn-view-Anx-bj-jrb.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EoNVQOe11eZuHy6aVnNYl71xypKXSdmNXRWiKMp0pyw=
+			/3593E1Z/BF/H6knZzJ9B/s+51Wn9Coy3jlYiNOcht8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tiIEMCzP1Kh9AAe7PCbYPLMqa59tfhV471fCRkMUYpY=
+			4TpZSNrzwSZce+a0zgonhioK6vTh49n8Ms1+SYRZIH8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-8mG-Ir-vtO.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3KgqnwCJFmEaH2/kh+o0r8tY3zekOf6ZiANGLck7oTg=
+			bHX33e4h8fY4azQvp6aBsPt+tU4MsvwaDprmzjcIg3s=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-gE1-hX-3AT.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JR9MeHhMRUMzGopa9bWfg8Te0LUsk33ypSQ8+asrU/Y=
+			EZj2pyQCKBcPABjS5611CqBmTJvMh69dsKoB80P/mEA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/gE1-hX-3AT-view-YOb-7H-EbT.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qwhl1DKeTd5jc1j7bLJ8A34WX0bJfvvENDLdqxtYsMM=
+			YQHbLMvydYjQWBsWsD5XeI0hMnDCDHyYsYMxAtliS44=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/u4r-bz-a3R-view-dOi-xJ-1cJ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9jXZa4uxkwZDg6cfmFA23QGL0S8DvV9015c3u3r4reQ=
+			e+8UuX+boggvcBPUqFrcuAXEfL0oClrldMRwi5+etj4=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAppSync.framework/AWSAppSync</key>

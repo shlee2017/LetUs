@@ -180,6 +180,35 @@
 			<key>uniqueIdentifier</key>
 			<string>5B67A6F6-211F-47EE-8CEC-B906F7C24596</string>
 		</dict>
+		<key>631099F8-F06B-4F2D-8B6E-886AFB554876</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>631099F8-F06B-4F2D-8B6E-886AFB554876.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LetUs project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LetUs</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LetUs</string>
+			<key>timeStartedRecording</key>
+			<real>574715990.084916</real>
+			<key>timeStoppedRecording</key>
+			<real>574715993.77410603</real>
+			<key>title</key>
+			<string>Build LetUs</string>
+			<key>uniqueIdentifier</key>
+			<string>631099F8-F06B-4F2D-8B6E-886AFB554876</string>
+		</dict>
 		<key>880BDE30-0EB5-4118-84E0-9EA7ED3379CD</key>
 		<dict>
 			<key>className</key>
