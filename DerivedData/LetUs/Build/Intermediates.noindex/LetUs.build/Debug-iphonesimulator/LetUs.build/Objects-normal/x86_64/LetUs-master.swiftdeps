@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
 options: "f44d8ce973f85fabced041ef91bfe48e"
-build_time: [1553016592, 626595000]
+build_time: [1553022271, 428320000]
 inputs:
   "/Users/sangheonlee/Desktop/LetUs/LetUs/RestaurantCell.swift": [1552764751, 0]
   "/Users/sangheonlee/Desktop/LetUs/LetUs/Restaurant.swift": [1552764751, 0]
@@ -13,6 +13,6 @@ inputs:
   "/Users/sangheonlee/Desktop/LetUs/LetUs/QRScannerController.swift": [1552764751, 0]
   "/Users/sangheonlee/Desktop/LetUs/LetUs/MenuItem.swift": [1552764751, 0]
   "/Users/sangheonlee/Desktop/LetUs/LetUs/HomeViewController.swift": [1553016591, 0]
-  "/Users/sangheonlee/Desktop/LetUs/LetUs/SettingsViewController.swift": [1552939256, 0]
+  "/Users/sangheonlee/Desktop/LetUs/LetUs/SettingsViewController.swift": [1553022271, 0]
   "/Users/sangheonlee/Desktop/LetUs/LetUs/MenuViewController.swift": [1552764751, 0]
   "/Users/sangheonlee/Desktop/LetUs/LetUs/Constants.swift": [1552919979, 0]

@@ -288,12 +288,15 @@ SWIFT_CLASS("_TtC5LetUs14RestaurantCell")
 @end
 
 @class UITextField;
+@class UIButton;
 
 SWIFT_CLASS("_TtC5LetUs22SettingsViewController")
 @interface SettingsViewController : UITableViewController <UITextFieldDelegate>
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified usernameTextField;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified passwordTextField;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified emailTextField;
+@property (nonatomic, weak) IBOutlet UIButton * _Nullable logOutButton;
+- (IBAction)signOutButtonTapped:(id _Nonnull)sender;
 - (void)viewDidLoad;
 - (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
 - (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;

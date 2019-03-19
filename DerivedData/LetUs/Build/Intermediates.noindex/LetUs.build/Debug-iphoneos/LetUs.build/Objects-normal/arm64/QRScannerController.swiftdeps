@@ -115,6 +115,9 @@ depends-member:
 - !private ["SK", "init"]
 - !private ["SK", "init"]
 - !private ["SK", "subscript"]
+- !private ["6SQLite7BindingP", "_getBuiltinLogicValue"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["6SQLite7BindingP", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So7CALayerC", "addSublayer"]
 - !private ["So7CALayerC", "borderColor"]
@@ -481,6 +484,9 @@ depends-member:
 - !private ["SQ", "view"]
 - !private ["SQ", "viewDidLoad"]
 - !private ["SQ", "zero"]
+- !private ["6SQLite11ExpressibleP", "_getBuiltinLogicValue"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "contains"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "first"]
@@ -496,6 +502,17 @@ depends-member:
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "_getBuiltinLogicValue"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "addSubview"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "bringSubviewToFront"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "contains"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "count"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "first"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "init"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "init"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "layer"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "subscript"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "text"]
 - !private ["SH", "AVCaptureDevice"]
 - !private ["SH", "AVCaptureDeviceInput"]
 - !private ["SH", "AVCaptureMetadataOutput"]
@@ -583,6 +600,20 @@ depends-member:
 - !private ["SH", "videoPreviewLayer"]
 - !private ["SH", "view"]
 - !private ["SH", "viewDidLoad"]
+- !private ["10AWSAppSync13JSONDecodableP", "_getBuiltinLogicValue"]
+- !private ["10AWSAppSync13JSONDecodableP", "init"]
+- !private ["10AWSAppSync13JSONDecodableP", "init"]
+- !private ["10AWSAppSync13JSONEncodableP", "_getBuiltinLogicValue"]
+- !private ["10AWSAppSync13JSONEncodableP", "addSubview"]
+- !private ["10AWSAppSync13JSONEncodableP", "bringSubviewToFront"]
+- !private ["10AWSAppSync13JSONEncodableP", "contains"]
+- !private ["10AWSAppSync13JSONEncodableP", "count"]
+- !private ["10AWSAppSync13JSONEncodableP", "first"]
+- !private ["10AWSAppSync13JSONEncodableP", "init"]
+- !private ["10AWSAppSync13JSONEncodableP", "init"]
+- !private ["10AWSAppSync13JSONEncodableP", "layer"]
+- !private ["10AWSAppSync13JSONEncodableP", "subscript"]
+- !private ["10AWSAppSync13JSONEncodableP", "text"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "init"]
@@ -1375,6 +1406,9 @@ depends-member:
 - !private ["So16UIViewControllerC", "view"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - !private ["10Foundation3URLV", "init"]
+- !private ["6SQLite5ValueP", "_getBuiltinLogicValue"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["6SQLite5ValueP", "init"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "bringSubviewToFront"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
@@ -1509,6 +1543,10 @@ depends-member:
 - ["s21_ObjectiveCBridgeableP", "upce"]
 - !private ["s21_ObjectiveCBridgeableP", "video"]
 - !private ["s21_ObjectiveCBridgeableP", "zero"]
+- !private ["6SQLite13_OptionalTypeP", "addSubview"]
+- !private ["6SQLite13_OptionalTypeP", "bringSubviewToFront"]
+- !private ["6SQLite13_OptionalTypeP", "layer"]
+- !private ["6SQLite13_OptionalTypeP", "text"]
 - ["s20_SwiftNewtypeWrapperP", "aztec"]
 - !private ["s20_SwiftNewtypeWrapperP", "builtInDualCamera"]
 - ["s20_SwiftNewtypeWrapperP", "code128"]
@@ -1543,6 +1581,7 @@ depends-nominal:
 - !private "Sa"
 - !private "s13ArrayProtocolP"
 - !private "SK"
+- !private "6SQLite7BindingP"
 - !private "Sb"
 - !private "So7CALayerC"
 - !private "So15CALayerDelegateP"
@@ -1562,13 +1601,17 @@ depends-nominal:
 - !private "So17OS_dispatch_queueC"
 - !private "SE"
 - "SQ"
+- !private "6SQLite11ExpressibleP"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "10AWSAppSync17GraphQLInputValueP"
 - "SH"
+- !private "10AWSAppSync13JSONDecodableP"
+- !private "10AWSAppSync13JSONEncodableP"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
 - !private "SM"
@@ -1621,6 +1664,7 @@ depends-nominal:
 - !private "So6UIViewC"
 - "So16UIViewControllerC"
 - !private "10Foundation3URLV"
+- !private "6SQLite5ValueP"
 - !private "s37_DefaultCustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
@@ -1634,13 +1678,20 @@ depends-nominal:
 - "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
+- !private "6SQLite13_OptionalTypeP"
 - "s20_SwiftNewtypeWrapperP"
 - !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Modules/AWSAppSync.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSMobileClient/AWSMobileClient.framework/Modules/AWSMobileClient.swiftmodule/arm64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
@@ -1652,12 +1703,145 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLog+LOGV.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAuthCore/AWSAuthCore.framework/Headers/AWSAuthCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityProvider-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSMobileClient/AWSMobileClient.framework/Headers/AWSMobileClient-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpoint-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSGeneric.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointTargetingService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityProviderService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointEndpointProfile.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAuthCore/AWSAuthCore.framework/Headers/AWSAuthCore.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDASLLogCapture.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointTargeting.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLog.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCocoaLumberjack.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointTargetingModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityProviderModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityUserPool.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAuthCore/AWSAuthCore.framework/Headers/AWSUIConfiguration.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointConfiguration.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAuthCore/AWSAuthCore.framework/Headers/AWSSignInProvider.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointEventRecorder.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAuthCore/AWSAuthCore.framework/Headers/AWSSignInManager.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointNotificationManager.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAuthCore/AWSAuthCore.framework/Headers/AWSIdentityManager.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDASLLogger.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDOSLogger.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDTTYLogger.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDFileLogger.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDAbstractDatabaseLogger.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AppSyncLogHelper.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityUser.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDContextFilterLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDMultiFormatter.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointTargetingResources.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityProviderResources.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSIoTMQTTTypes.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLogMacros.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDAssertMacros.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSDDLegacyMacros.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync-Swift.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSMobileClient/AWSMobileClient.framework/Headers/AWSMobileClient-Swift.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Headers/AWSIoTMQTTClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSMobileClient/AWSMobileClient.framework/Headers/AWSMobileClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSMobileClient/AWSMobileClient.framework/Headers/_AWSMobileClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointTargetingClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointSessionClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointAnalyticsClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointEvent.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpoint.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAuthCore/AWSAuthCore.framework/Headers/AWSSignInProviderApplicationIntercept.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAuthCore/AWSAuthCore.framework/Headers/AWSSignInButtonView.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCore/AWSCore.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAuthCore/AWSAuthCore.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSMobileClient/AWSMobileClient.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
@@ -1666,6 +1850,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"

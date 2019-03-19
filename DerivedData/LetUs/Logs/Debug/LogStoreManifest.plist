@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>04216A77-7938-4DE6-8237-656B4A3938FD</key>
+		<key>2B9BDD5B-4575-4C12-B6B7-A692A0A4334D</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>04216A77-7938-4DE6-8237-656B4A3938FD.xcactivitylog</string>
+			<string>2B9BDD5B-4575-4C12-B6B7-A692A0A4334D.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,15 +27,15 @@
 			<key>signature</key>
 			<string>Debug LetUs</string>
 			<key>timeStartedRecording</key>
-			<real>574633321.71599603</real>
+			<real>574710417.33564401</real>
 			<key>timeStoppedRecording</key>
-			<real>574633367.73376095</real>
+			<real>574710424.02033496</real>
 			<key>title</key>
 			<string>Debug LetUs</string>
 			<key>uniqueIdentifier</key>
-			<string>04216A77-7938-4DE6-8237-656B4A3938FD</string>
+			<string>2B9BDD5B-4575-4C12-B6B7-A692A0A4334D</string>
 		</dict>
-		<key>08161E84-85B2-419B-B7E7-07928AE9DCDF</key>
+		<key>2BFC0DC5-5A06-4983-A1EC-BE3B18B59BDA</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -44,7 +44,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>08161E84-85B2-419B-B7E7-07928AE9DCDF.xcactivitylog</string>
+			<string>2BFC0DC5-5A06-4983-A1EC-BE3B18B59BDA.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,15 +56,15 @@
 			<key>signature</key>
 			<string>Debug LetUs</string>
 			<key>timeStartedRecording</key>
-			<real>574709324.02793097</real>
+			<real>574714705.68950403</real>
 			<key>timeStoppedRecording</key>
-			<real>574709344.01778603</real>
+			<real>574714742.128528</real>
 			<key>title</key>
 			<string>Debug LetUs</string>
 			<key>uniqueIdentifier</key>
-			<string>08161E84-85B2-419B-B7E7-07928AE9DCDF</string>
+			<string>2BFC0DC5-5A06-4983-A1EC-BE3B18B59BDA</string>
 		</dict>
-		<key>0D76279B-A460-4D21-A1CB-A551523B777A</key>
+		<key>2CC86876-82E8-4A20-9B4A-AAF0F7543FC4</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -73,7 +73,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>0D76279B-A460-4D21-A1CB-A551523B777A.xcactivitylog</string>
+			<string>2CC86876-82E8-4A20-9B4A-AAF0F7543FC4.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -85,15 +85,15 @@
 			<key>signature</key>
 			<string>Debug LetUs</string>
 			<key>timeStartedRecording</key>
-			<real>574632330.46854699</real>
+			<real>574715075.27705801</real>
 			<key>timeStoppedRecording</key>
-			<real>574632349.68365896</real>
+			<real>574715118.43605494</real>
 			<key>title</key>
 			<string>Debug LetUs</string>
 			<key>uniqueIdentifier</key>
-			<string>0D76279B-A460-4D21-A1CB-A551523B777A</string>
+			<string>2CC86876-82E8-4A20-9B4A-AAF0F7543FC4</string>
 		</dict>
-		<key>147D5D79-4BB3-4668-87A2-92D57F08FB25</key>
+		<key>45DF566F-B3DE-4BEB-BADA-2578C2F9A3BE</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -102,7 +102,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>147D5D79-4BB3-4668-87A2-92D57F08FB25.xcactivitylog</string>
+			<string>45DF566F-B3DE-4BEB-BADA-2578C2F9A3BE.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -114,15 +114,15 @@
 			<key>signature</key>
 			<string>Debug LetUs</string>
 			<key>timeStartedRecording</key>
-			<real>574706906.44730604</real>
+			<real>574714955.90991902</real>
 			<key>timeStoppedRecording</key>
-			<real>574706941.44792998</real>
+			<real>574715040.09268296</real>
 			<key>title</key>
 			<string>Debug LetUs</string>
 			<key>uniqueIdentifier</key>
-			<string>147D5D79-4BB3-4668-87A2-92D57F08FB25</string>
+			<string>45DF566F-B3DE-4BEB-BADA-2578C2F9A3BE</string>
 		</dict>
-		<key>16D8B9F5-63C6-48B7-9EC9-51A54C9FA767</key>
+		<key>4A4589DA-B7DC-47B0-B0B1-AF27C7144137</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -131,7 +131,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>16D8B9F5-63C6-48B7-9EC9-51A54C9FA767.xcactivitylog</string>
+			<string>4A4589DA-B7DC-47B0-B0B1-AF27C7144137.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -143,15 +143,15 @@
 			<key>signature</key>
 			<string>Debug LetUs</string>
 			<key>timeStartedRecording</key>
-			<real>574709348.51547694</real>
+			<real>574714787.89435506</real>
 			<key>timeStoppedRecording</key>
-			<real>574709391.98653197</real>
+			<real>574714906.74030995</real>
 			<key>title</key>
 			<string>Debug LetUs</string>
 			<key>uniqueIdentifier</key>
-			<string>16D8B9F5-63C6-48B7-9EC9-51A54C9FA767</string>
+			<string>4A4589DA-B7DC-47B0-B0B1-AF27C7144137</string>
 		</dict>
-		<key>27D0A05C-AE70-4DCE-AC54-0B014C3B317A</key>
+		<key>7E2B9A01-A933-4F5D-B471-0028F2E1FBC2</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -160,7 +160,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>27D0A05C-AE70-4DCE-AC54-0B014C3B317A.xcactivitylog</string>
+			<string>7E2B9A01-A933-4F5D-B471-0028F2E1FBC2.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -172,15 +172,15 @@
 			<key>signature</key>
 			<string>Debug LetUs</string>
 			<key>timeStartedRecording</key>
-			<real>574703320.04058599</real>
+			<real>574714917.91361701</real>
 			<key>timeStoppedRecording</key>
-			<real>574703417.25620699</real>
+			<real>574714954.46983099</real>
 			<key>title</key>
 			<string>Debug LetUs</string>
 			<key>uniqueIdentifier</key>
-			<string>27D0A05C-AE70-4DCE-AC54-0B014C3B317A</string>
+			<string>7E2B9A01-A933-4F5D-B471-0028F2E1FBC2</string>
 		</dict>
-		<key>35F6A046-61C4-4BBF-963F-520194D98A75</key>
+		<key>91A8418D-EB99-474A-ADB2-18E63AAF380B</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -189,7 +189,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>35F6A046-61C4-4BBF-963F-520194D98A75.xcactivitylog</string>
+			<string>91A8418D-EB99-474A-ADB2-18E63AAF380B.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -201,564 +201,13 @@
 			<key>signature</key>
 			<string>Debug LetUs</string>
 			<key>timeStartedRecording</key>
-			<real>574706368.33475494</real>
+			<real>574715404.47797596</real>
 			<key>timeStoppedRecording</key>
-			<real>574706456.23185098</real>
+			<real>574715418.95008504</real>
 			<key>title</key>
 			<string>Debug LetUs</string>
 			<key>uniqueIdentifier</key>
-			<string>35F6A046-61C4-4BBF-963F-520194D98A75</string>
-		</dict>
-		<key>3F663429-DE6C-4C52-A82F-CC52B7F885C7</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>3F663429-DE6C-4C52-A82F-CC52B7F885C7.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574636022.58275199</real>
-			<key>timeStoppedRecording</key>
-			<real>574636040.35472095</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>3F663429-DE6C-4C52-A82F-CC52B7F885C7</string>
-		</dict>
-		<key>5C6FE8F2-2621-4F00-8F84-55E5263A9EB3</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>5C6FE8F2-2621-4F00-8F84-55E5263A9EB3.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574632887.58010101</real>
-			<key>timeStoppedRecording</key>
-			<real>574633151.718207</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>5C6FE8F2-2621-4F00-8F84-55E5263A9EB3</string>
-		</dict>
-		<key>61D440A1-35BF-45D0-903E-B1DC35F8CB7D</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>61D440A1-35BF-45D0-903E-B1DC35F8CB7D.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574632352.89152396</real>
-			<key>timeStoppedRecording</key>
-			<real>574632883.41437399</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>61D440A1-35BF-45D0-903E-B1DC35F8CB7D</string>
-		</dict>
-		<key>925D1E87-0B57-4306-AA63-8B8A06C253FC</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>925D1E87-0B57-4306-AA63-8B8A06C253FC.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574708990.759758</real>
-			<key>timeStoppedRecording</key>
-			<real>574709322.92356098</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>925D1E87-0B57-4306-AA63-8B8A06C253FC</string>
-		</dict>
-		<key>9622E1CD-28E3-4B8E-AD23-70AF9C79AC32</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>9622E1CD-28E3-4B8E-AD23-70AF9C79AC32.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574633367.77692604</real>
-			<key>timeStoppedRecording</key>
-			<real>574633415.59831202</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>9622E1CD-28E3-4B8E-AD23-70AF9C79AC32</string>
-		</dict>
-		<key>9F27B5C8-D271-4764-8049-FD7D2E09C722</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>9F27B5C8-D271-4764-8049-FD7D2E09C722.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574632316.22477806</real>
-			<key>timeStoppedRecording</key>
-			<real>574632330.31019998</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>9F27B5C8-D271-4764-8049-FD7D2E09C722</string>
-		</dict>
-		<key>A0B20952-E089-4ABC-87CE-CD6E2BD2A9D5</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>A0B20952-E089-4ABC-87CE-CD6E2BD2A9D5.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574653982.16627502</real>
-			<key>timeStoppedRecording</key>
-			<real>574654089.463485</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>A0B20952-E089-4ABC-87CE-CD6E2BD2A9D5</string>
-		</dict>
-		<key>A3A78DF2-ECE2-4374-B836-87B9B3240BDA</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>A3A78DF2-ECE2-4374-B836-87B9B3240BDA.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574632061.89876997</real>
-			<key>timeStoppedRecording</key>
-			<real>574632257.83770895</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>A3A78DF2-ECE2-4374-B836-87B9B3240BDA</string>
-		</dict>
-		<key>A4232650-CBEE-469D-9EF8-A346ECB7EA88</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>A4232650-CBEE-469D-9EF8-A346ECB7EA88.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574633454.11282396</real>
-			<key>timeStoppedRecording</key>
-			<real>574633495.65054905</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>A4232650-CBEE-469D-9EF8-A346ECB7EA88</string>
-		</dict>
-		<key>A72F7510-34D1-4CFD-8490-EC0A64766EEB</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>A72F7510-34D1-4CFD-8490-EC0A64766EEB.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574703441.69421101</real>
-			<key>timeStoppedRecording</key>
-			<real>574706313.36685598</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>A72F7510-34D1-4CFD-8490-EC0A64766EEB</string>
-		</dict>
-		<key>A833E50B-0541-4521-9692-553CDB08935A</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>A833E50B-0541-4521-9692-553CDB08935A.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574633512.521029</real>
-			<key>timeStoppedRecording</key>
-			<real>574633727.02296901</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>A833E50B-0541-4521-9692-553CDB08935A</string>
-		</dict>
-		<key>B96F7965-9047-4F50-95FA-CAC724EBD746</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>B96F7965-9047-4F50-95FA-CAC724EBD746.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574654157.19090605</real>
-			<key>timeStoppedRecording</key>
-			<real>574654194.39019799</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>B96F7965-9047-4F50-95FA-CAC724EBD746</string>
-		</dict>
-		<key>BBB1DF60-335D-4957-BE63-49BAAE54655C</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>BBB1DF60-335D-4957-BE63-49BAAE54655C.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574627655.89420295</real>
-			<key>timeStoppedRecording</key>
-			<real>574629151.72424901</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>BBB1DF60-335D-4957-BE63-49BAAE54655C</string>
-		</dict>
-		<key>C22B1C0A-7A9A-495F-8291-40BAC1C51CA6</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>C22B1C0A-7A9A-495F-8291-40BAC1C51CA6.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574633419.94702101</real>
-			<key>timeStoppedRecording</key>
-			<real>574633450.14699304</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>C22B1C0A-7A9A-495F-8291-40BAC1C51CA6</string>
-		</dict>
-		<key>C4561214-70C2-46C2-8F3D-A041A6BAE15C</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>C4561214-70C2-46C2-8F3D-A041A6BAE15C.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574636112.028386</real>
-			<key>timeStoppedRecording</key>
-			<real>574636312.05812001</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>C4561214-70C2-46C2-8F3D-A041A6BAE15C</string>
-		</dict>
-		<key>CFEB9D3A-D192-4348-B89A-551C860295D0</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>CFEB9D3A-D192-4348-B89A-551C860295D0.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574706530.81638396</real>
-			<key>timeStoppedRecording</key>
-			<real>574706892.798069</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>CFEB9D3A-D192-4348-B89A-551C860295D0</string>
-		</dict>
-		<key>D0269B8B-5BD9-4EBB-9ED7-89598C59F1D3</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>D0269B8B-5BD9-4EBB-9ED7-89598C59F1D3.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574633211.76309502</real>
-			<key>timeStoppedRecording</key>
-			<real>574633318.62926805</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>D0269B8B-5BD9-4EBB-9ED7-89598C59F1D3</string>
-		</dict>
-		<key>E699613C-4211-4635-BCCC-2645EA1877E5</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>E699613C-4211-4635-BCCC-2645EA1877E5.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574633755.90949798</real>
-			<key>timeStoppedRecording</key>
-			<real>574636022.354532</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>E699613C-4211-4635-BCCC-2645EA1877E5</string>
-		</dict>
-		<key>FE0E6ACE-23A7-4310-9DEE-4DBC12C916F1</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>FE0E6ACE-23A7-4310-9DEE-4DBC12C916F1.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>574633160.81240594</real>
-			<key>timeStoppedRecording</key>
-			<real>574633207.68210101</real>
-			<key>title</key>
-			<string>Debug LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>FE0E6ACE-23A7-4310-9DEE-4DBC12C916F1</string>
+			<string>91A8418D-EB99-474A-ADB2-18E63AAF380B</string>
 		</dict>
 	</dict>
 </dict>

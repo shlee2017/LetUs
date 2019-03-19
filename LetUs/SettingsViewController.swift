@@ -8,6 +8,7 @@
 
 import UIKit
 import AWSAppSync
+import AWSMobileClient
 
 class SettingsViewController: UITableViewController, UITextFieldDelegate {
     var appSyncClient: AWSAppSyncClient?
@@ -17,6 +18,14 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
     @IBOutlet weak var logOutButton: UIButton?
     
     @IBAction func signOutButtonTapped(_ sender: Any){
+        AWSMobileClient.sharedInstance().signOut()
+        AWSMobileClient.sharedInstance()
+            .showSignIn(navigationController: self.navigationController!,
+                        signInUIOptions: SignInUIOptions(
+                            canCancel: false,
+                            logoImage: UIImage(named: "AppIcon"),
+                            backgroundColor: UIColor.white)) { (result, err) in
+        }
         print("Sign out button tapped")
     }
     
