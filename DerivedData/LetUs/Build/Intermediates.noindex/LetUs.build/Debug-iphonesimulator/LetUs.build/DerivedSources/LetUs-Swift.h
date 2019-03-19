@@ -210,10 +210,13 @@ SWIFT_CLASS("_TtC5LetUs12CustomTabBar")
 @end
 
 @class UIStoryboardSegue;
+@class UILabel;
 
 SWIFT_CLASS("_TtC5LetUs18HomeViewController")
 @interface HomeViewController : UITableViewController
 - (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified signInStateLabel;
+- (void)viewDidLoad;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -227,7 +230,6 @@ SWIFT_CLASS("_TtC5LetUs18HomeViewController")
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
-@class UILabel;
 
 SWIFT_CLASS("_TtC5LetUs12MenuItemCell")
 @interface MenuItemCell : UITableViewCell

@@ -14,17 +14,49 @@ provides-dynamic-lookup:
 - "applicationWillTerminate"
 - "window"
 depends-top-level:
+- !private "AWSAppSyncCacheConfiguration"
+- "AWSAppSyncClient"
+- !private "AWSAppSyncClientConfiguration"
+- !private "AWSAppSyncServiceConfig"
+- !private "AWSMobileClient"
+- "AWSPinpoint"
+- !private "AWSPinpointConfiguration"
 - "AppDelegate"
+- "AssignmentPrecedence"
 - "Bool"
-- !private "BooleanLiteralType"
+- !private "StringLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
 - "UIResponder"
 - "UIWindow"
+- !private "print"
 depends-member:
+- !private ["10AWSAppSync0aB18CacheConfigurationV", "init"]
+- !private ["10AWSAppSync0aB6ClientC", "init"]
+- !private ["10AWSAppSync0aB19ClientConfigurationC", "init"]
+- !private ["10AWSAppSync0aB13ServiceConfigV", "init"]
+- !private ["10AWSAppSync0aB21ServiceConfigProviderP", "init"]
+- !private ["So29AWSCognitoCredentialsProviderC", "interceptApplication"]
+- !private ["So29AWSCognitoCredentialsProviderC", "sharedInstance"]
+- !private ["So22AWSCredentialsProviderP", "interceptApplication"]
+- !private ["So22AWSCredentialsProviderP", "sharedInstance"]
+- !private ["So26AWSIdentityProviderManagerP", "interceptApplication"]
+- !private ["So26AWSIdentityProviderManagerP", "sharedInstance"]
+- !private ["15AWSMobileClientAAC", "interceptApplication"]
+- !private ["15AWSMobileClientAAC", "sharedInstance"]
+- !private ["So11AWSPinpointC", "init"]
+- !private ["So24AWSPinpointConfigurationC", "defaultPinpointConfiguration"]
+- !private ["5LetUs11AppDelegateC", "AWSAppSyncCacheConfiguration"]
+- ["5LetUs11AppDelegateC", "AWSAppSyncClient"]
+- !private ["5LetUs11AppDelegateC", "AWSAppSyncClientConfiguration"]
+- !private ["5LetUs11AppDelegateC", "AWSAppSyncServiceConfig"]
+- !private ["5LetUs11AppDelegateC", "AWSMobileClient"]
+- ["5LetUs11AppDelegateC", "AWSPinpoint"]
+- !private ["5LetUs11AppDelegateC", "AWSPinpointConfiguration"]
 - ["5LetUs11AppDelegateC", "Bool"]
 - ["5LetUs11AppDelegateC", "UIApplication"]
 - ["5LetUs11AppDelegateC", "UIWindow"]
+- ["5LetUs11AppDelegateC", "appSyncClient"]
 - ["5LetUs11AppDelegateC", "application"]
 - ["5LetUs11AppDelegateC", "applicationDidBecomeActive"]
 - ["5LetUs11AppDelegateC", "applicationDidEnterBackground"]
@@ -39,9 +71,23 @@ depends-member:
 - ["5LetUs11AppDelegateC", "applicationWillTerminate"]
 - ["5LetUs11AppDelegateC", "deinit"]
 - ["5LetUs11AppDelegateC", "init"]
+- ["5LetUs11AppDelegateC", "pinpoint"]
+- !private ["5LetUs11AppDelegateC", "print"]
 - ["5LetUs11AppDelegateC", "window"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["6SQLite7BindingP", "init"]
+- !private ["s7CVarArgP", "AWSAppSyncCacheConfiguration"]
+- !private ["s7CVarArgP", "AWSAppSyncClient"]
+- !private ["s7CVarArgP", "AWSAppSyncClientConfiguration"]
+- !private ["s7CVarArgP", "AWSAppSyncServiceConfig"]
+- !private ["s7CVarArgP", "AWSMobileClient"]
+- !private ["s7CVarArgP", "AWSPinpoint"]
+- !private ["s7CVarArgP", "AWSPinpointConfiguration"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "appSyncClient"]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
 - ["s7CVarArgP", "applicationDidEnterBackground"]
@@ -54,11 +100,28 @@ depends-member:
 - ["s7CVarArgP", "applicationWillEnterForeground"]
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
+- !private ["s7CVarArgP", "defaultPinpointConfiguration"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "interceptApplication"]
+- !private ["s7CVarArgP", "pinpoint"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "sharedInstance"]
 - ["s7CVarArgP", "window"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AWSAppSyncCacheConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "AWSAppSyncClient"]
+- !private ["s28CustomDebugStringConvertibleP", "AWSAppSyncClientConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "AWSAppSyncServiceConfig"]
+- !private ["s28CustomDebugStringConvertibleP", "AWSMobileClient"]
+- !private ["s28CustomDebugStringConvertibleP", "AWSPinpoint"]
+- !private ["s28CustomDebugStringConvertibleP", "AWSPinpointConfiguration"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "appSyncClient"]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
@@ -71,11 +134,28 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultPinpointConfiguration"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "interceptApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "pinpoint"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
 - ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AWSAppSyncCacheConfiguration"]
+- !private ["s23CustomStringConvertibleP", "AWSAppSyncClient"]
+- !private ["s23CustomStringConvertibleP", "AWSAppSyncClientConfiguration"]
+- !private ["s23CustomStringConvertibleP", "AWSAppSyncServiceConfig"]
+- !private ["s23CustomStringConvertibleP", "AWSMobileClient"]
+- !private ["s23CustomStringConvertibleP", "AWSPinpoint"]
+- !private ["s23CustomStringConvertibleP", "AWSPinpointConfiguration"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appSyncClient"]
 - ["s23CustomStringConvertibleP", "application"]
 - ["s23CustomStringConvertibleP", "applicationDidBecomeActive"]
 - ["s23CustomStringConvertibleP", "applicationDidEnterBackground"]
@@ -88,11 +168,28 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- !private ["s23CustomStringConvertibleP", "defaultPinpointConfiguration"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "interceptApplication"]
+- !private ["s23CustomStringConvertibleP", "pinpoint"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
 - ["s23CustomStringConvertibleP", "window"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "AWSAppSyncCacheConfiguration"]
+- !private ["SQ", "AWSAppSyncClient"]
+- !private ["SQ", "AWSAppSyncClientConfiguration"]
+- !private ["SQ", "AWSAppSyncServiceConfig"]
+- !private ["SQ", "AWSMobileClient"]
+- !private ["SQ", "AWSPinpoint"]
+- !private ["SQ", "AWSPinpointConfiguration"]
 - ["SQ", "LaunchOptionsKey"]
 - ["SQ", ""]
+- !private ["SQ", "appSyncClient"]
 - ["SQ", "application"]
 - ["SQ", "applicationDidBecomeActive"]
 - ["SQ", "applicationDidEnterBackground"]
@@ -105,11 +202,34 @@ depends-member:
 - ["SQ", "applicationWillEnterForeground"]
 - ["SQ", "applicationWillResignActive"]
 - ["SQ", "applicationWillTerminate"]
+- !private ["SQ", "defaultPinpointConfiguration"]
 - !private ["SQ", "init"]
 - !private ["SQ", "init"]
+- !private ["SQ", "interceptApplication"]
+- !private ["SQ", "pinpoint"]
+- !private ["SQ", "print"]
+- !private ["SQ", "sharedInstance"]
 - ["SQ", "window"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["6SQLite11ExpressibleP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "init"]
+- !private ["10AWSAppSync17GraphQLInputValueP", "init"]
+- !private ["SH", "AWSAppSyncCacheConfiguration"]
+- !private ["SH", "AWSAppSyncClient"]
+- !private ["SH", "AWSAppSyncClientConfiguration"]
+- !private ["SH", "AWSAppSyncServiceConfig"]
+- !private ["SH", "AWSMobileClient"]
+- !private ["SH", "AWSPinpoint"]
+- !private ["SH", "AWSPinpointConfiguration"]
 - ["SH", "LaunchOptionsKey"]
 - ["SH", ""]
+- !private ["SH", "appSyncClient"]
 - ["SH", "application"]
 - ["SH", "applicationDidBecomeActive"]
 - ["SH", "applicationDidEnterBackground"]
@@ -122,13 +242,34 @@ depends-member:
 - ["SH", "applicationWillEnterForeground"]
 - ["SH", "applicationWillResignActive"]
 - ["SH", "applicationWillTerminate"]
+- !private ["SH", "defaultPinpointConfiguration"]
 - !private ["SH", "init"]
 - !private ["SH", "init"]
+- !private ["SH", "interceptApplication"]
+- !private ["SH", "pinpoint"]
+- !private ["SH", "print"]
+- !private ["SH", "sharedInstance"]
 - ["SH", "window"]
+- !private ["10AWSAppSync13JSONDecodableP", "init"]
+- !private ["10AWSAppSync13JSONDecodableP", "init"]
+- !private ["10AWSAppSync13JSONEncodableP", "init"]
+- !private ["10AWSAppSync13JSONEncodableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "AWSAppSyncCacheConfiguration"]
+- ["So8NSObjectC", "AWSAppSyncClient"]
+- !private ["So8NSObjectC", "AWSAppSyncClientConfiguration"]
+- !private ["So8NSObjectC", "AWSAppSyncServiceConfig"]
+- !private ["So8NSObjectC", "AWSMobileClient"]
+- ["So8NSObjectC", "AWSPinpoint"]
+- !private ["So8NSObjectC", "AWSPinpointConfiguration"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
 - ["So8NSObjectC", "UIApplication"]
 - ["So8NSObjectC", "UIWindow"]
+- ["So8NSObjectC", "appSyncClient"]
 - ["So8NSObjectC", "application"]
 - ["So8NSObjectC", "applicationDidBecomeActive"]
 - ["So8NSObjectC", "applicationDidEnterBackground"]
@@ -141,11 +282,24 @@ depends-member:
 - ["So8NSObjectC", "applicationWillEnterForeground"]
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
+- !private ["So8NSObjectC", "defaultPinpointConfiguration"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "interceptApplication"]
+- ["So8NSObjectC", "pinpoint"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "sharedInstance"]
 - ["So8NSObjectC", "window"]
+- !private ["So8NSObjectP", "AWSAppSyncCacheConfiguration"]
+- !private ["So8NSObjectP", "AWSAppSyncClient"]
+- !private ["So8NSObjectP", "AWSAppSyncClientConfiguration"]
+- !private ["So8NSObjectP", "AWSAppSyncServiceConfig"]
+- !private ["So8NSObjectP", "AWSMobileClient"]
+- !private ["So8NSObjectP", "AWSPinpoint"]
+- !private ["So8NSObjectP", "AWSPinpointConfiguration"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "appSyncClient"]
 - ["So8NSObjectP", "application"]
 - ["So8NSObjectP", "applicationDidBecomeActive"]
 - ["So8NSObjectP", "applicationDidEnterBackground"]
@@ -158,11 +312,36 @@ depends-member:
 - ["So8NSObjectP", "applicationWillEnterForeground"]
 - ["So8NSObjectP", "applicationWillResignActive"]
 - ["So8NSObjectP", "applicationWillTerminate"]
+- !private ["So8NSObjectP", "defaultPinpointConfiguration"]
 - !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "interceptApplication"]
+- !private ["So8NSObjectP", "pinpoint"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "sharedInstance"]
 - ["So8NSObjectP", "window"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
+- !private ["So21UIApplicationDelegateP", "AWSAppSyncCacheConfiguration"]
+- !private ["So21UIApplicationDelegateP", "AWSAppSyncClient"]
+- !private ["So21UIApplicationDelegateP", "AWSAppSyncClientConfiguration"]
+- !private ["So21UIApplicationDelegateP", "AWSAppSyncServiceConfig"]
+- !private ["So21UIApplicationDelegateP", "AWSMobileClient"]
+- !private ["So21UIApplicationDelegateP", "AWSPinpoint"]
+- !private ["So21UIApplicationDelegateP", "AWSPinpointConfiguration"]
 - ["So21UIApplicationDelegateP", ""]
+- !private ["So21UIApplicationDelegateP", "appSyncClient"]
 - ["So21UIApplicationDelegateP", "application"]
 - ["So21UIApplicationDelegateP", "applicationDidBecomeActive"]
 - ["So21UIApplicationDelegateP", "applicationDidEnterBackground"]
@@ -175,9 +354,19 @@ depends-member:
 - ["So21UIApplicationDelegateP", "applicationWillEnterForeground"]
 - ["So21UIApplicationDelegateP", "applicationWillResignActive"]
 - ["So21UIApplicationDelegateP", "applicationWillTerminate"]
+- !private ["So21UIApplicationDelegateP", "pinpoint"]
+- !private ["So21UIApplicationDelegateP", "print"]
 - ["So21UIApplicationDelegateP", "window"]
+- !private ["So30UIPasteConfigurationSupportingP", "AWSAppSyncCacheConfiguration"]
+- !private ["So30UIPasteConfigurationSupportingP", "AWSAppSyncClient"]
+- !private ["So30UIPasteConfigurationSupportingP", "AWSAppSyncClientConfiguration"]
+- !private ["So30UIPasteConfigurationSupportingP", "AWSAppSyncServiceConfig"]
+- !private ["So30UIPasteConfigurationSupportingP", "AWSMobileClient"]
+- !private ["So30UIPasteConfigurationSupportingP", "AWSPinpoint"]
+- !private ["So30UIPasteConfigurationSupportingP", "AWSPinpointConfiguration"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "appSyncClient"]
 - ["So30UIPasteConfigurationSupportingP", "application"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidBecomeActive"]
 - ["So30UIPasteConfigurationSupportingP", "applicationDidEnterBackground"]
@@ -192,12 +381,22 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "applicationWillTerminate"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "pinpoint"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
+- !private ["So11UIResponderC", "AWSAppSyncCacheConfiguration"]
+- ["So11UIResponderC", "AWSAppSyncClient"]
+- !private ["So11UIResponderC", "AWSAppSyncClientConfiguration"]
+- !private ["So11UIResponderC", "AWSAppSyncServiceConfig"]
+- !private ["So11UIResponderC", "AWSMobileClient"]
+- ["So11UIResponderC", "AWSPinpoint"]
+- !private ["So11UIResponderC", "AWSPinpointConfiguration"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
 - ["So11UIResponderC", "UIApplication"]
 - ["So11UIResponderC", "UIWindow"]
 - ["So11UIResponderC", ""]
+- ["So11UIResponderC", "appSyncClient"]
 - ["So11UIResponderC", "application"]
 - ["So11UIResponderC", "applicationDidBecomeActive"]
 - ["So11UIResponderC", "applicationDidEnterBackground"]
@@ -212,9 +411,19 @@ depends-member:
 - ["So11UIResponderC", "applicationWillTerminate"]
 - ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "pinpoint"]
+- !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "window"]
+- !private ["So30UIResponderStandardEditActionsP", "AWSAppSyncCacheConfiguration"]
+- !private ["So30UIResponderStandardEditActionsP", "AWSAppSyncClient"]
+- !private ["So30UIResponderStandardEditActionsP", "AWSAppSyncClientConfiguration"]
+- !private ["So30UIResponderStandardEditActionsP", "AWSAppSyncServiceConfig"]
+- !private ["So30UIResponderStandardEditActionsP", "AWSMobileClient"]
+- !private ["So30UIResponderStandardEditActionsP", "AWSPinpoint"]
+- !private ["So30UIResponderStandardEditActionsP", "AWSPinpointConfiguration"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "appSyncClient"]
 - ["So30UIResponderStandardEditActionsP", "application"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidBecomeActive"]
 - ["So30UIResponderStandardEditActionsP", "applicationDidEnterBackground"]
@@ -229,9 +438,19 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "applicationWillTerminate"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "pinpoint"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
 - ["So30UIResponderStandardEditActionsP", "window"]
+- !private ["So23UIUserActivityRestoringP", "AWSAppSyncCacheConfiguration"]
+- !private ["So23UIUserActivityRestoringP", "AWSAppSyncClient"]
+- !private ["So23UIUserActivityRestoringP", "AWSAppSyncClientConfiguration"]
+- !private ["So23UIUserActivityRestoringP", "AWSAppSyncServiceConfig"]
+- !private ["So23UIUserActivityRestoringP", "AWSMobileClient"]
+- !private ["So23UIUserActivityRestoringP", "AWSPinpoint"]
+- !private ["So23UIUserActivityRestoringP", "AWSPinpointConfiguration"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "appSyncClient"]
 - ["So23UIUserActivityRestoringP", "application"]
 - ["So23UIUserActivityRestoringP", "applicationDidBecomeActive"]
 - ["So23UIUserActivityRestoringP", "applicationDidEnterBackground"]
@@ -246,9 +465,35 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "applicationWillTerminate"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "pinpoint"]
+- !private ["So23UIUserActivityRestoringP", "print"]
 - ["So23UIUserActivityRestoringP", "window"]
+- !private ["15AWSMobileClient28UserPoolAuthHelperlCallbacksP", "interceptApplication"]
+- !private ["15AWSMobileClient28UserPoolAuthHelperlCallbacksP", "sharedInstance"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["6SQLite5ValueP", "init"]
+- !private ["So16_AWSMobileClientC", "interceptApplication"]
+- !private ["So16_AWSMobileClientC", "sharedInstance"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AWSAppSyncCacheConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AWSAppSyncClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AWSAppSyncClientConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AWSAppSyncServiceConfig"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AWSMobileClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AWSPinpoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AWSPinpointConfiguration"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appSyncClient"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
@@ -261,30 +506,89 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultPinpointConfiguration"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interceptApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pinpoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
+- !private "10AWSAppSync0aB18CacheConfigurationV"
+- !private "10AWSAppSync0aB6ClientC"
+- !private "10AWSAppSync0aB19ClientConfigurationC"
+- !private "10AWSAppSync0aB13ServiceConfigV"
+- !private "10AWSAppSync0aB21ServiceConfigProviderP"
+- !private "So29AWSCognitoCredentialsProviderC"
+- !private "So22AWSCredentialsProviderP"
+- !private "So26AWSIdentityProviderManagerP"
+- !private "15AWSMobileClientAAC"
+- !private "So11AWSPinpointC"
+- !private "So24AWSPinpointConfigurationC"
 - "5LetUs11AppDelegateC"
+- !private "SK"
+- !private "6SQLite7BindingP"
 - "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
 - "SQ"
+- !private "6SQLite11ExpressibleP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "10AWSAppSync17GraphQLInputValueP"
 - "SH"
+- !private "10AWSAppSync13JSONDecodableP"
+- !private "10AWSAppSync13JSONEncodableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - "So13UIApplicationC"
 - "So21UIApplicationDelegateP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So23UIUserActivityRestoringP"
+- !private "15AWSMobileClient28UserPoolAuthHelperlCallbacksP"
+- !private "6SQLite5ValueP"
+- !private "So16_AWSMobileClientC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAppSync/AWSAppSync.framework/Modules/AWSAppSync.swiftmodule/x86_64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/x86_64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSMobileClient/AWSMobileClient.framework/Modules/AWSMobileClient.swiftmodule/x86_64.swiftmodule"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -296,12 +600,145 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLog+LOGV.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAuthCore/AWSAuthCore.framework/Headers/AWSAuthCore-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityProvider-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite.swift-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSMobileClient/AWSMobileClient.framework/Headers/AWSMobileClient-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpoint-umbrella.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSGeneric.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointTargetingService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityProviderService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointEndpointProfile.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAuthCore/AWSAuthCore.framework/Headers/AWSAuthCore.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDASLLogCapture.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite-Bridging.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointTargeting.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLog.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCocoaLumberjack.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointTargetingModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityProviderModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityUserPool.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAuthCore/AWSAuthCore.framework/Headers/AWSUIConfiguration.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointConfiguration.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLReflection.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSError+AWSMTLModelException.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAuthCore/AWSAuthCore.framework/Headers/AWSSignInProvider.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityProvider.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointEventRecorder.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSTMCacheBackgroundTaskManager.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAuthCore/AWSAuthCore.framework/Headers/AWSSignInManager.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointNotificationManager.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAuthCore/AWSAuthCore.framework/Headers/AWSIdentityManager.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDASLLogger.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDOSLogger.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDTTYLogger.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDFileLogger.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDAbstractDatabaseLogger.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAppSync/AWSAppSync.framework/Headers/AppSyncLogHelper.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityUser.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDDispatchQueueLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDContextFilterLogFormatter.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDMultiFormatter.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointTargetingResources.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Headers/AWSCognitoIdentityProviderResources.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAppSync/AWSAppSync.framework/Headers/AWSIoTMQTTTypes.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLogMacros.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDAssertMacros.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSDDLegacyMacros.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAppSync/AWSAppSync.framework/Headers/AWSAppSync-Swift.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Headers/SQLite-Swift.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSMobileClient/AWSMobileClient.framework/Headers/AWSMobileClient-Swift.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAppSync/AWSAppSync.framework/Headers/AWSIoTMQTTClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSMobileClient/AWSMobileClient.framework/Headers/AWSMobileClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSMobileClient/AWSMobileClient.framework/Headers/_AWSMobileClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointTargetingClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointSessionClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointAnalyticsClient.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpointEvent.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Headers/AWSPinpoint.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAuthCore/AWSAuthCore.framework/Headers/AWSSignInProviderApplicationIntercept.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAuthCore/AWSAuthCore.framework/Headers/AWSSignInButtonView.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAppSync/AWSAppSync.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCore/AWSCore.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSAuthCore/AWSAuthCore.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSMobileClient/AWSMobileClient.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/AWSPinpoint/AWSPinpoint.framework/Modules/module.modulemap"
+- "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
@@ -310,8 +747,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5389ad5ba722da83a8ab43fc5ab29497"
+interface-hash: "a64ea98f977822039fe23375a2cc52d8"
