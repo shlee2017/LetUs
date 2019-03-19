@@ -1,0 +1,42 @@
+{
+    "UserAgent": "aws-amplify/cli",
+    "Version": "0.1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-2:428204ec-6273-4f87-b502-5e8abbe1b778",
+                "Region": "us-east-2"
+            }
+        }
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-2_k8kEpXC3Q",
+            "AppClientId": "4irq41h0afnhpahvtq7dlu44t3",
+            "AppClientSecret": "vv35h9uqjakaaocb5u9gq0fm60ena39lt55oj8f15u012qhqd35",
+            "Region": "us-east-2"
+        }
+    },
+    "AppSync": {
+        "Default": {
+            "ApiUrl": "https://4njal6xscnbureiwerwz6nxjge.appsync-api.us-east-2.amazonaws.com/graphql",
+            "Region": "us-east-2",
+            "AuthMode": "API_KEY",
+            "ApiKey": "da2-x7of5mttozgktekozp4apkflqm"
+        }
+    },
+    "PinpointAnalytics": {
+        "Default": {
+            "AppId": "387e87a89c614cdf88d7e30757855691",
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointTargeting": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    }
+}
