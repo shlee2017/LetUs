@@ -117,9 +117,23 @@
                             <outlet property="delegate" destination="33v-N4-06A" id="va3-o2-Kh7"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Settings" id="bcN-29-C8o"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Settings" id="bcN-29-C8o">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="mfu-O0-msc">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jqm-E9-xpj">
+                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Log Out"/>
+                                <connections>
+                                    <action selector="signOutButtonTapped:" destination="33v-N4-06A" eventType="touchUpInside" id="vOt-va-yjX"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="emailTextField" destination="iNE-fc-1zy" id="pXN-V4-HQO"/>
+                        <outlet property="logOutButton" destination="Jqm-E9-xpj" id="gAR-EE-tvU"/>
                         <outlet property="passwordTextField" destination="AbS-Ja-sEp" id="0V3-GG-1tp"/>
                         <outlet property="usernameTextField" destination="IYh-L1-gxV" id="ETO-AD-UMQ"/>
                     </connections>
@@ -311,6 +325,7 @@
         <scene sceneID="YXS-j1-Y71">
             <objects>
                 <tabBarController id="8mG-Ir-vtO" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="l1X-mT-8xP"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="A1t-d8-Rw4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

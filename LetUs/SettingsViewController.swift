@@ -14,6 +14,11 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var logOutButton: UIButton?
+    
+    @IBAction func signOutButtonTapped(_ sender: Any){
+        print("Sign out button tapped")
+    }
     
     let defaults = UserDefaults.standard
     
@@ -36,7 +41,10 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:)))
         tap.cancelsTouchesInView = false
         self.view.addGestureRecognizer(tap)
+        
+        
     }
+    
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         // Store text fields when finished editing
@@ -50,6 +58,7 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
         self.view.endEditing(true)
         return false
     }
+    
     
     
     //test stuff
