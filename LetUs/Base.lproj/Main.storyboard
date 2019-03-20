@@ -210,7 +210,6 @@
                         <outlet property="emailTextField" destination="iNE-fc-1zy" id="pXN-V4-HQO"/>
                         <outlet property="logOutButton" destination="Jqm-E9-xpj" id="gAR-EE-tvU"/>
                         <outlet property="nameTextField" destination="AbS-Ja-sEp" id="bdT-Hj-C07"/>
-                        <outlet property="phoneNumberTextField" destination="AbS-Ja-sEp" id="mAh-q5-oMN"/>
                         <outlet property="usernameTextField" destination="IYh-L1-gxV" id="ETO-AD-UMQ"/>
                     </connections>
                 </tableViewController>

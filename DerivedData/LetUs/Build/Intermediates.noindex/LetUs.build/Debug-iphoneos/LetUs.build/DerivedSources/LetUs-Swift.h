@@ -293,7 +293,7 @@ SWIFT_CLASS("_TtC5LetUs14RestaurantCell")
 SWIFT_CLASS("_TtC5LetUs22SettingsViewController")
 @interface SettingsViewController : UITableViewController <UITextFieldDelegate>
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified usernameTextField;
-@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified phoneNumberTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified nameTextField;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified emailTextField;
 @property (nonatomic, weak) IBOutlet UIButton * _Nullable logOutButton;
 - (IBAction)signOutButtonTapped:(id _Nonnull)sender;
