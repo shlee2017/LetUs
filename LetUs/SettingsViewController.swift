@@ -42,7 +42,9 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
         phoneNumberTextField.isEnabled = false
         emailTextField.isEnabled = false
         
-        usernameTextField.text = AWSMobileClient.sharedInstance().username
+        if ( AWSMobileClient.sharedInstance().isSignedIn ){
+            usernameTextField.text = AWSMobileClient.sharedInstance().username
+        }
         //phoneNumberTextField.text =
     }
     

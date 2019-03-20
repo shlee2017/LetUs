@@ -78,7 +78,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AbS-Ja-sEp">
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AbS-Ja-sEp" userLabel="Phone Number Text Field">
                                                     <rect key="frame" x="16" y="0.0" width="343" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <nil key="textColor"/>
@@ -136,7 +136,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="iNE-fc-1zy" id="pXN-V4-HQO"/>
                         <outlet property="logOutButton" destination="Jqm-E9-xpj" id="gAR-EE-tvU"/>
-                        <outlet property="passwordTextField" destination="AbS-Ja-sEp" id="0V3-GG-1tp"/>
+                        <outlet property="phoneNumberTextField" destination="AbS-Ja-sEp" id="mAh-q5-oMN"/>
                         <outlet property="usernameTextField" destination="IYh-L1-gxV" id="ETO-AD-UMQ"/>
                     </connections>
                 </tableViewController>
