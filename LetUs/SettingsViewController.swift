@@ -13,7 +13,7 @@ import AWSMobileClient
 class SettingsViewController: UITableViewController, UITextFieldDelegate {
     var appSyncClient: AWSAppSyncClient?
     @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var phoneNumberTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var logOutButton: UIButton?
     
@@ -36,38 +36,15 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
         //app sync stuff
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         appSyncClient = appDelegate.appSyncClient
+
         
-        self.usernameTextField.delegate = self
-        self.passwordTextField.delegate = self
-        self.emailTextField.delegate = self
+        usernameTextField.isEnabled = false
+        phoneNumberTextField.isEnabled = false
+        emailTextField.isEnabled = false
         
-        // Set text fields to stored values
-        usernameTextField.text = defaults.string(forKey: "name")
-        passwordTextField.text = defaults.string(forKey: "password")
-        emailTextField.text = defaults.string(forKey: "email")
-        
-        // Lower keyboard when tapping elsewhere
-        let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:)))
-        tap.cancelsTouchesInView = false
-        self.view.addGestureRecognizer(tap)
-        
-        
+        usernameTextField.text = AWSMobileClient.sharedInstance().username
+        //phoneNumberTextField.text =
     }
-    
-    
-    func textFieldDidEndEditing(_ textField: UITextField) {
-        // Store text fields when finished editing
-        defaults.set(usernameTextField.text, forKey: "name")
-        defaults.set(passwordTextField.text, forKey: "password")
-        defaults.set(emailTextField.text, forKey: "email")
-    }
-    
-    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        // Lower keyboard when tapping return
-        self.view.endEditing(true)
-        return false
-    }
-    
     
     
     //test stuff

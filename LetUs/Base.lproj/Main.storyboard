@@ -69,7 +69,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Password" id="0YK-9y-Wmz">
+                            <tableViewSection headerTitle="Phone Number" id="0YK-9y-Wmz">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" id="81Q-2w-ppj">
                                         <rect key="frame" x="0.0" y="155.33333333333334" width="375" height="44"/>
