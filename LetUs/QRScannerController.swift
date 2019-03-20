@@ -9,6 +9,9 @@ import AVFoundation
 
 class QRScannerController: UIViewController {
 
+    // MARK: - Properties
+    var restaurants = RestaurantData.generateRestaurantData()
+    
     @IBOutlet var messageLabel:UILabel!
     
     var captureSession = AVCaptureSession()
@@ -94,24 +97,38 @@ class QRScannerController: UIViewController {
     // MARK: - Helper methods
 
     func launchApp(decodedURL: String) {
+        var realRest = -1
+        for i in 0...restaurants.count-1{
+            if(decodedURL == restaurants[i].name){
+                realRest = i
+                break
+            }
+        }
         
         if presentedViewController != nil {
             return
         }
-        
-        let alertPrompt = UIAlertController(title: "Open App", message: "You're going to open \(decodedURL)", preferredStyle: .actionSheet)
-        let confirmAction = UIAlertAction(title: "Confirm", style: UIAlertAction.Style.default, handler: { (action) -> Void in
-            
-            if let url = URL(string: decodedURL) {
-                if UIApplication.shared.canOpenURL(url) {
-                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        var title = "Error";
+        var message = "Scan a valid QR code"
+        if(realRest != -1){
+            title = "Registering table"
+            message = "You're going to open \(decodedURL)"
+        }
+        let alertPrompt = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
+        if(realRest != -1){
+            let confirmAction = UIAlertAction(title: "Confirm", style: UIAlertAction.Style.default, handler: { (action) -> Void in
+                
+                if let url = URL(string: decodedURL) {
+                    if UIApplication.shared.canOpenURL(url) {
+                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                    }
                 }
-            }
-        })
+            })
+            alertPrompt.addAction(confirmAction)
+        }
         
         let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil)
         
-        alertPrompt.addAction(confirmAction)
         alertPrompt.addAction(cancelAction)
         
         present(alertPrompt, animated: true, completion: nil)
@@ -125,7 +142,7 @@ extension QRScannerController: AVCaptureMetadataOutputObjectsDelegate {
         // Check if the metadataObjects array is not nil and it contains at least one object.
         if metadataObjects.count == 0 {
             qrCodeFrameView?.frame = CGRect.zero
-            messageLabel.text = "No QR code is detected"
+            messageLabel.text = "No valid QR code is detected"
             return
         }
         
