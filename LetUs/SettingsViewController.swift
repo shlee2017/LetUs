@@ -13,7 +13,7 @@ import AWSMobileClient
 class SettingsViewController: UITableViewController, UITextFieldDelegate {
     var appSyncClient: AWSAppSyncClient?
     @IBOutlet weak var usernameTextField: UITextField!
-    @IBOutlet weak var phoneNumberTextField: UITextField!
+    @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var logOutButton: UIButton?
     
@@ -39,13 +39,12 @@ class SettingsViewController: UITableViewController, UITextFieldDelegate {
 
         
         usernameTextField.isEnabled = false
-        phoneNumberTextField.isEnabled = false
+        nameTextField.isEnabled = false
         emailTextField.isEnabled = false
         
         if ( AWSMobileClient.sharedInstance().isSignedIn ){
             usernameTextField.text = AWSMobileClient.sharedInstance().username
         }
-        //phoneNumberTextField.text =
     }
     
     
