@@ -112,7 +112,7 @@ class QRScannerController: UIViewController {
         var message = "Scan a valid QR code"
         if(realRest != -1){
             title = "Registering table"
-            message = "You're going to open \(decodedURL)"
+            message = "You're going to register at \(decodedURL)"
         }
         let alertPrompt = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
         if(realRest != -1){

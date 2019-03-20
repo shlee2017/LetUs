@@ -209,6 +209,35 @@
 			<key>uniqueIdentifier</key>
 			<string>C0EC9005-2ED8-4CB2-AA34-21123964C17A</string>
 		</dict>
+		<key>EC7AE2E2-ACB1-4AB6-9E42-5090E092C9D7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EC7AE2E2-ACB1-4AB6-9E42-5090E092C9D7.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LetUs project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LetUs</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug LetUs</string>
+			<key>timeStartedRecording</key>
+			<real>574804052.88432801</real>
+			<key>timeStoppedRecording</key>
+			<real>574804288.59528899</real>
+			<key>title</key>
+			<string>Debug LetUs</string>
+			<key>uniqueIdentifier</key>
+			<string>EC7AE2E2-ACB1-4AB6-9E42-5090E092C9D7</string>
+		</dict>
 		<key>F79A1284-57E3-49EC-A509-B66CD3FB3975</key>
 		<dict>
 			<key>className</key>
