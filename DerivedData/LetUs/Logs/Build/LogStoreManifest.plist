@@ -528,6 +528,35 @@
 			<key>uniqueIdentifier</key>
 			<string>5EA246B2-F34A-48FE-8EC9-F7CA8CFF2443</string>
 		</dict>
+		<key>5F8566E8-D83A-41B4-AB69-39D0467B5F40</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5F8566E8-D83A-41B4-AB69-39D0467B5F40.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LetUs project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LetUs</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LetUs</string>
+			<key>timeStartedRecording</key>
+			<real>574963820.67785501</real>
+			<key>timeStoppedRecording</key>
+			<real>574963829.18761504</real>
+			<key>title</key>
+			<string>Build LetUs</string>
+			<key>uniqueIdentifier</key>
+			<string>5F8566E8-D83A-41B4-AB69-39D0467B5F40</string>
+		</dict>
 		<key>66E992A1-365D-43A6-91D7-BA0938429CBD</key>
 		<dict>
 			<key>className</key>
@@ -585,6 +614,35 @@
 			<string>Clean LetUs</string>
 			<key>uniqueIdentifier</key>
 			<string>6C18BA87-18AF-4834-B629-6A4D7B086F37</string>
+		</dict>
+		<key>6E7A7031-CC18-4027-89D2-992BB32F316C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6E7A7031-CC18-4027-89D2-992BB32F316C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LetUs project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LetUs</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean LetUs</string>
+			<key>timeStartedRecording</key>
+			<real>574963836.32198703</real>
+			<key>timeStoppedRecording</key>
+			<real>574963837.39273</real>
+			<key>title</key>
+			<string>Clean LetUs</string>
+			<key>uniqueIdentifier</key>
+			<string>6E7A7031-CC18-4027-89D2-992BB32F316C</string>
 		</dict>
 		<key>71D74750-0630-4986-9C59-8330C362EBCE</key>
 		<dict>
@@ -991,6 +1049,35 @@
 			<string>Build LetUs</string>
 			<key>uniqueIdentifier</key>
 			<string>C08A2466-E88C-4700-8194-1EE6F3636057</string>
+		</dict>
+		<key>C17A5F99-C313-4654-B63E-F92496406280</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C17A5F99-C313-4654-B63E-F92496406280.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LetUs project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LetUs</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LetUs</string>
+			<key>timeStartedRecording</key>
+			<real>574963838.43079901</real>
+			<key>timeStoppedRecording</key>
+			<real>574963887.94749796</real>
+			<key>title</key>
+			<string>Build LetUs</string>
+			<key>uniqueIdentifier</key>
+			<string>C17A5F99-C313-4654-B63E-F92496406280</string>
 		</dict>
 		<key>C7AC0F5A-829F-4D14-8CF4-7F36AA306BA5</key>
 		<dict>

@@ -296,6 +296,35 @@
 			<key>uniqueIdentifier</key>
 			<string>4A7421A2-6C2E-4177-A5D4-F84A275E9161</string>
 		</dict>
+		<key>4CD9FD83-1FF8-4003-90F3-14292392E11A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4CD9FD83-1FF8-4003-90F3-14292392E11A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LetUs project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LetUs</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug LetUs</string>
+			<key>timeStartedRecording</key>
+			<real>574963887.80180502</real>
+			<key>timeStoppedRecording</key>
+			<real>574963994.97429204</real>
+			<key>title</key>
+			<string>Debug LetUs</string>
+			<key>uniqueIdentifier</key>
+			<string>4CD9FD83-1FF8-4003-90F3-14292392E11A</string>
+		</dict>
 		<key>6941B045-24BE-4361-82F5-22F157EA8FE8</key>
 		<dict>
 			<key>className</key>
@@ -556,6 +585,35 @@
 			<string>Debug LetUs</string>
 			<key>uniqueIdentifier</key>
 			<string>D9B024B3-24F8-4C64-816D-A595C1CE0947</string>
+		</dict>
+		<key>EB017DD9-7CB3-47F0-9B01-E4E75FE8BEB9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EB017DD9-7CB3-47F0-9B01-E4E75FE8BEB9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LetUs project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LetUs</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug LetUs</string>
+			<key>timeStartedRecording</key>
+			<real>574921915.43441296</real>
+			<key>timeStoppedRecording</key>
+			<real>574963210.26690698</real>
+			<key>title</key>
+			<string>Debug LetUs</string>
+			<key>uniqueIdentifier</key>
+			<string>EB017DD9-7CB3-47F0-9B01-E4E75FE8BEB9</string>
 		</dict>
 		<key>ED22C6D2-3752-451E-A9A5-0FFB9C7B7801</key>
 		<dict>

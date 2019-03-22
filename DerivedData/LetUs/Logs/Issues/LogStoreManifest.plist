@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>247FCB0E-8553-4EB0-9B2A-8B571D7FA5C8</key>
+		<key>04BBE497-1E62-4EB9-AAA1-1349F5E8E754</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,44 +15,44 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
 			<key>fileName</key>
-			<string>247FCB0E-8553-4EB0-9B2A-8B571D7FA5C8.xcactivitylog</string>
+			<string>04BBE497-1E62-4EB9-AAA1-1349F5E8E754.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>AWSAuthUI-AWSAuthUI-exbgffwvqnmhjjfjubcbkrksheox</string>
 			<key>timeStartedRecording</key>
-			<real>574921257.18852901</real>
+			<real>574963839.73399496</real>
 			<key>timeStoppedRecording</key>
-			<real>574921271.91990602</real>
+			<real>574963857.38428402</real>
 			<key>title</key>
 			<string>Build target AWSAuthUI-AWSAuthUI</string>
 			<key>uniqueIdentifier</key>
-			<string>247FCB0E-8553-4EB0-9B2A-8B571D7FA5C8</string>
+			<string>04BBE497-1E62-4EB9-AAA1-1349F5E8E754</string>
 		</dict>
-		<key>2E0A718E-50F0-4C86-BE60-21BAB69503D2</key>
+		<key>09233D8E-8BBE-4A27-9740-CD1495AE9CCC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
 			<key>documentTypeString</key>
 			<string>&lt;nil&gt;</string>
 			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
 			<key>fileName</key>
-			<string>2E0A718E-50F0-4C86-BE60-21BAB69503D2.xcactivitylog</string>
+			<string>09233D8E-8BBE-4A27-9740-CD1495AE9CCC.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
-			<string>AWSPinpoint-exbgffwvqnmhjjfjubcbkrksheox</string>
+			<string>AWSUserPoolsSignIn-AWSUserPoolsSignIn-exbgffwvqnmhjjfjubcbkrksheox</string>
 			<key>timeStartedRecording</key>
-			<real>574921257.19379604</real>
+			<real>574963839.73331499</real>
 			<key>timeStoppedRecording</key>
-			<real>574921280.88359404</real>
+			<real>574963857.39579999</real>
 			<key>title</key>
-			<string>Build target AWSPinpoint</string>
+			<string>Build target AWSUserPoolsSignIn-AWSUserPoolsSignIn</string>
 			<key>uniqueIdentifier</key>
-			<string>2E0A718E-50F0-4C86-BE60-21BAB69503D2</string>
+			<string>09233D8E-8BBE-4A27-9740-CD1495AE9CCC</string>
 		</dict>
-		<key>3B24C334-B1D2-45D9-9227-3CC6DC8983F4</key>
+		<key>1FC539C7-8DDC-4456-A35C-F9468DB285E4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -61,21 +61,67 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>3B24C334-B1D2-45D9-9227-3CC6DC8983F4.xcactivitylog</string>
+			<string>1FC539C7-8DDC-4456-A35C-F9468DB285E4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Pods-LetUs-exbgffwvqnmhjjfjubcbkrksheox</string>
+			<key>timeStartedRecording</key>
+			<real>574963839.72994995</real>
+			<key>timeStoppedRecording</key>
+			<real>574963872.08326197</real>
+			<key>title</key>
+			<string>Build target Pods-LetUs</string>
+			<key>uniqueIdentifier</key>
+			<string>1FC539C7-8DDC-4456-A35C-F9468DB285E4</string>
+		</dict>
+		<key>3585836A-7805-4300-873B-DE60408FB0A3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>3585836A-7805-4300-873B-DE60408FB0A3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>AWSMobileClient-exbgffwvqnmhjjfjubcbkrksheox</string>
+			<key>timeStartedRecording</key>
+			<real>574963839.72199798</real>
+			<key>timeStoppedRecording</key>
+			<real>574963869.231552</real>
+			<key>title</key>
+			<string>Build target AWSMobileClient</string>
+			<key>uniqueIdentifier</key>
+			<string>3585836A-7805-4300-873B-DE60408FB0A3</string>
+		</dict>
+		<key>360310E1-7C9A-4770-B302-A1458FC2F48A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>360310E1-7C9A-4770-B302-A1458FC2F48A.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>SQLite.swift-exbgffwvqnmhjjfjubcbkrksheox</string>
 			<key>timeStartedRecording</key>
-			<real>574921257.17846203</real>
+			<real>574963839.72487795</real>
 			<key>timeStoppedRecording</key>
-			<real>574921276.65550494</real>
+			<real>574963862.08733702</real>
 			<key>title</key>
 			<string>Build target SQLite.swift</string>
 			<key>uniqueIdentifier</key>
-			<string>3B24C334-B1D2-45D9-9227-3CC6DC8983F4</string>
+			<string>360310E1-7C9A-4770-B302-A1458FC2F48A</string>
 		</dict>
-		<key>52934FF4-8BEA-4151-9223-CAA4C5475D34</key>
+		<key>3F4CAD71-A838-4832-A69D-74623940D8BD</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -84,44 +130,113 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>52934FF4-8BEA-4151-9223-CAA4C5475D34.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>AWSUserPoolsSignIn-exbgffwvqnmhjjfjubcbkrksheox</string>
-			<key>timeStartedRecording</key>
-			<real>574921433.50046802</real>
-			<key>timeStoppedRecording</key>
-			<real>574921433.50432801</real>
-			<key>title</key>
-			<string>Build target AWSUserPoolsSignIn</string>
-			<key>uniqueIdentifier</key>
-			<string>52934FF4-8BEA-4151-9223-CAA4C5475D34</string>
-		</dict>
-		<key>56046CA9-BEDE-4646-B0D2-6EA37188D9BE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>56046CA9-BEDE-4646-B0D2-6EA37188D9BE.xcactivitylog</string>
+			<string>3F4CAD71-A838-4832-A69D-74623940D8BD.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>AWSCore-exbgffwvqnmhjjfjubcbkrksheox</string>
 			<key>timeStartedRecording</key>
-			<real>574921257.16098499</real>
+			<real>574963839.70345199</real>
 			<key>timeStoppedRecording</key>
-			<real>574921272.17393899</real>
+			<real>574963857.70088899</real>
 			<key>title</key>
 			<string>Build target AWSCore</string>
 			<key>uniqueIdentifier</key>
-			<string>56046CA9-BEDE-4646-B0D2-6EA37188D9BE</string>
+			<string>3F4CAD71-A838-4832-A69D-74623940D8BD</string>
 		</dict>
-		<key>587AFA02-B069-4C19-AE69-C9B1BC9BB1CE</key>
+		<key>47A0E268-BE31-444C-BD0A-3151D363C2C1</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>47A0E268-BE31-444C-BD0A-3151D363C2C1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>AWSCognitoIdentityProviderASF-exbgffwvqnmhjjfjubcbkrksheox</string>
+			<key>timeStartedRecording</key>
+			<real>574963839.72665298</real>
+			<key>timeStoppedRecording</key>
+			<real>574963857.37373197</real>
+			<key>title</key>
+			<string>Build target AWSCognitoIdentityProviderASF</string>
+			<key>uniqueIdentifier</key>
+			<string>47A0E268-BE31-444C-BD0A-3151D363C2C1</string>
+		</dict>
+		<key>577D5B48-41E9-4D91-9035-02BBC7AD05B6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>577D5B48-41E9-4D91-9035-02BBC7AD05B6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>AWSUserPoolsSignIn-exbgffwvqnmhjjfjubcbkrksheox</string>
+			<key>timeStartedRecording</key>
+			<real>574963839.73495805</real>
+			<key>timeStoppedRecording</key>
+			<real>574963866.35622394</real>
+			<key>title</key>
+			<string>Build target AWSUserPoolsSignIn</string>
+			<key>uniqueIdentifier</key>
+			<string>577D5B48-41E9-4D91-9035-02BBC7AD05B6</string>
+		</dict>
+		<key>582A55E1-6BE9-4FC1-B352-FA0B99979252</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>582A55E1-6BE9-4FC1-B352-FA0B99979252.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>AWSAuthUI-exbgffwvqnmhjjfjubcbkrksheox</string>
+			<key>timeStartedRecording</key>
+			<real>574963839.73715198</real>
+			<key>timeStoppedRecording</key>
+			<real>574963866.09174895</real>
+			<key>title</key>
+			<string>Build target AWSAuthUI</string>
+			<key>uniqueIdentifier</key>
+			<string>582A55E1-6BE9-4FC1-B352-FA0B99979252</string>
+		</dict>
+		<key>63CE3AAE-26C7-4CBE-BCF1-03669CB81630</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>63CE3AAE-26C7-4CBE-BCF1-03669CB81630.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>AWSAppSync-exbgffwvqnmhjjfjubcbkrksheox</string>
+			<key>timeStartedRecording</key>
+			<real>574963839.73210204</real>
+			<key>timeStoppedRecording</key>
+			<real>574963872.07135904</real>
+			<key>title</key>
+			<string>Build target AWSAppSync</string>
+			<key>uniqueIdentifier</key>
+			<string>63CE3AAE-26C7-4CBE-BCF1-03669CB81630</string>
+		</dict>
+		<key>9F709E85-6D66-4123-9B68-DD4041185FB4</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -130,44 +245,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>587AFA02-B069-4C19-AE69-C9B1BC9BB1CE.xcactivitylog</string>
+			<string>9F709E85-6D66-4123-9B68-DD4041185FB4.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>signature</key>
 			<string>LetUs-dxumiegqslsegxbidpnwxcjjnbku</string>
 			<key>timeStartedRecording</key>
-			<real>574921824.26989806</real>
+			<real>574963839.74067199</real>
 			<key>timeStoppedRecording</key>
-			<real>574921832.09877396</real>
+			<real>574963887.76209104</real>
 			<key>title</key>
 			<string>Build target LetUs</string>
 			<key>uniqueIdentifier</key>
-			<string>587AFA02-B069-4C19-AE69-C9B1BC9BB1CE</string>
+			<string>9F709E85-6D66-4123-9B68-DD4041185FB4</string>
 		</dict>
-		<key>5F1FEFE8-4EFE-48A2-AFBD-8D2875364863</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
-			<key>fileName</key>
-			<string>5F1FEFE8-4EFE-48A2-AFBD-8D2875364863.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>AWSUserPoolsSignIn-AWSUserPoolsSignIn-exbgffwvqnmhjjfjubcbkrksheox</string>
-			<key>timeStartedRecording</key>
-			<real>574921257.18928194</real>
-			<key>timeStoppedRecording</key>
-			<real>574921271.93018496</real>
-			<key>title</key>
-			<string>Build target AWSUserPoolsSignIn-AWSUserPoolsSignIn</string>
-			<key>uniqueIdentifier</key>
-			<string>5F1FEFE8-4EFE-48A2-AFBD-8D2875364863</string>
-		</dict>
-		<key>72F9DDD6-315E-472A-B442-B334FBA152BD</key>
+		<key>A54F7749-EF3E-4DF5-96E0-5E166D40F1EC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -176,44 +268,21 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>72F9DDD6-315E-472A-B442-B334FBA152BD.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>AWSAppSync-exbgffwvqnmhjjfjubcbkrksheox</string>
-			<key>timeStartedRecording</key>
-			<real>574921257.186782</real>
-			<key>timeStoppedRecording</key>
-			<real>574921285.95595396</real>
-			<key>title</key>
-			<string>Build target AWSAppSync</string>
-			<key>uniqueIdentifier</key>
-			<string>72F9DDD6-315E-472A-B442-B334FBA152BD</string>
-		</dict>
-		<key>87EDAF41-144C-4016-80B5-3000DD963509</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>87EDAF41-144C-4016-80B5-3000DD963509.xcactivitylog</string>
+			<string>A54F7749-EF3E-4DF5-96E0-5E166D40F1EC.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>AWSCognitoIdentityProvider-exbgffwvqnmhjjfjubcbkrksheox</string>
 			<key>timeStartedRecording</key>
-			<real>574921257.18466699</real>
+			<real>574963839.73114502</real>
 			<key>timeStoppedRecording</key>
-			<real>574921276.66937101</real>
+			<real>574963863.78166604</real>
 			<key>title</key>
 			<string>Build target AWSCognitoIdentityProvider</string>
 			<key>uniqueIdentifier</key>
-			<string>87EDAF41-144C-4016-80B5-3000DD963509</string>
+			<string>A54F7749-EF3E-4DF5-96E0-5E166D40F1EC</string>
 		</dict>
-		<key>892AD3A6-6C4B-42D9-8B5E-206D7A73C95C</key>
+		<key>B08B1DCF-CD59-44C8-B7CF-77A8337CFCE9</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -222,21 +291,44 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>892AD3A6-6C4B-42D9-8B5E-206D7A73C95C.xcactivitylog</string>
+			<string>B08B1DCF-CD59-44C8-B7CF-77A8337CFCE9.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>AWSPinpoint-exbgffwvqnmhjjfjubcbkrksheox</string>
+			<key>timeStartedRecording</key>
+			<real>574963839.72349095</real>
+			<key>timeStoppedRecording</key>
+			<real>574963862.09846103</real>
+			<key>title</key>
+			<string>Build target AWSPinpoint</string>
+			<key>uniqueIdentifier</key>
+			<string>B08B1DCF-CD59-44C8-B7CF-77A8337CFCE9</string>
+		</dict>
+		<key>C4229221-5244-4461-AFB3-5A1D04C4DA32</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>C4229221-5244-4461-AFB3-5A1D04C4DA32.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>AWSAuthCore-exbgffwvqnmhjjfjubcbkrksheox</string>
 			<key>timeStartedRecording</key>
-			<real>574921257.19543302</real>
+			<real>574963839.737818</real>
 			<key>timeStoppedRecording</key>
-			<real>574921276.89205205</real>
+			<real>574963862.45259798</real>
 			<key>title</key>
 			<string>Build target AWSAuthCore</string>
 			<key>uniqueIdentifier</key>
-			<string>892AD3A6-6C4B-42D9-8B5E-206D7A73C95C</string>
+			<string>C4229221-5244-4461-AFB3-5A1D04C4DA32</string>
 		</dict>
-		<key>9E525456-37EA-4B58-8D29-4DFF2CCBA8EE</key>
+		<key>F0F9879E-8A1A-4953-A356-DE50300C386C</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -245,111 +337,19 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>9E525456-37EA-4B58-8D29-4DFF2CCBA8EE.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>AWSAuthUI-exbgffwvqnmhjjfjubcbkrksheox</string>
-			<key>timeStartedRecording</key>
-			<real>574921433.50376296</real>
-			<key>timeStoppedRecording</key>
-			<real>574921433.50872803</real>
-			<key>title</key>
-			<string>Build target AWSAuthUI</string>
-			<key>uniqueIdentifier</key>
-			<string>9E525456-37EA-4B58-8D29-4DFF2CCBA8EE</string>
-		</dict>
-		<key>CEC1F3FD-960E-4B37-9E64-C0456CCA1F6F</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>CEC1F3FD-960E-4B37-9E64-C0456CCA1F6F.xcactivitylog</string>
+			<string>F0F9879E-8A1A-4953-A356-DE50300C386C.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>signature</key>
 			<string>ReachabilitySwift-exbgffwvqnmhjjfjubcbkrksheox</string>
 			<key>timeStartedRecording</key>
-			<real>574921257.190781</real>
+			<real>574963839.73463297</real>
 			<key>timeStoppedRecording</key>
-			<real>574921276.77965605</real>
+			<real>574963862.09193301</real>
 			<key>title</key>
 			<string>Build target ReachabilitySwift</string>
 			<key>uniqueIdentifier</key>
-			<string>CEC1F3FD-960E-4B37-9E64-C0456CCA1F6F</string>
-		</dict>
-		<key>E1398DFD-7DBC-473E-BCF5-B908AF6A40F2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>E1398DFD-7DBC-473E-BCF5-B908AF6A40F2.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>AWSMobileClient-exbgffwvqnmhjjfjubcbkrksheox</string>
-			<key>timeStartedRecording</key>
-			<real>574921257.19002604</real>
-			<key>timeStoppedRecording</key>
-			<real>574921283.20210695</real>
-			<key>title</key>
-			<string>Build target AWSMobileClient</string>
-			<key>uniqueIdentifier</key>
-			<string>E1398DFD-7DBC-473E-BCF5-B908AF6A40F2</string>
-		</dict>
-		<key>EE6A622D-75E1-4790-8FC7-BEED20D18E47</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>EE6A622D-75E1-4790-8FC7-BEED20D18E47.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>Pods-LetUs-exbgffwvqnmhjjfjubcbkrksheox</string>
-			<key>timeStartedRecording</key>
-			<real>574921257.18336999</real>
-			<key>timeStoppedRecording</key>
-			<real>574921286.089625</real>
-			<key>title</key>
-			<string>Build target Pods-LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>EE6A622D-75E1-4790-8FC7-BEED20D18E47</string>
-		</dict>
-		<key>F9A57AF2-F45A-4CC9-904D-F1C4213A5813</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>F9A57AF2-F45A-4CC9-904D-F1C4213A5813.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>signature</key>
-			<string>AWSCognitoIdentityProviderASF-exbgffwvqnmhjjfjubcbkrksheox</string>
-			<key>timeStartedRecording</key>
-			<real>574921257.18039501</real>
-			<key>timeStoppedRecording</key>
-			<real>574921271.94151998</real>
-			<key>title</key>
-			<string>Build target AWSCognitoIdentityProviderASF</string>
-			<key>uniqueIdentifier</key>
-			<string>F9A57AF2-F45A-4CC9-904D-F1C4213A5813</string>
+			<string>F0F9879E-8A1A-4953-A356-DE50300C386C</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

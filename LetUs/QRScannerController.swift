@@ -99,6 +99,7 @@ class QRScannerController: UIViewController {
     // MARK: - Helper methods
 
     func launchApp(decodedURL: String) {
+        restaurantNum = -1
         for i in 0...restaurants.count-1{
             if(decodedURL == restaurants[i].name){
                 restaurantNum = i
@@ -119,10 +120,11 @@ class QRScannerController: UIViewController {
         if(restaurantNum != -1){
             let confirmAction = UIAlertAction(title: "Confirm", style: UIAlertAction.Style.default, handler: { (action) -> Void in
                 
-                
+                //send to order view controller
                 let order = OrderViewController()
                 order.restaurantSource = self.restaurantNum
-                self.present(order, animated: true, completion: nil)
+                self.navigationController?.pushViewController(order, animated: true)
+                
             })
             alertPrompt.addAction(confirmAction)
         }
