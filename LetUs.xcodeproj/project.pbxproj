@@ -23,6 +23,7 @@
 		2D246C932204A7C800166E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D246C912204A7C800166E8A /* LaunchScreen.storyboard */; };
 		2D246C9E2204A7C800166E8A /* LetUsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246C9D2204A7C800166E8A /* LetUsTests.swift */; };
 		2D246CAB2204B22400166E8A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246CAA2204B22400166E8A /* CustomTabBar.swift */; };
+		2D2D7B7D224472E300A49566 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D7B7C224472E300A49566 /* OrderViewController.swift */; };
 		2D6349292210CACE00AE5E77 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6349282210CACD00AE5E77 /* QRScannerController.swift */; };
 		2D7087BD224025B4002751B0 /* letus-operations.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 2D7087BC224025B4002751B0 /* letus-operations.graphql */; };
 		2D7087C122402E11002751B0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7087C022402E11002751B0 /* API.swift */; };
@@ -61,6 +62,7 @@
 		2D246C9D2204A7C800166E8A /* LetUsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetUsTests.swift; sourceTree = "<group>"; };
 		2D246C9F2204A7C900166E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D246CAA2204B22400166E8A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		2D2D7B7C224472E300A49566 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		2D6349282210CACD00AE5E77 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 		2D7087BC224025B4002751B0 /* letus-operations.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = "letus-operations.graphql"; sourceTree = "<group>"; };
 		2D7087C022402E11002751B0 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = SOURCE_ROOT; };
@@ -123,6 +125,7 @@
 				2D7087BB22402572002751B0 /* GraphQLOperations */,
 				2D246C882204A7C800166E8A /* AppDelegate.swift */,
 				2D7087C622403FEE002751B0 /* awsconfiguration.json */,
+				2D2D7B7C224472E300A49566 /* OrderViewController.swift */,
 				2D6349282210CACD00AE5E77 /* QRScannerController.swift */,
 				141660C022078D650066CDF5 /* HomeViewController.swift */,
 				14124262223A1AAD0011E813 /* MenuViewController.swift */,
@@ -353,6 +356,7 @@
 				2D6349292210CACE00AE5E77 /* QRScannerController.swift in Sources */,
 				14124265223A1AE90011E813 /* MenuItem.swift in Sources */,
 				141660C122078D650066CDF5 /* HomeViewController.swift in Sources */,
+				2D2D7B7D224472E300A49566 /* OrderViewController.swift in Sources */,
 				1412429B223F58EF0011E813 /* SettingsViewController.swift in Sources */,
 				14124263223A1AAD0011E813 /* MenuViewController.swift in Sources */,
 				0C4CDF0E2220697300E3961C /* Constants.swift in Sources */,
@@ -519,13 +523,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78G3K9TQHP;
+				DEVELOPMENT_TEAM = J5L9AYFLDT;
 				INFOPLIST_FILE = LetUs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lett.us;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.Let.us;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -538,13 +542,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78G3K9TQHP;
+				DEVELOPMENT_TEAM = J5L9AYFLDT;
 				INFOPLIST_FILE = LetUs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lett.us;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ethan.Let.us;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -11,6 +11,7 @@ class QRScannerController: UIViewController {
 
     // MARK: - Properties
     var restaurants = RestaurantData.generateRestaurantData()
+    var restaurantNum = -1;
     
     @IBOutlet var messageLabel:UILabel!
     
@@ -94,13 +95,13 @@ class QRScannerController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
     // MARK: - Helper methods
 
     func launchApp(decodedURL: String) {
-        var realRest = -1
         for i in 0...restaurants.count-1{
             if(decodedURL == restaurants[i].name){
-                realRest = i
+                restaurantNum = i
                 break
             }
         }
@@ -110,19 +111,18 @@ class QRScannerController: UIViewController {
         }
         var title = "Error";
         var message = "Scan a valid QR code"
-        if(realRest != -1){
+        if(restaurantNum != -1){
             title = "Registering table"
             message = "You're going to register at \(decodedURL)"
         }
         let alertPrompt = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
-        if(realRest != -1){
+        if(restaurantNum != -1){
             let confirmAction = UIAlertAction(title: "Confirm", style: UIAlertAction.Style.default, handler: { (action) -> Void in
                 
-                if let url = URL(string: decodedURL) {
-                    if UIApplication.shared.canOpenURL(url) {
-                        UIApplication.shared.open(url, options: [:], completionHandler: nil)
-                    }
-                }
+                
+                let order = OrderViewController()
+                order.restaurantSource = self.restaurantNum
+                self.present(order, animated: true, completion: nil)
             })
             alertPrompt.addAction(confirmAction)
         }
