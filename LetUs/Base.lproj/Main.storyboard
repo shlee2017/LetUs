@@ -40,7 +40,6 @@
                     <navigationItem key="navigationItem" title="Scan" id="Cts-t9-Dqm"/>
                     <connections>
                         <outlet property="messageLabel" destination="txl-1p-mTT" id="dkO-0p-BsR"/>
-                        <segue destination="ydd-AQ-Zyp" kind="show" id="uMb-Wy-Yj5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r5x-e2-h5T" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -287,7 +286,7 @@
         <!--Root View Controller-->
         <scene sceneID="tY3-7z-6Ky">
             <objects>
-                <tableViewController id="6b6-px-Qy7" customClass="OrderViewController" customModule="LetUs" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="OrderViewController" id="6b6-px-Qy7" customClass="OrderViewController" customModule="LetUs" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="8dj-ic-E4a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -121,10 +121,14 @@ class QRScannerController: UIViewController {
             let confirmAction = UIAlertAction(title: "Confirm", style: UIAlertAction.Style.default, handler: { (action) -> Void in
                 
                 //send to order view controller
-                let order = OrderViewController()
-                order.restaurantSource = self.restaurantNum
-                self.navigationController?.pushViewController(order, animated: true)
+                let main = UIStoryboard(name: "Main", bundle: Bundle.main)
                 
+                guard let destination = main.instantiateViewController(withIdentifier: "OrderViewController") as? OrderViewController else{
+                    print("couldn't find the controller")
+                    return
+                }
+                destination.restaurantSource = self.restaurantNum
+                self.navigationController?.pushViewController(destination, animated: true)
             })
             alertPrompt.addAction(confirmAction)
         }
