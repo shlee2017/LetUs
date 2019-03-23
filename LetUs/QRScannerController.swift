@@ -119,16 +119,9 @@ class QRScannerController: UIViewController {
         let alertPrompt = UIAlertController(title: title, message: message, preferredStyle: .actionSheet)
         if(restaurantNum != -1){
             let confirmAction = UIAlertAction(title: "Confirm", style: UIAlertAction.Style.default, handler: { (action) -> Void in
-                
                 //send to order view controller
-                let main = UIStoryboard(name: "Main", bundle: Bundle.main)
+                self.performSegue(withIdentifier: "Order", sender: self)
                 
-                guard let destination = main.instantiateViewController(withIdentifier: "OrderViewController") as? OrderViewController else{
-                    print("couldn't find the controller")
-                    return
-                }
-                destination.restaurantSource = self.restaurantNum
-                self.navigationController?.pushViewController(destination, animated: true)
             })
             alertPrompt.addAction(confirmAction)
         }
@@ -140,6 +133,11 @@ class QRScannerController: UIViewController {
         present(alertPrompt, animated: true, completion: nil)
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nav = segue.destination as! UINavigationController
+        let destination = nav.viewControllers[0] as! OrderViewController
+        destination.restaurantSource = self.restaurantNum
+    }
 }
 
 extension QRScannerController: AVCaptureMetadataOutputObjectsDelegate {

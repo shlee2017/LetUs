@@ -256,11 +256,13 @@ SWIFT_CLASS("_TtC5LetUs18MenuViewController")
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
+@class UIBarButtonItem;
 
 SWIFT_CLASS("_TtC5LetUs19OrderViewController")
 @interface OrderViewController : UITableViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (IBAction)cancel:(UIBarButtonItem * _Nonnull)sender;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
@@ -274,6 +276,7 @@ SWIFT_CLASS("_TtC5LetUs19QRScannerController")
 @property (nonatomic, strong) IBOutlet UILabel * _Null_unspecified messageLabel;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

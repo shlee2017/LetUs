@@ -10,11 +10,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		aVeg067GX/1s1rSs9QRWGnovrlk=
+		vPsY9J2fY843XtgTy0KJHAEK1Cc=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		e6lQ212awg6PLegsQByWQkKUWNk=
+		wiyNK5j+L3E86UQVBOp914sYEQA=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -22,47 +22,51 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		xvkrR1hHqaQlrLpbIz0AtFpVTw8=
+		Oo+LlVa2onNhEJLXM2Qhe1CXvtg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/33v-N4-06A-view-Utq-yN-PTl.nib</key>
 		<data>
-		EVikhupz435T4u705zqCQ6jXYq4=
+		pUaTYaHlw8fKwsxsQuMLVmG1kpY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/6b6-px-Qy7-view-8dj-ic-E4a.nib</key>
 		<data>
-		ocQerro/sxkCGHEva0XQNt6sQhY=
+		pdX0mo5wkO6CrDNQx/8JL39ZW0E=
 		</data>
 		<key>Base.lproj/Main.storyboardc/H8C-4Q-uBn-view-Anx-bj-jrb.nib</key>
 		<data>
-		JYee9sKmobZoxJNDZphFNXnRwDk=
+		Z6q+sZHk0WQc9knpHQ6ZrlEc+PE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		Rzrmiq+i4bBE8cyzJ1Ni1buLHlw=
+		rX9MGj9rkWJQGjZI7C5aUuTv+wo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/OrderViewController.nib</key>
 		<data>
-		/A5UeK6GgEj9Kq7nMk+uCXX0SmY=
+		Te18KoEzbY837TDtVYBodp86TOo=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-nsm-pC-f52.nib</key>
+		<data>
+		0CUNOFsPLNFN4HeOMx/OSQ63JlA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-8mG-Ir-vtO.nib</key>
 		<data>
-		J92uQmScgjM4qxTkvcN3hpPb+tE=
+		B70lT13tNDTsLcZvMf8OWEXj/AY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-gE1-hX-3AT.nib</key>
 		<data>
-		lKW2rmvEHTgFZ5EDlZJbEAlXES0=
+		1e0UYeqrgERPaImpGNEcdnqXdzY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/gE1-hX-3AT-view-YOb-7H-EbT.nib</key>
 		<data>
-		RWtIIvfAw3SkywYFqySat2K5blE=
+		ajM5CGIo6/AidgWHfyAlNx+vNSY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/u4r-bz-a3R-view-dOi-xJ-1cJ.nib</key>
 		<data>
-		Bdq2+xquLzZrHFSoUaUmW2Qsk5Q=
+		dqPjBQJCL5/vL3W0EdbL3Wlt25k=
 		</data>
 		<key>Frameworks/AWSAppSync.framework/AWSAppSync</key>
 		<data>
-		JlkUxZ3/Nynu9R4Q2nmmX5Qr47k=
+		LTeblUtleonT6B9gDGxu1wfx+rY=
 		</data>
 		<key>Frameworks/AWSAppSync.framework/Info.plist</key>
 		<data>
@@ -74,7 +78,7 @@
 		</data>
 		<key>Frameworks/AWSAuthCore.framework/AWSAuthCore</key>
 		<data>
-		4MZd4yO1DIs5m2PDFtgJz/9LIIM=
+		azkmCWjxtnIrMYpLjUjro/KD9io=
 		</data>
 		<key>Frameworks/AWSAuthCore.framework/Info.plist</key>
 		<data>
@@ -86,11 +90,11 @@
 		</data>
 		<key>Frameworks/AWSAuthUI.framework/AWSAuthUI</key>
 		<data>
-		ge68TXtBCNWX9Z4Gnj7QYllAAYI=
+		s0BwBQx0QODlM0CHAI5momZosdU=
 		</data>
 		<key>Frameworks/AWSAuthUI.framework/AWSAuthUI.bundle/Assets.car</key>
 		<data>
-		4I6O0b+jCE2VEYKLlD2U+Qb7tLk=
+		o48XWpXuICp7CN5r0nRtisEnCug=
 		</data>
 		<key>Frameworks/AWSAuthUI.framework/AWSAuthUI.bundle/Info.plist</key>
 		<data>
@@ -102,11 +106,11 @@
 		</data>
 		<key>Frameworks/AWSAuthUI.framework/AWSAuthUI.bundle/SignIn.storyboardc/SignIn.nib</key>
 		<data>
-		8MsHMKE58y8LcSQDlHVJt/SlkG8=
+		hLQkjDstQpdyQrGV1/HNSyDNPkg=
 		</data>
 		<key>Frameworks/AWSAuthUI.framework/AWSAuthUI.bundle/SignIn.storyboardc/xc1-Jg-Y5t-view-n6k-Ut-fuw.nib</key>
 		<data>
-		NZi19FxuAG54HRMh7+96id6uy+U=
+		YtD+AoIo1rAtw+OXPhCNNeZ/n64=
 		</data>
 		<key>Frameworks/AWSAuthUI.framework/Info.plist</key>
 		<data>
@@ -114,11 +118,11 @@
 		</data>
 		<key>Frameworks/AWSAuthUI.framework/_CodeSignature/CodeResources</key>
 		<data>
-		y7Cf5vLPpXS9GEi45LFYAi03zaI=
+		JsXiqz/efQFWeQAigES5InnkD9Y=
 		</data>
 		<key>Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider</key>
 		<data>
-		qS6iR2hhDpXDTGKXy9tCi5ohQp8=
+		KrpXEaoG0CwOWNlwOHr0wlHRMww=
 		</data>
 		<key>Frameworks/AWSCognitoIdentityProvider.framework/Info.plist</key>
 		<data>
@@ -130,7 +134,7 @@
 		</data>
 		<key>Frameworks/AWSCognitoIdentityProviderASF.framework/AWSCognitoIdentityProviderASF</key>
 		<data>
-		5gjM22+EOr2PUvdtfSNLQt5AheQ=
+		R7aPEf96+luU2DwOBJDDAZYgbcA=
 		</data>
 		<key>Frameworks/AWSCognitoIdentityProviderASF.framework/Info.plist</key>
 		<data>
@@ -142,7 +146,7 @@
 		</data>
 		<key>Frameworks/AWSCore.framework/AWSCore</key>
 		<data>
-		/ynqliY/Z74SN5ui0fKU6AIYkq8=
+		AFZj3CjVi7kLU3AOjXXZ0E9AFZI=
 		</data>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
 		<data>
@@ -154,7 +158,7 @@
 		</data>
 		<key>Frameworks/AWSMobileClient.framework/AWSMobileClient</key>
 		<data>
-		t2OFyK6llJGaHsst0cXTmYSX2L4=
+		cQt30aVZI99Z58073xE9rdXFuaw=
 		</data>
 		<key>Frameworks/AWSMobileClient.framework/Info.plist</key>
 		<data>
@@ -166,7 +170,7 @@
 		</data>
 		<key>Frameworks/AWSPinpoint.framework/AWSPinpoint</key>
 		<data>
-		sUdnqd5ISUH8WLLGjFxNphN4iis=
+		/h2kbHFqzip8sn4AZRKWCZymM7k=
 		</data>
 		<key>Frameworks/AWSPinpoint.framework/Info.plist</key>
 		<data>
@@ -178,55 +182,55 @@
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn</key>
 		<data>
-		TLptOndwBqoaJokuhU05fJFDFho=
+		Qf6uUXEDmH7IjhJTJeXf46hQuFQ=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/Fee-Hn-G0A-view-3Ww-qO-xXn.nib</key>
 		<data>
-		pDDW3AJg/XpBOKzTKPWB97uuD80=
+		v4kjLl0v2aItu8OoWFCeFHKVjuk=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/ForgotPassword.nib</key>
 		<data>
-		SG8L/IhnZblvHpytjH0AQwnQrH0=
+		nsu6T3reV50+W5ZISlxWyn1rVJA=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/Info.plist</key>
 		<data>
-		WZSGHhtL06LabCqidirgsPn4xtg=
+		yoa26vvJ0+hD8mOlfSmnZe17wU4=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/MFA.nib</key>
 		<data>
-		JkEdymzy9rVzoe3Z/P2gQpYt7bo=
+		sql9kmOT+uo/gMAH0m9LApm3wNs=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/P72-4o-dGU-view-mvy-xA-fuB.nib</key>
 		<data>
-		Tu1LgIud6obExXSH9clRJCETkRk=
+		6q4zPpJbGJjhEJqjvL1I7TC5aSo=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/SignUp.nib</key>
 		<data>
-		My9BCrAYJMpbODRkDktUsyRBCDA=
+		orDfiZOgIVQNLkR2444W8oERPzg=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/SignUpConfirmation.nib</key>
 		<data>
-		9ZaAkoBGhBXKzw9giX5Z98kstaI=
+		j3aULRhxXfYBeklghqBaDz5nhP0=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/UINavigationController-SfA-Z0-41u.nib</key>
 		<data>
-		mSa35nz4x9wyHvNJj/zVhuq4OTE=
+		EpzAqUY2oUGDL9fzVSgEkbvKLM8=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/UIViewController-Wwt-zD-yTe.nib</key>
 		<data>
-		9vLqc5hGCW43MOrErrAQsRTtn3k=
+		O4HWpAdjOe6qce5G8eFe7W42kdk=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/Wwt-zD-yTe-view-sSU-fu-YjH.nib</key>
 		<data>
-		AjkSd+WWN/IhPZwVhVKdq7hL9xY=
+		grVntAMIZM9AmBAufez8dN+vFOU=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/oYn-kQ-Tog-view-bRf-kC-3Qf.nib</key>
 		<data>
-		bzO8R33YA3iD2uyDZ08bHn0b5TA=
+		tV3Hn0mhcM9JluMPC8/OSyaadcc=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/tBM-jZ-I7y-view-Z83-6q-CAy.nib</key>
 		<data>
-		EviX8Qvn4PuhuKyUYCNn20noRi4=
+		hk6bCFwEyxXoP64eBHZ+tdMGxQI=
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/Info.plist</key>
 		<data>
@@ -238,7 +242,7 @@
 		</data>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/_CodeSignature/CodeResources</key>
 		<data>
-		VDZi7CpmiNgYC1uswC0RyZ5Gafk=
+		+bPAg1wgYH8r5hg8TQXM8Gz+RF0=
 		</data>
 		<key>Frameworks/Reachability.framework/Info.plist</key>
 		<data>
@@ -246,7 +250,7 @@
 		</data>
 		<key>Frameworks/Reachability.framework/Reachability</key>
 		<data>
-		7i02qDWQJY5hbDslVxBX+BALQyU=
+		X1r02HkpGb2oKbYJ5IH3MPhN8Xc=
 		</data>
 		<key>Frameworks/Reachability.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -258,7 +262,7 @@
 		</data>
 		<key>Frameworks/SQLite.framework/SQLite</key>
 		<data>
-		RW0q2edelBekxWKx4+hqmY6ecZ4=
+		lmz1Y8325ewT2iFD9E9oGWi6MwE=
 		</data>
 		<key>Frameworks/SQLite.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -266,75 +270,75 @@
 		</data>
 		<key>Frameworks/libswiftAVFoundation.dylib</key>
 		<data>
-		e9uhFnAhtIjFwWDFeTB2+GVRV1A=
+		3gUuiy5xvGNY+Qyt/nWzu8QkfzU=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		OWf9w2yMVxKYdPGbR4WHUpAAviA=
+		Eubku3zA/iw34fjDs4cakfdqq3M=
 		</data>
 		<key>Frameworks/libswiftCoreAudio.dylib</key>
 		<data>
-		RgpTVwOIWHkikRWEIPA4VMWMrJ0=
+		lk2g8MU8lLD1c2wUnKPnv1/JZ24=
 		</data>
 		<key>Frameworks/libswiftCoreData.dylib</key>
 		<data>
-		JS/1j2zTQlnRmZZgDjHOiZpNzuE=
+		uBnZB8yQnEWnqamO+577J+HAMYo=
 		</data>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<data>
-		xAr1U5FGCWoypEh59T0LHFp4Tlc=
+		d20xA1YzwermPntJ38+7oI6AYwU=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		S4+HjvZnYKJgXkXNdOkYIr/1qdU=
+		83xTHsXVSFlyNcEnVDF9yMH131Q=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		CQK2NsFFmnswUhvC3SSREheDrMc=
+		tFpVrUZYJbH1Yd5aq+MhuwCw8R8=
 		</data>
 		<key>Frameworks/libswiftCoreMedia.dylib</key>
 		<data>
-		nTEOZ9HdFtSdBYWzKIFkoHMlts4=
+		8bbHkmWHqGaJRJ1fmELifydqpfI=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		IynPVGruUtvZaKViNhCSh3uKdIg=
+		UzUn8/e8uql6CwcJmIb/4SAAXMw=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		AOznpUL7m3/cTTTVrgdhVko/ZDw=
+		6WhZTO+pQd8glZeZK48FWJurwEY=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		tzLUCLnwgB6DGdExN62amx0WhL4=
+		dKHFn+WboXXFVRYTG9iTUrZOZGQ=
 		</data>
 		<key>Frameworks/libswiftMetal.dylib</key>
 		<data>
-		CGVrkfqwczAkfSNOltYaC5HRl1Y=
+		unhg2PP1WcrSP5sQzeOIknUiYcg=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		MFcigdrx8uktOdx9Mg9MNS5v2kk=
+		uymPHx0/neQfG3g1J6KuPZ5qzQU=
 		</data>
 		<key>Frameworks/libswiftQuartzCore.dylib</key>
 		<data>
-		nVOhsy7kXYkoYI4StsGlcNmW65c=
+		NeF0x630aaTNZtG4RfP+1x51cZA=
 		</data>
 		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
 		<data>
-		LxRrftdkFNRzyK0vIOE8601BtLY=
+		mIEJCa5jRn7o36WImhwryFrCTYs=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		WY1vJjL1+AE2SpZXryPKfpzfIVU=
+		n5YSe9WueRQv3RZoKtVkNYf6624=
 		</data>
 		<key>Frameworks/libswiftos.dylib</key>
 		<data>
-		u8nO6PTWj5cdldq3sNRMHupEQ60=
+		5XYcplwAkexaIJZA1Sy17z8DVfg=
 		</data>
 		<key>Frameworks/libswiftsimd.dylib</key>
 		<data>
-		gQp5YjeQzVSviS+Td/rp7GixW48=
+		gsJyeSrMnH3o2ahWwIX5eS6XFME=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -374,14 +378,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hWZalLTKMWZowRHmJdBC3WmeeyWkIBvPv086/H1CCik=
+			9pEiejbLluri1biGEzv/mw1cTAT6KCur3Dc7f89xVmU=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NFXkSDuIXhxKM+CYFuOa+y8kj6bxhXDwpr35A/rPJ34=
+			v9yR8hdjeBp6TK0UQ4XzJWzKjwHwIYqPjBd6kgD7HFQ=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -395,77 +399,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+C0Sg7zXb239sedpEGvwivNjGwyRXldeBOpbPU6hERU=
+			JgNA+h/1cbx2C+brXL7zV0zUyhPXVvwEJNnOQAOzrBA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/33v-N4-06A-view-Utq-yN-PTl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VYWFH3zXJygl4fjZxJP7kXgyT9r9AK3jKb/JHTS7nKc=
+			PjNA3tN1847A/F1SyT/bB4nlNE98fgRTsg1TUi88sVc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/6b6-px-Qy7-view-8dj-ic-E4a.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DPuTNenMmjd88hjqaBek4stgwhOM6ywuliTvh4eVS3w=
+			voxPjVHNfQhq+ESJD0VZychbJEsb4fcifRFcRrmcUUU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/H8C-4Q-uBn-view-Anx-bj-jrb.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kby0s0deTENO2spdSF3HxeTZRY/0mPTnLJuoKPmScGs=
+			Tkx3kgE49u9vPQBgAv4j+++2NxDXDwh/PCOxHWtjI5I=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			boJczosxQWlF3b356+/Wm0DyUB+PrDMnBdkdaRechRQ=
+			bmCWP1aZqAovv0oKGs31gp+/YwN2RPHEGK3v6Q86OPY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/OrderViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			brH1O0KPWg1ZR8wYKM0JJNUnMcaDdr2EWtl6nQGkISE=
+			orPqSu7TF+x9Bb8H1sV4xvopyFPWctQbkdAFxmCbNiQ=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-nsm-pC-f52.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FDODGyCnM1lIrTTgietkz7QgBV977LqBtxjejTPmmJU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-8mG-Ir-vtO.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jgnsBhGEXpB591bI0urEiIV2tD/llMnEhkPYWvBTPxE=
+			ppbLf0/wgoRcpjJ93SVsL2NHCC2bJr4Xt9+HjH0SVIY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UITableViewController-gE1-hX-3AT.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0xp1kqG7AN10+aP0ftEl6Mb6jDFZr4gCRbXvqiYxIfc=
+			db2Kj8pVNcWj11GCF3414NWTDs4I5sSRn80AZ507xCs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/gE1-hX-3AT-view-YOb-7H-EbT.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6PtU6EVLxa/WEWougKUkZ1WjrAJIuhvIN+7onE+Ozq8=
+			48oEhD0mDCljHQ62eVGw38p8Iqprt5qdPrSue9YY8Vw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/u4r-bz-a3R-view-dOi-xJ-1cJ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3dzmHrP99hj3TGsrZBRWtgocEU99DbOsa2QCkPD4cMc=
+			8T8v4l6SRapqfx0MqMzhuqilmmaOiGRxa93TYy93Rd8=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAppSync.framework/AWSAppSync</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jr5y1l/thkVhd9bkR3t0+Y7YtUKcqGcPPR55HqYupwo=
+			eoYEZA9g24Sp8YBz+NQR6b2jWP0iziMyHmNrKZlWXfY=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAppSync.framework/Info.plist</key>
@@ -486,7 +497,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z/fV5g+4OAsiwoBenDJRfWF/hbFkFtLi7kdZ2qef9uE=
+			i8dqM0EP8qyvpYviyFF9GYHg3UmfFNV3KEopj3lSbn0=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAuthCore.framework/Info.plist</key>
@@ -507,14 +518,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X0vIFWzmjDmmAB3ZKulai0SUFvWNhDAlHWxND1Z0wg8=
+			LQqvPjPnMXgIwpig1IGnGveDINnge3xrwJgg03ooiUo=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAuthUI.framework/AWSAuthUI.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DLCvEBp4/f4/LrNip0U/+5besuYEilrF2bWuzqDxjyU=
+			oCzo9bDl8eQ5aWwXi5cG3Hu2ZfKXMYC/ae/jWUpGCgY=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAuthUI.framework/AWSAuthUI.bundle/Info.plist</key>
@@ -535,14 +546,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			epm5tZmXAP0/COWuzfSB91RgvwdixGKg1F/yT3+68lY=
+			1/PTJh3pZMzCsIgYb013EZvyX4pyoLF5XPm61k3j3AU=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAuthUI.framework/AWSAuthUI.bundle/SignIn.storyboardc/xc1-Jg-Y5t-view-n6k-Ut-fuw.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SeAFgBeiV23a6zHjkVxdk8lEn6z17CRnpGEln6ZQroI=
+			gx0vIxg9tH8/8waTDvt/ZF0QdfejaStMewQtUo95H38=
 			</data>
 		</dict>
 		<key>Frameworks/AWSAuthUI.framework/Info.plist</key>
@@ -556,14 +567,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iu5t0VhQf6LTUkCDOmL3+OAszJO83jd4NBJrihPHsv0=
+			xGQ1wL7+85Eeqf448x0PXzCbeUtQoD+/xYU4SflgJGs=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCognitoIdentityProvider.framework/AWSCognitoIdentityProvider</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EzT3rp3uibv/Dmjsir0NWZoOvOkqjThPFJ2cQdyIv/0=
+			i3zOCV5YKiUCpf9S5+LuNISH5bvgo4ogmayjCiEcNCY=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCognitoIdentityProvider.framework/Info.plist</key>
@@ -584,7 +595,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FJPJVPLXkNB6MWnzThtsOScKqWcUm8OGx+romPsOfTA=
+			5S9dCWmd5nlUAw0pwyCjiM/XUXwV2PRbZQv7h/su7M4=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCognitoIdentityProviderASF.framework/Info.plist</key>
@@ -605,7 +616,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ouepoE3jqW3AZ5hcr7Vivn0TC28eTxCN9sbTFi8q7a0=
+			5uiS5pGLN2QPwcSqWLRjht5AmfbQ02hISFNkvNciMAc=
 			</data>
 		</dict>
 		<key>Frameworks/AWSCore.framework/Info.plist</key>
@@ -626,7 +637,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nEjFrdNqIpeOLGvGjzsZb0VkRrcZBTFk2d1yiO6H0YA=
+			xNS3/Yx5/Hrjjgy72PF20MyhZeGTTgUVYt0yqeCv5IM=
 			</data>
 		</dict>
 		<key>Frameworks/AWSMobileClient.framework/Info.plist</key>
@@ -647,7 +658,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bQ8rpEI2F/HJ1Wdw9EK/NGN2u4fr/uSCOd9o9XIihXo=
+			+zubL2nfh1JTRpB+cowiDx4nT6iRMzgIFqR9a1Fufs4=
 			</data>
 		</dict>
 		<key>Frameworks/AWSPinpoint.framework/Info.plist</key>
@@ -668,91 +679,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jONepsHm83jRQtMwz9FJPy8vtphd6/FOswjj3iLjadM=
+			jMofAZhn5HMy+5C/uADg5niGa2H7rC4W/6TenmNM9s4=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/Fee-Hn-G0A-view-3Ww-qO-xXn.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MaFfCYBwTzbVU6PJlKiRrwewXEl+QhJHgOjMiilYux4=
+			9AmUKBOunj6HN9AKAYoZ3yRZSVdvVOAOVrOoZVL8OYA=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/ForgotPassword.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IkYU5DR2znJZLMAKVMzHAR047ecjTJeXy9GwxEGEc5k=
+			PPIbUQo3gQ1c0bymlLoKXvLSSMRUHf1w+nGWAqDxiSo=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mj3LltUB/b7hQ8i6Zvc3026F2xTB/q2CHCmx7cG7mvQ=
+			jb6upJOfQ+F0toWEs1j4TSRGr8zG3h2mJmMnvi9zpFM=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/MFA.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t84ApXpwy6/Sh0oqgKojBUIJBaYUkNm0LbuvGQtEo8I=
+			L8A+QATalc8F9CmIu3oFnuA5Llyx/SySramtA4vqtVY=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/P72-4o-dGU-view-mvy-xA-fuB.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RPu5b6DlQaP9OXedTwL5OE9qPLVGP/B3scdOIyr6VtU=
+			03VkBdjJTeZnVxe9f0Tvrr2mXH+5PERrivRl6AymtVM=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/SignUp.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JYKoW5iQxWwko6tEXO1UQseHl6WzakYTwqmC6Jww0I0=
+			89pUYE/cbIfo4m3oyx2gWerYqCq1SWkuMygBRZMlIf0=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/SignUpConfirmation.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+mqFJ2eKu5qDQbGs7wu78TmzY2Ccb8S233GGxJQhEVQ=
+			HvSet0JCY5EGJZiyrSPiS9lJYkNbn/oBZWFjEzW59pc=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/UINavigationController-SfA-Z0-41u.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mpvUKOeyB1WW8OvkqS19b7+jm7ksuygsqjBsQ7JSvfs=
+			NkY4GLxQXqrD88/+c12tM4CJr7LUdEJtWd1KvhncDtk=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/UIViewController-Wwt-zD-yTe.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+G9k6U47GrcGGqHEXdTcClAfvr3X3wmtg4jqHSWv+/A=
+			2IaO78HsyuWbMdI6jtHzhFYycfasy/Sw6+2h4LiG25s=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/Wwt-zD-yTe-view-sSU-fu-YjH.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E9+QQO8buTY/HdtfSUbXfeHT1Y2pOYOQFLO0DUQbqLc=
+			HX9x2hBbef97JxsNEiM2f9ZEVPkig1fsT7/NLN5YTuY=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/oYn-kQ-Tog-view-bRf-kC-3Qf.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RCYNUxU4zOkVFQ2iiG492Pz+rXWD1zXh7ddKKpy/br0=
+			XjArYo3BvpBfZw7IE0QYDwA6CbOEjYkDgUeIsF3tl4s=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/AWSUserPools.storyboardc/tBM-jZ-I7y-view-Z83-6q-CAy.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XFL33ke6yk36IWLGzpUyzdNxotuqFChyKBd0A0Ir+XM=
+			MikaMOcGXgA4PQ6uSwmEzwC+3Vs7ch2EWUNxvag4T10=
 			</data>
 		</dict>
 		<key>Frameworks/AWSUserPoolsSignIn.framework/AWSUserPoolsSignIn.bundle/Info.plist</key>
@@ -773,7 +784,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f/ayhtn32CywlXaHT7Gmnxy0cF45dPqEs4cZP/DrexA=
+			YKDrBZOw1XT48U2k/uJcVi72rAaLfR+1H/ccYFQoxuQ=
 			</data>
 		</dict>
 		<key>Frameworks/Reachability.framework/Info.plist</key>
@@ -787,7 +798,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Riwe45ts5Es112MrmYkU/jZ+IaouCdkJkHLdy4wDhk=
+			Ih0y8WXC8Kspoqs5z+WrPchQe7sJj/tlIV5aepokq+Y=
 			</data>
 		</dict>
 		<key>Frameworks/Reachability.framework/_CodeSignature/CodeResources</key>
@@ -808,7 +819,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ytd49YSf5dLeQZLn6a6Sfe/dIbFv7jYeRRsKSD4zHp4=
+			InNYolJCOZms6NOJgMm4QuwoMhssvR4xbRBq/SjNIMk=
 			</data>
 		</dict>
 		<key>Frameworks/SQLite.framework/_CodeSignature/CodeResources</key>
@@ -822,126 +833,126 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B9pHib8GUg7N9mQXFV+2v22pliszPXYSxl0+4skIj+w=
+			4Hnf2efO96FGa6rmzrvvmGDj2OFUt1oQ1szolFTI45E=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5YtpoRZyDsFy93RbRxtPmJW2UqpnDBdbTnm3iT3l3Ec=
+			ZfRShbgxlPNigV5pMzFGFKOK4RdUkztwR6IDZ+u/R0A=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreAudio.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xPv7DWRXcnE6QM6+A+9IlXGqLRoiRfkZTj/QHyZlFKU=
+			IdEki7E0fua28We4/yfTZgrNw/B69xNNv5rMIIdg5Mo=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreData.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ztX2USeRq4iPnS73VbIFZAup+fD4GKOZi/r+FLWH07g=
+			Y3G93bmChKK1zarNmwims2q/nc43Blg1mK/7e+XzKKE=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ktvvt4gHq1NFIdysSZ/mTBH7N6ZqdqYCfuAT+FmQ22s=
+			pFz/j/RmpuW9zljHi05jqCdHAXbnlJzSSFlalsbG9i8=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fUVoOw7gtyxOgIZOjqnKoMpKq492bN3lRJ1BxHSLQIY=
+			uRU1aIvQHSEFqt3k6j7RMuVxL3LxBzVhx5FVYKxoXNU=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AkxRVjf1MDYyI6umdmA6D8ZjnUQblJuc7RaINWtl7ls=
+			cXhO6YedQGrT2ohGuR5L37f/IEhAS9sXCbnwHjKTVbQ=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreMedia.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NzsuaFRHGt1tkp+2bIYO9vjg2966+XXW03FanP5H6QI=
+			RTqINMPVTMUdWkk6llm8H6N7pmHaqhk46RYX9tj8z4g=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rIXFeVms5r085DBV5TDomfw6DnnZpST5/aWL9wNDK4k=
+			BtqDi6LckiNm3QE9yYGbTmtj3sykE3cx3ChKpfxBZD8=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ij8JtFgcmxHUmnReQ/ZFs6gtTKM92daZNfQlFjhXnQ8=
+			sioT2g62Ybw4jMg5bIBVq627dJ/ZO2rBnPHK+2uNO0M=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0qDbaXpUyUBBcooxt9F+T8WYqaK7UQP38uBxbLBSj0c=
+			Mp7+vmGCiRsClIBi8E9IdHyIWvVYp6p2IWiouQvHIas=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftMetal.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			furS0IUPSg5plvrkbquy4MsIPmgifba5Vh/9gGqpBPA=
+			vj0o1/NLeAtuTkPCnu9AmuRWwJkHMY9HVCl0YUHIYLE=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0G8mcZmeIHS43p18GdAR92WzoBjELpnWkm5OblqQDEo=
+			F/oj8V0CTJDGb2zj0U1OI+W9iZp87uEZO0p2MGgbvho=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftQuartzCore.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AX+NykGV6NA2QX16Uomudl4gkKqBoKrvtS7lQUv2kRc=
+			TtzRzOWZe9ZVJW6FXJAZZZ0SSufprEACEtnrZqTtF2g=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xSeiCxwjl5QBrM33J28c48ef++yLAFD3XXPTGKko8T4=
+			jQi6eweHgKo2iUeEB2k3FjGH3rqJazw28TYQQgPZCaE=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BC2Y668VC61X/WYROpxB3NANy6kmsNGOhAV6yOrqUZk=
+			zfteD+GuNBeRah7bLhmpZQctOQUiUPzwo2h7H1eKtB4=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftos.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jz6fsPs0fXCfFaKFQCXtNn9jEWo99kG7gwOZ29PyIfQ=
+			HAKNHLmi1QAUQSwoxtsMJ2O45E/9Z69m8IeJcdr1HMw=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftsimd.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tn8OOrQS6RL874w6TbSnM98JCnGwbkdSkGVO3ovhAis=
+			oDLOQQZryF3Y+QoRAuplju+o9mQXLjR1WDnFQ5904gY=
 			</data>
 		</dict>
 		<key>awsconfiguration.json</key>

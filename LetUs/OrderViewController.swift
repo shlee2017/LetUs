@@ -27,6 +27,20 @@ class OrderViewController: UITableViewController{
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func cancel(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+        /*let isPresenting = presentingViewController is UINavigationController
+        
+        if isPresenting {
+            dismiss(animated: true, completion: nil)
+        }
+        else if let owningNavigationController = navigationController{
+            owningNavigationController.popViewController(animated: true)
+        }
+        else {
+            fatalError("The OrderViewController is not inside a navigation controller.")
+        }*/
+    }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return menuItems.count
