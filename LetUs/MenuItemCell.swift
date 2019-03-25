@@ -12,7 +12,6 @@ class MenuItemCell: UITableViewCell {
     
     // MARK: - IBOutlets
     @IBOutlet weak var nameLabel: UILabel!
-    @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     
     // MARK: - Properties
@@ -21,7 +20,6 @@ class MenuItemCell: UITableViewCell {
             guard let menuItem = menuItem else { return }
             
             nameLabel.text = menuItem.name
-            descriptionLabel.text = menuItem.description
             priceLabel.text = menuItem.price
         }
     }

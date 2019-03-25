@@ -12,6 +12,5 @@ struct MenuItem {
     
     // MARK: - Properties
     var name: String?
-    var description: String?
     var price: String?
 }
