@@ -11,6 +11,7 @@ import Foundation
 final class MenuData {
     
     static func generateMenuData(restaurant: Int) -> [[MenuItem]] {
+        // Chipotle
         if (restaurant == 0) {
             return [
                 [MenuItem(name: "Burrito", price: "$6.50"),
@@ -19,6 +20,7 @@ final class MenuData {
                 MenuItem(name: "Salad", price: "$5.00")]
             ]
         }
+        // Jerusalem Garden
         else if (restaurant == 1) {
             return [
                 [MenuItem(name: "Falafel Plate", price: "$8.50"),
@@ -99,6 +101,7 @@ final class MenuData {
                  MenuItem(name: "Bolthouse Smoothies", price: "$3.75")]
             ]
         }
+        // Pizza House
         else if (restaurant == 2) {
             return [
                 [MenuItem(name: "Three Cheese Nachoes", price: "$12.49"),
@@ -298,6 +301,7 @@ final class MenuData {
                  MenuItem(name: "Fudge Brownie or Chocolate Chip Cookie", price: "$2.95")]
             ]
         }
+        // Starbucks
         else if (restaurant == 3) {
             return [
                 [MenuItem(name: "Coffee", price: "$2.50"),
@@ -306,6 +310,7 @@ final class MenuData {
                  MenuItem(name: "Latte", price: "$3.50")]
             ]
         }
+        // Zingerman's Roadhouse
         else {
             return [
                 [MenuItem(name: "Food", price: "$5.00")]
@@ -314,13 +319,16 @@ final class MenuData {
     }
     
     static func generateSectionData(restaurant: Int) -> [String] {
+        // Chipotle
         if (restaurant == 0) {
             return ["Entree"]
         }
+        // Jerusalem Garden
         else if (restaurant == 1) {
             return ["Plates", "Sides", "Soup, Small Plates & Sampler Sides", "A La Carte",
             "Sandwiches", "Desserts", "Drinks"]
         }
+        // Pizza House
         else if (restaurant == 2) {
             return ["Appetizers", "Beverages, Shakes & Malts!", "From The Bar", "Chipati",
                     "Salad", "World Class Pizza", "Pasta Creations", "Sweet Stuff",
@@ -328,9 +336,11 @@ final class MenuData {
                     "Kids Meals"]
             
         }
+        // Starbucks
         else if (restaurant == 3) {
             return ["Drinks"]
         }
+        // Zingerman's Roadhouse
         else {
             return ["Entree"]
         }
