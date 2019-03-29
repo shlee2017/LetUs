@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>logFormatVersion</key>
-	<integer>9</integer>
+	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>54F2018A-0F67-4E44-9C43-6198B26B8879</key>
+		<key>ED53B242-27F3-490C-9C6D-CCA60E5662DE</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,19 +15,22 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>54F2018A-0F67-4E44-9C43-6198B26B8879.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>E</string>
+			<string>ED53B242-27F3-490C-9C6D-CCA60E5662DE.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>574912504.240201</real>
+			<real>575422232.25249803</real>
 			<key>timeStoppedRecording</key>
-			<real>574912506.119344</real>
+			<real>575422232.9052</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>54F2018A-0F67-4E44-9C43-6198B26B8879</string>
+			<string>ED53B242-27F3-490C-9C6D-CCA60E5662DE</string>
 		</dict>
 	</dict>
 </dict>

@@ -8,8 +8,6 @@ provides-nominal:
 provides-member:
 - ["5LetUs5TodosC", ""]
 - ["5LetUs18HomeViewControllerC", ""]
-- ["5LetUs18HomeViewControllerC", "tableView"]
-- ["5LetUs18HomeViewControllerC", "tableView"]
 provides-dynamic-lookup:
 - "prepare"
 - "tableView"
@@ -64,17 +62,9 @@ depends-member:
 - !private ["15AWSMobileClientAAC", "signOut"]
 - !private ["Sa", "count"]
 - !private ["Sa", "subscript"]
-- !private ["s13ArrayProtocolP", "count"]
-- !private ["s13ArrayProtocolP", "subscript"]
 - !private ["SK", "count"]
-- !private ["SK", "init"]
-- !private ["SK", "init"]
 - !private ["SK", "row"]
 - !private ["SK", "subscript"]
-- !private ["6SQLite7BindingP", "_getBuiltinLogicValue"]
-- !private ["6SQLite7BindingP", "init"]
-- !private ["6SQLite7BindingP", "init"]
-- !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["So15CALayerDelegateP", "dequeueReusableCell"]
 - !private ["So15CALayerDelegateP", "indexPathForSelectedRow"]
 - !private ["So15CALayerDelegateP", "restaurant"]
@@ -86,7 +76,6 @@ depends-member:
 - !private ["s7CVarArgP", "UIColor"]
 - !private ["s7CVarArgP", "UIImage"]
 - ["s7CVarArgP", ""]
-- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "async"]
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "dequeueReusableCell"]
@@ -110,13 +99,11 @@ depends-member:
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s7CVarArgP", "white"]
 - !private ["Sl", "count"]
-- !private ["Sl", "init"]
-- !private ["Sl", "init"]
 - !private ["Sl", "row"]
 - !private ["Sl", "subscript"]
-- !private ["SL", "init"]
-- !private ["SL", "init"]
 - !private ["SL", "row"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "AWSMobileClient"]
 - !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
@@ -148,14 +135,8 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "tableView"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s28CustomDebugStringConvertibleP", "white"]
-- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "count"]
 - !private ["s17CustomReflectableP", "indexPathForSelectedRow"]
-- !private ["s17CustomReflectableP", "init"]
-- !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "row"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "AWSMobileClient"]
@@ -166,7 +147,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UIColor"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
 - ["s23CustomStringConvertibleP", ""]
-- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "async"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
@@ -190,22 +170,18 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "tableView"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - !private ["s23CustomStringConvertibleP", "white"]
-- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
 - !private ["Se", "count"]
 - !private ["Se", "indexPathForSelectedRow"]
-- !private ["Se", "init"]
-- !private ["Se", "init"]
 - !private ["Se", "row"]
 - !private ["Se", "subscript"]
 - !private ["So18OS_dispatch_objectC", "async"]
 - !private ["So18OS_dispatch_objectC", "main"]
 - !private ["So17OS_dispatch_queueC", "async"]
 - !private ["So17OS_dispatch_queueC", "main"]
-- !private ["SE", "_getBuiltinLogicValue"]
 - !private ["SE", "count"]
 - !private ["SE", "indexPathForSelectedRow"]
-- !private ["SE", "init"]
-- !private ["SE", "init"]
 - !private ["SE", "row"]
 - !private ["SE", "subscript"]
 - !private ["SQ", "AWSMobileClient"]
@@ -216,7 +192,6 @@ depends-member:
 - !private ["SQ", "UIColor"]
 - !private ["SQ", "UIImage"]
 - ["SQ", ""]
-- !private ["SQ", "_getBuiltinLogicValue"]
 - !private ["SQ", "async"]
 - !private ["SQ", "count"]
 - !private ["SQ", "dequeueReusableCell"]
@@ -243,25 +218,12 @@ depends-member:
 - !private ["SQ", "viewDidLoad"]
 - !private ["SQ", "white"]
 - !private ["s5ErrorP", "localizedDescription"]
-- !private ["6SQLite11ExpressibleP", "_getBuiltinLogicValue"]
-- !private ["6SQLite11ExpressibleP", "init"]
-- !private ["6SQLite11ExpressibleP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
-- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "indexPathForSelectedRow"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["10AWSAppSync17GraphQLInputValueP", "_getBuiltinLogicValue"]
 - !private ["10AWSAppSync17GraphQLInputValueP", "count"]
 - !private ["10AWSAppSync17GraphQLInputValueP", "indexPathForSelectedRow"]
-- !private ["10AWSAppSync17GraphQLInputValueP", "init"]
-- !private ["10AWSAppSync17GraphQLInputValueP", "init"]
 - !private ["10AWSAppSync17GraphQLInputValueP", "subscript"]
 - !private ["SH", "AWSMobileClient"]
 - !private ["SH", "DispatchQueue"]
@@ -271,7 +233,6 @@ depends-member:
 - !private ["SH", "UIColor"]
 - !private ["SH", "UIImage"]
 - ["SH", ""]
-- !private ["SH", "_getBuiltinLogicValue"]
 - !private ["SH", "async"]
 - !private ["SH", "count"]
 - !private ["SH", "dequeueReusableCell"]
@@ -310,7 +271,7 @@ depends-member:
 - ["5LetUs18HomeViewControllerC", "UIStoryboardSegue"]
 - ["5LetUs18HomeViewControllerC", "UITableView"]
 - ["5LetUs18HomeViewControllerC", "UITableViewCell"]
-- !private ["5LetUs18HomeViewControllerC", "deinit"]
+- ["5LetUs18HomeViewControllerC", "deinit"]
 - ["5LetUs18HomeViewControllerC", "init"]
 - !private ["5LetUs18HomeViewControllerC", "navigationController"]
 - ["5LetUs18HomeViewControllerC", "prepare"]
@@ -319,24 +280,15 @@ depends-member:
 - ["5LetUs18HomeViewControllerC", "tableView"]
 - ["5LetUs18HomeViewControllerC", "viewDidLoad"]
 - !private ["10Foundation9IndexPathV", "row"]
-- !private ["10AWSAppSync13JSONDecodableP", "_getBuiltinLogicValue"]
-- !private ["10AWSAppSync13JSONDecodableP", "init"]
-- !private ["10AWSAppSync13JSONDecodableP", "init"]
-- !private ["10AWSAppSync13JSONEncodableP", "_getBuiltinLogicValue"]
 - !private ["10AWSAppSync13JSONEncodableP", "count"]
 - !private ["10AWSAppSync13JSONEncodableP", "indexPathForSelectedRow"]
-- !private ["10AWSAppSync13JSONEncodableP", "init"]
-- !private ["10AWSAppSync13JSONEncodableP", "init"]
 - !private ["10AWSAppSync13JSONEncodableP", "subscript"]
-- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["5LetUs18MenuViewControllerC", "restaurantSource"]
-- !private ["s10MirrorPathP", "init"]
-- !private ["s10MirrorPathP", "init"]
 - !private ["SM", "count"]
 - !private ["SM", "row"]
 - !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - !private ["So8NSCodingP", "AWSMobileClient"]
 - !private ["So8NSCodingP", "DispatchQueue"]
 - ["So8NSCodingP", "RestaurantData"]
@@ -453,8 +405,6 @@ depends-member:
 - !private ["Sk", "row"]
 - !private ["Sk", "subscript"]
 - !private ["Sm", "count"]
-- !private ["Sm", "init"]
-- !private ["Sm", "init"]
 - !private ["Sm", "subscript"]
 - !private ["SY", "signedIn"]
 - !private ["SY", "signedOut"]
@@ -462,25 +412,16 @@ depends-member:
 - !private ["5LetUs14RestaurantCellC", "restaurant"]
 - ["5LetUs14RestaurantDataC", "generateRestaurantData"]
 - !private ["ST", "count"]
-- !private ["ST", "init"]
-- !private ["ST", "init"]
 - !private ["ST", "row"]
 - !private ["ST", "subscript"]
 - !private ["15AWSMobileClient15SignInUIOptionsC", "init"]
-- !private ["SS", "init"]
-- !private ["SS", "init"]
-- !private ["Sy", "init"]
-- !private ["Sy", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s16TextOutputStreamP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
-- !private ["s20TextOutputStreamableP", "init"]
 - ["5LetUs5TodosC", "AWSAppSyncClient"]
 - !private ["5LetUs5TodosC", "AWSMobileClient"]
 - ["5LetUs5TodosC", "Bool"]
 - ["5LetUs5TodosC", "UIApplication"]
 - ["5LetUs5TodosC", "appSyncClient"]
 - ["5LetUs5TodosC", "application"]
+- ["5LetUs5TodosC", "deinit"]
 - ["5LetUs5TodosC", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
 - !private ["So29UIAccessibilityIdentificationP", "indexPathForSelectedRow"]
@@ -796,32 +737,19 @@ depends-member:
 - !private ["15AWSMobileClient28UserPoolAuthHelperlCallbacksP", "signOut"]
 - !private ["15AWSMobileClient9UserStateO", "signedIn"]
 - !private ["15AWSMobileClient9UserStateO", "signedOut"]
-- !private ["6SQLite5ValueP", "_getBuiltinLogicValue"]
-- !private ["6SQLite5ValueP", "init"]
-- !private ["6SQLite5ValueP", "init"]
 - !private ["So16_AWSMobileClientC", "initialize"]
 - !private ["So16_AWSMobileClientC", "interceptApplication"]
 - !private ["So16_AWSMobileClientC", "sharedInstance"]
 - !private ["So16_AWSMobileClientC", "showSignIn"]
 - !private ["So16_AWSMobileClientC", "signOut"]
-- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
-- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "indexPathForSelectedRow"]
-- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "restaurant"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
-- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s26_ExpressibleByColorLiteralP", "white"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AWSMobileClient"]
@@ -852,57 +780,46 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
-- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - !private ["s21_ObjectiveCBridgeableP", "indexPathForSelectedRow"]
-- !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "row"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["6SQLite13_OptionalTypeP", "indexPathForSelectedRow"]
-- !private ["s16_SwiftStringViewP", "init"]
-- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "indexPathForSelectedRow"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "restaurant"]
 depends-nominal:
 - !private "So29AWSCognitoCredentialsProviderC"
 - !private "So22AWSCredentialsProviderP"
 - !private "So26AWSIdentityProviderManagerP"
 - !private "15AWSMobileClientAAC"
 - !private "Sa"
-- !private "s13ArrayProtocolP"
 - !private "SK"
-- !private "6SQLite7BindingP"
-- !private "Sb"
 - !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - !private "Sl"
 - !private "SL"
+- !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
-- !private "s29CustomPlaygroundQuickLookableP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
 - !private "Se"
 - !private "So18OS_dispatch_objectC"
 - !private "So17OS_dispatch_queueC"
 - !private "SE"
 - "SQ"
 - !private "s5ErrorP"
-- !private "6SQLite11ExpressibleP"
 - !private "s25ExpressibleByArrayLiteralP"
-- !private "s27ExpressibleByBooleanLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "10AWSAppSync17GraphQLInputValueP"
 - "SH"
 - "5LetUs18HomeViewControllerC"
 - !private "10Foundation9IndexPathV"
-- !private "10AWSAppSync13JSONDecodableP"
 - !private "10AWSAppSync13JSONEncodableP"
-- !private "s25LosslessStringConvertibleP"
 - !private "5LetUs18MenuViewControllerC"
-- !private "s10MirrorPathP"
 - !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
 - !private "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
@@ -921,10 +838,6 @@ depends-nominal:
 - "5LetUs14RestaurantDataC"
 - !private "ST"
 - !private "15AWSMobileClient15SignInUIOptionsC"
-- !private "SS"
-- !private "Sy"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
 - "5LetUs5TodosC"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
@@ -961,27 +874,19 @@ depends-nominal:
 - "So16UIViewControllerC"
 - !private "15AWSMobileClient28UserPoolAuthHelperlCallbacksP"
 - !private "15AWSMobileClient9UserStateO"
-- !private "6SQLite5ValueP"
 - !private "So16_AWSMobileClientC"
-- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s14_ArrayProtocolP"
 - !private "s24_DestructorSafeContainerP"
-- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
-- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - !private "s21_ObjectiveCBridgeableP"
 - !private "6SQLite13_OptionalTypeP"
-- !private "s16_SwiftStringViewP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
 - "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSAppSync/AWSAppSync.framework/Modules/AWSAppSync.swiftmodule/arm64.swiftmodule"
 - "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/SQLite.swift/SQLite.framework/Modules/SQLite.swiftmodule/arm64.swiftmodule"
 - "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSMobileClient/AWSMobileClient.framework/Modules/AWSMobileClient.swiftmodule/arm64.swiftmodule"
@@ -1135,21 +1040,23 @@ depends-external:
 - "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSMobileClient/AWSMobileClient.framework/Modules/module.modulemap"
 - "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/AWSPinpoint/AWSPinpoint.framework/Modules/module.modulemap"
 - "/Users/sangheonlee/Desktop/LetUs/DerivedData/LetUs/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
-- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "7e4fc51346d6d0897e1bd69afa8f8d9d"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/StoreKit.framework/Headers/StoreKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "547d27a460eb0adebb34a7566ab9b95e"
