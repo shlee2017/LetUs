@@ -7,18 +7,18 @@
 	<string>CommonCrypto</string>
 	<string>objc</string>
 	<string>SQLite3</string>
-	<string>the</string>
 	<string>AWSCognitoIdentityProvider</string>
+	<string>the</string>
 	<string>SQLiteObjc</string>
 	<string>AWSMobileClient</string>
-	<string>CSQLite</string>
-	<string>CoreData</string>
 	<string>AWSAuthCore</string>
-	<string>arpa</string>
+	<string>CSQLite</string>
 	<string>LetUs</string>
-	<string>AWSCore</string>
-	<string>sys</string>
+	<string>arpa</string>
 	<string>sqlite3</string>
+	<string>sys</string>
+	<string>AWSCore</string>
+	<string>CoreData</string>
 	<string>CoreServices</string>
 	<string>SQLite</string>
 	<string>dispatch</string>
