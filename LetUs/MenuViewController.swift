@@ -30,7 +30,8 @@ class MenuViewController: UITableViewController {
         if let indexPath = tableView.indexPathForSelectedRow {
             let vc = segue.destination as? CustomizationViewController
             vc?.restaurantSource = restaurantSource
-            vc?.menuSource = indexPath.row
+            vc?.sourceSection = indexPath.section
+            vc?.sourceRow = indexPath.row
         }
     }
     

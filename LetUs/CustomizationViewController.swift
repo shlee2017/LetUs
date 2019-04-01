@@ -11,7 +11,8 @@ import UIKit
 class CustomizationViewController: UITableViewController {
 
     var restaurantSource:Int = 0
-    var menuSource:Int = 0
+    var sourceSection:Int = 0
+    var sourceRow:Int = 0
     var customizations:[[CustomizationItem]] = [[]]
     var sectionItems:[SectionItem] = []
     var selectedItems:[[CustomizationItem]] = [[]]
@@ -21,8 +22,8 @@ class CustomizationViewController: UITableViewController {
         
         tableView.tableFooterView = UIView()
         
-        customizations = CustomizationData.generateCustomizationData(restaurant: restaurantSource, menu: menuSource)
-        sectionItems = CustomizationData.generateSectionData(restaurant: restaurantSource, menu: menuSource)
+        customizations = CustomizationData.generateCustomizationData(restaurant: restaurantSource, section: sourceSection, row: sourceRow)
+        sectionItems = CustomizationData.generateSectionData(restaurant: restaurantSource, section: sourceSection, row: sourceRow)
         selectedItems = Array(repeating:[CustomizationItem](), count:sectionItems.count)
     }
     
@@ -45,9 +46,35 @@ class CustomizationViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CustomizationCell",
                                                  for: indexPath) as! CustomizationCell
         
-        let cust = customizations[indexPath.section][indexPath.row]
-        cell.customization = cust
+        let item = customizations[indexPath.section][indexPath.row]
+        cell.customization = item
         
         return cell
+    }
+    
+    // Action for pressing button
+    @IBAction func buttonPressed(_ sender: CheckBox) {
+        let touchPoint = sender.convert(CGPoint.zero, to: self.tableView)
+        var clickedButtonIndexPath = self.tableView.indexPathForRow(at: touchPoint)
+        
+        let cellSection = clickedButtonIndexPath!.section // pressed section
+        let cellRow = clickedButtonIndexPath!.row // pressed row
+        let item = customizations[cellSection][cellRow] // pressed item
+        
+        // Remove item if in selectedItems list
+        if let i = selectedItems[cellSection].firstIndex(where:{$0.name == item.name}) {
+            selectedItems[cellSection].remove(at: i)
+        }
+        // Add item if in selectedItems list
+        else {
+            // Only add item if less than limit for section
+            if selectedItems[cellSection].count < sectionItems[cellSection].limit {
+                selectedItems[cellSection].append(item)
+            }
+            else {
+                sender.isChecked = true
+            }
+        }
+        
     }
 }

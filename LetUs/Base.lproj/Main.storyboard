@@ -302,6 +302,9 @@
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="30" id="y5q-TS-G0e"/>
                                                     </constraints>
+                                                    <connections>
+                                                        <action selector="buttonPressed:" destination="Nyb-YS-cQV" eventType="touchUpInside" id="xAW-H6-Fjy"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDl-El-JXC">
                                                     <rect key="frame" x="38" y="0.0" width="258" height="30.5"/>
