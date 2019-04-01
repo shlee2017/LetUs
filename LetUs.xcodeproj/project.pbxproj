@@ -19,6 +19,7 @@
 		1424F27F22518F2200F8F4E7 /* CustomizationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424F27E22518F2200F8F4E7 /* CustomizationCell.swift */; };
 		1424F2812251907100F8F4E7 /* CustomizationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424F2802251907100F8F4E7 /* CustomizationItem.swift */; };
 		1424F2832251907F00F8F4E7 /* SectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424F2822251907F00F8F4E7 /* SectionItem.swift */; };
+		1424F28522519C2F00F8F4E7 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424F28422519C2F00F8F4E7 /* CheckBox.swift */; };
 		146683082249C3A000269C3F /* CustomizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146683072249C3A000269C3F /* CustomizationViewController.swift */; };
 		1466830A2249C42000269C3F /* CustomizationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146683092249C42000269C3F /* CustomizationData.swift */; };
 		14D054AB2210C83B008806F5 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D054AA2210C83B008806F5 /* RestaurantCell.swift */; };
@@ -59,6 +60,7 @@
 		1424F27E22518F2200F8F4E7 /* CustomizationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationCell.swift; sourceTree = "<group>"; };
 		1424F2802251907100F8F4E7 /* CustomizationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationItem.swift; sourceTree = "<group>"; };
 		1424F2822251907F00F8F4E7 /* SectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionItem.swift; sourceTree = "<group>"; };
+		1424F28422519C2F00F8F4E7 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		146683072249C3A000269C3F /* CustomizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationViewController.swift; sourceTree = "<group>"; };
 		146683092249C42000269C3F /* CustomizationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationData.swift; sourceTree = "<group>"; };
 		14D054AA2210C83B008806F5 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				14124266223A1BB60011E813 /* MenuData.swift */,
 				146683072249C3A000269C3F /* CustomizationViewController.swift */,
 				1424F27E22518F2200F8F4E7 /* CustomizationCell.swift */,
+				1424F28422519C2F00F8F4E7 /* CheckBox.swift */,
 				1424F2802251907100F8F4E7 /* CustomizationItem.swift */,
 				1424F2822251907F00F8F4E7 /* SectionItem.swift */,
 				146683092249C42000269C3F /* CustomizationData.swift */,
@@ -378,6 +381,7 @@
 				2D2D7B7D224472E300A49566 /* OrderViewController.swift in Sources */,
 				146683082249C3A000269C3F /* CustomizationViewController.swift in Sources */,
 				1412429B223F58EF0011E813 /* SettingsViewController.swift in Sources */,
+				1424F28522519C2F00F8F4E7 /* CheckBox.swift in Sources */,
 				14124263223A1AAD0011E813 /* MenuViewController.swift in Sources */,
 				1466830A2249C42000269C3F /* CustomizationData.swift in Sources */,
 				0C4CDF0E2220697300E3961C /* Constants.swift in Sources */,
