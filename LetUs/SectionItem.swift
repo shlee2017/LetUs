@@ -12,5 +12,5 @@ struct SectionItem {
     
     // MARK: - Properties
     var section: String?
-    var multiple: Bool
+    var limit: Int
 }

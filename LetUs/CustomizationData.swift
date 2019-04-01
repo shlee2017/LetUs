@@ -30,8 +30,8 @@ final class CustomizationData {
         // Jerusalem Garden
         if (restaurant == 1) {
             if (menu == 0) {
-                return [SectionItem(section:"Size", multiple:true),
-                        SectionItem(section:"Toppings", multiple:false)]
+                return [SectionItem(section:"Size", limit:1),
+                        SectionItem(section:"Toppings", limit:3)]
             }
         }
         return []

@@ -14,6 +14,7 @@ class CustomizationViewController: UITableViewController {
     var menuSource:Int = 0
     var customizations:[[CustomizationItem]] = [[]]
     var sectionItems:[SectionItem] = []
+    var selectedItems:[[CustomizationItem]] = [[]]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,7 @@ class CustomizationViewController: UITableViewController {
         
         customizations = CustomizationData.generateCustomizationData(restaurant: restaurantSource, menu: menuSource)
         sectionItems = CustomizationData.generateSectionData(restaurant: restaurantSource, menu: menuSource)
+        selectedItems = Array(repeating:[CustomizationItem](), count:sectionItems.count)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -45,17 +47,7 @@ class CustomizationViewController: UITableViewController {
         
         let cust = customizations[indexPath.section][indexPath.row]
         cell.customization = cust
+        
         return cell
     }
-    
-    /* Checkmark
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if (tableView.cellForRow(at: indexPath)?.accessoryType == UITableViewCell.AccessoryType.checkmark){
-            tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.none
-        }
-        else{
-            tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.checkmark
-        }
-    }
- */
 }
