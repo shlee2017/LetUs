@@ -12,8 +12,8 @@ class CustomizationViewController: UITableViewController {
 
     var restaurantSource:Int = 0
     var menuSource:Int = 0
-    var customizations:[[String]] = [[]]
-    var sectionItems:[CustItem] = []
+    var customizations:[[CustomizationItem]] = [[]]
+    var sectionItems:[SectionItem] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,13 +41,14 @@ class CustomizationViewController: UITableViewController {
     override func tableView(_ tableView: UITableView,
                             cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CustomizationCell",
-                                                 for: indexPath) as UITableViewCell
+                                                 for: indexPath) as! CustomizationCell
         
         let cust = customizations[indexPath.section][indexPath.row]
-        cell.textLabel?.text = cust
+        cell.customization = cust
         return cell
     }
     
+    /* Checkmark
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if (tableView.cellForRow(at: indexPath)?.accessoryType == UITableViewCell.AccessoryType.checkmark){
             tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.none
@@ -56,4 +57,5 @@ class CustomizationViewController: UITableViewController {
             tableView.cellForRow(at: indexPath)?.accessoryType = UITableViewCell.AccessoryType.checkmark
         }
     }
+ */
 }

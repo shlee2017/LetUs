@@ -1,16 +1,16 @@
 //
-//  CustItem.swift
+//  SectionItem.swift
 //  LetUs
 //
-//  Created by Sean Lu on 3/25/19.
+//  Created by Sean Lu on 3/31/19.
 //  Copyright © 2019 Ethan Lee. All rights reserved.
 //
 
 import Foundation
 
-struct CustItem {
+struct SectionItem {
     
     // MARK: - Properties
     var section: String?
-    var isCheck: Bool
+    var multiple: Bool
 }

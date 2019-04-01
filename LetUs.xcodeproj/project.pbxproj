@@ -16,9 +16,11 @@
 		141660C122078D650066CDF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141660C022078D650066CDF5 /* HomeViewController.swift */; };
 		141660C322078E650066CDF5 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141660C222078E650066CDF5 /* Restaurant.swift */; };
 		141660C5220791560066CDF5 /* RestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141660C4220791560066CDF5 /* RestaurantData.swift */; };
+		1424F27F22518F2200F8F4E7 /* CustomizationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424F27E22518F2200F8F4E7 /* CustomizationCell.swift */; };
+		1424F2812251907100F8F4E7 /* CustomizationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424F2802251907100F8F4E7 /* CustomizationItem.swift */; };
+		1424F2832251907F00F8F4E7 /* SectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424F2822251907F00F8F4E7 /* SectionItem.swift */; };
 		146683082249C3A000269C3F /* CustomizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146683072249C3A000269C3F /* CustomizationViewController.swift */; };
 		1466830A2249C42000269C3F /* CustomizationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146683092249C42000269C3F /* CustomizationData.swift */; };
-		1466830C2249C4C900269C3F /* CustItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1466830B2249C4C900269C3F /* CustItem.swift */; };
 		14D054AB2210C83B008806F5 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D054AA2210C83B008806F5 /* RestaurantCell.swift */; };
 		2D246C892204A7C800166E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246C882204A7C800166E8A /* AppDelegate.swift */; };
 		2D246C8E2204A7C800166E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D246C8C2204A7C800166E8A /* Main.storyboard */; };
@@ -54,9 +56,11 @@
 		141660C022078D650066CDF5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		141660C222078E650066CDF5 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		141660C4220791560066CDF5 /* RestaurantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantData.swift; sourceTree = "<group>"; };
+		1424F27E22518F2200F8F4E7 /* CustomizationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationCell.swift; sourceTree = "<group>"; };
+		1424F2802251907100F8F4E7 /* CustomizationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationItem.swift; sourceTree = "<group>"; };
+		1424F2822251907F00F8F4E7 /* SectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionItem.swift; sourceTree = "<group>"; };
 		146683072249C3A000269C3F /* CustomizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationViewController.swift; sourceTree = "<group>"; };
 		146683092249C42000269C3F /* CustomizationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationData.swift; sourceTree = "<group>"; };
-		1466830B2249C4C900269C3F /* CustItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustItem.swift; sourceTree = "<group>"; };
 		14D054AA2210C83B008806F5 /* RestaurantCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
 		2D246C852204A7C800166E8A /* LetUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D246C882204A7C800166E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +76,7 @@
 		2D6349282210CACD00AE5E77 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 		2D7087BC224025B4002751B0 /* letus-operations.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = "letus-operations.graphql"; sourceTree = "<group>"; };
 		2D7087C022402E11002751B0 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = SOURCE_ROOT; };
-		2D7087C622403FEE002751B0 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		2D7087C622403FEE002751B0 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = LetUs/awsconfiguration.json; sourceTree = SOURCE_ROOT; };
 		439BAD3B37C80CCB46AFC7AF /* Pods-LetUs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetUs.debug.xcconfig"; path = "Target Support Files/Pods-LetUs/Pods-LetUs.debug.xcconfig"; sourceTree = "<group>"; };
 		827FEDE66FAD50D4E4F95014 /* Pods_LetUs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetUs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA01966F0970E489C1BC8853 /* Pods-LetUs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LetUs.release.xcconfig"; path = "Target Support Files/Pods-LetUs/Pods-LetUs.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,25 +134,27 @@
 			children = (
 				2D7087BB22402572002751B0 /* GraphQLOperations */,
 				2D246C882204A7C800166E8A /* AppDelegate.swift */,
-				2D7087C622403FEE002751B0 /* awsconfiguration.json */,
-				2D2D7B7C224472E300A49566 /* OrderViewController.swift */,
-				2D6349282210CACD00AE5E77 /* QRScannerController.swift */,
-				141660C022078D650066CDF5 /* HomeViewController.swift */,
-				14124262223A1AAD0011E813 /* MenuViewController.swift */,
-				2D246C8C2204A7C800166E8A /* Main.storyboard */,
-				146683092249C42000269C3F /* CustomizationData.swift */,
-				1466830B2249C4C900269C3F /* CustItem.swift */,
-				146683072249C3A000269C3F /* CustomizationViewController.swift */,
-				1412429A223F58EF0011E813 /* SettingsViewController.swift */,
-				14124268223A215D0011E813 /* MenuItemCell.swift */,
-				14124266223A1BB60011E813 /* MenuData.swift */,
-				14124264223A1AE90011E813 /* MenuItem.swift */,
-				141660C4220791560066CDF5 /* RestaurantData.swift */,
-				141660C222078E650066CDF5 /* Restaurant.swift */,
-				14D054AA2210C83B008806F5 /* RestaurantCell.swift */,
-				0C4CDF0D2220697300E3961C /* Constants.swift */,
-				2D246CAA2204B22400166E8A /* CustomTabBar.swift */,
 				2D7087C022402E11002751B0 /* API.swift */,
+				0C4CDF0D2220697300E3961C /* Constants.swift */,
+				2D7087C622403FEE002751B0 /* awsconfiguration.json */,
+				2D246C8C2204A7C800166E8A /* Main.storyboard */,
+				2D246CAA2204B22400166E8A /* CustomTabBar.swift */,
+				141660C022078D650066CDF5 /* HomeViewController.swift */,
+				14D054AA2210C83B008806F5 /* RestaurantCell.swift */,
+				141660C222078E650066CDF5 /* Restaurant.swift */,
+				141660C4220791560066CDF5 /* RestaurantData.swift */,
+				14124262223A1AAD0011E813 /* MenuViewController.swift */,
+				14124268223A215D0011E813 /* MenuItemCell.swift */,
+				14124264223A1AE90011E813 /* MenuItem.swift */,
+				14124266223A1BB60011E813 /* MenuData.swift */,
+				146683072249C3A000269C3F /* CustomizationViewController.swift */,
+				1424F27E22518F2200F8F4E7 /* CustomizationCell.swift */,
+				1424F2802251907100F8F4E7 /* CustomizationItem.swift */,
+				1424F2822251907F00F8F4E7 /* SectionItem.swift */,
+				146683092249C42000269C3F /* CustomizationData.swift */,
+				2D6349282210CACD00AE5E77 /* QRScannerController.swift */,
+				2D2D7B7C224472E300A49566 /* OrderViewController.swift */,
+				1412429A223F58EF0011E813 /* SettingsViewController.swift */,
 				2D246C8F2204A7C800166E8A /* Assets.xcassets */,
 				2D246C912204A7C800166E8A /* LaunchScreen.storyboard */,
 				2D246C942204A7C800166E8A /* Info.plist */,
@@ -356,15 +362,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				14D054AB2210C83B008806F5 /* RestaurantCell.swift in Sources */,
-				1466830C2249C4C900269C3F /* CustItem.swift in Sources */,
 				141660C322078E650066CDF5 /* Restaurant.swift in Sources */,
 				14124269223A215D0011E813 /* MenuItemCell.swift in Sources */,
 				14124267223A1BB60011E813 /* MenuData.swift in Sources */,
 				141660C5220791560066CDF5 /* RestaurantData.swift in Sources */,
+				1424F27F22518F2200F8F4E7 /* CustomizationCell.swift in Sources */,
 				2D246CAB2204B22400166E8A /* CustomTabBar.swift in Sources */,
 				2D7087C122402E11002751B0 /* API.swift in Sources */,
 				2D246C892204A7C800166E8A /* AppDelegate.swift in Sources */,
+				1424F2812251907100F8F4E7 /* CustomizationItem.swift in Sources */,
 				2D6349292210CACE00AE5E77 /* QRScannerController.swift in Sources */,
+				1424F2832251907F00F8F4E7 /* SectionItem.swift in Sources */,
 				14124265223A1AE90011E813 /* MenuItem.swift in Sources */,
 				141660C122078D650066CDF5 /* HomeViewController.swift in Sources */,
 				2D2D7B7D224472E300A49566 /* OrderViewController.swift in Sources */,

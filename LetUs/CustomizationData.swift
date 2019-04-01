@@ -10,25 +10,28 @@ import Foundation
 
 final class CustomizationData {
     
-    static func generateCustomizationData(restaurant: Int, menu: Int) -> [[String]] {
+    static func generateCustomizationData(restaurant: Int, menu: Int) -> [[CustomizationItem]] {
         // Jerusalem Garden
         if (restaurant == 1) {
             if (menu == 0) {
                 return [
-                    ["Medium", "Large"],
-                    ["Pepperoni", "Sausage", "Bacon"]
+                    [CustomizationItem(name:"Medium", price: "+$0.00"),
+                     CustomizationItem(name:"Large", price: "+$1.00")],
+                    [CustomizationItem(name:"Pepperoni", price: "+$1.25"),
+                     CustomizationItem(name:"Sausage", price: "+$1.50"),
+                    CustomizationItem(name:"Bacon", price: "+$1.75")]
                 ]
             }
         }
         return [[]]
     }
     
-    static func generateSectionData(restaurant: Int, menu: Int) -> [CustItem] {
+    static func generateSectionData(restaurant: Int, menu: Int) -> [SectionItem] {
         // Jerusalem Garden
         if (restaurant == 1) {
             if (menu == 0) {
-                return [CustItem(section:"Size", isCheck:true),
-                        CustItem(section:"Toppings", isCheck:false)]
+                return [SectionItem(section:"Size", multiple:true),
+                        SectionItem(section:"Toppings", multiple:false)]
             }
         }
         return []
