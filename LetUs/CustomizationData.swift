@@ -11,29 +11,34 @@ import Foundation
 final class CustomizationData {
     
     static func generateCustomizationData(restaurant: Int, section: Int, row: Int) -> [[CustomizationItem]] {
-        // Pizza House
-        if (restaurant == 2) {
-            if (section == 0 && row == 3) {
+        // Panera
+        if (restaurant == 1) {
+            if (section == 2 && row == 3) {
                 return [
-                    [CustomizationItem(name:"Half (4)", price: ""),
-                     CustomizationItem(name:"Full (8)", price: "+$5.00"),
-                     CustomizationItem(name:"Double (16)", price: "+$8.00"),
-                     CustomizationItem(name:"Family (21)", price: "+$15.00")],
-                    [CustomizationItem(name:"Ranch", price: ""),
-                     CustomizationItem(name:"Bleu cheese", price: "")]
+                    [CustomizationItem(name:"Half", price: ""),
+                     CustomizationItem(name:"Whole", price: "+$2.50")],
+                    [CustomizationItem(name:"Honey Wheat", price: ""),
+                     CustomizationItem(name:"Whole Grain", price: ""),
+                     CustomizationItem(name:"Classic White", price: "")],
+                    [CustomizationItem(name:"French Baguette", price: ""),
+                     CustomizationItem(name:"Apple", price: ""),
+                     CustomizationItem(name:"Summer Fruit Cup", price: "+$1.99"),
+                     CustomizationItem(name:"Chips", price: ""),
+                     CustomizationItem(name:"Sprouted Whole Grain Roll", price: "")]
                 ]
             }
         }
-        return [[]]
+        return []
     }
     
     static func generateSectionData(restaurant: Int, section: Int, row: Int) -> [SectionItem] {
-        // Pizza House
-        if (restaurant == 2) {
-            if (section == 0 && row == 3) {
+        // Panera
+        if (restaurant == 1) {
+            if (section == 2 && row == 3) {
                 return [
                     SectionItem(section:"Size", limit:1),
-                    SectionItem(section:"Sauce", limit:1)
+                    SectionItem(section:"Bread", limit:1),
+                    SectionItem(section:"Side", limit:1)
                 ]
             }
         }

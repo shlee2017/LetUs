@@ -337,6 +337,61 @@
                                     <outlet property="priceLabel" destination="FeG-7n-Lpr" id="QAl-kh-DgQ"/>
                                 </connections>
                             </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" shouldIndentWhileEditing="NO" reuseIdentifier="NotesCell" id="zpX-a1-wLG" customClass="NotesCell" customModule="LetUs" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="118" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zpX-a1-wLG" id="2jw-ct-TLN">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" alwaysBounceHorizontal="YES" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JU3-3M-9iu">
+                                            <rect key="frame" x="20" y="10" width="374" height="200.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="200" id="Ggx-In-wqh"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="JU3-3M-9iu" secondAttribute="trailing" constant="20" id="KMM-bM-O6D"/>
+                                        <constraint firstAttribute="bottom" secondItem="JU3-3M-9iu" secondAttribute="bottom" constant="10" id="POw-kA-nSO"/>
+                                        <constraint firstItem="JU3-3M-9iu" firstAttribute="top" secondItem="2jw-ct-TLN" secondAttribute="top" constant="10" id="Wlp-1z-A4Z"/>
+                                        <constraint firstItem="JU3-3M-9iu" firstAttribute="leading" secondItem="2jw-ct-TLN" secondAttribute="leading" constant="20" id="pHc-1M-RUB"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="textBox" destination="JU3-3M-9iu" id="sZo-Bw-4eL"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddCell" rowHeight="70" id="fwX-HZ-Z7v">
+                                <rect key="frame" x="0.0" y="162" width="414" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fwX-HZ-Z7v" id="WbK-fR-jRQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="69.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3o-K6-5GT">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="70.5"/>
+                                            <color key="backgroundColor" red="0.34917548300000001" green="0.70622175929999997" blue="0.1542115211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="70" id="bUM-BG-GHO"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <state key="normal" title="Add to Cart">
+                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            </state>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="M3o-K6-5GT" firstAttribute="leading" secondItem="WbK-fR-jRQ" secondAttribute="leading" id="C3R-Le-OMk"/>
+                                        <constraint firstAttribute="bottom" secondItem="M3o-K6-5GT" secondAttribute="bottom" id="K5b-1s-l4M"/>
+                                        <constraint firstAttribute="trailing" secondItem="M3o-K6-5GT" secondAttribute="trailing" id="RIH-ug-vF9"/>
+                                        <constraint firstItem="M3o-K6-5GT" firstAttribute="top" secondItem="WbK-fR-jRQ" secondAttribute="top" id="duR-g3-sWF"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
                         </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="Nyb-YS-cQV" id="gsM-z0-W88"/>

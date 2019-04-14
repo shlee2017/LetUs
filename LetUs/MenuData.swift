@@ -15,13 +15,48 @@ final class MenuData {
         if (restaurant == 0) {
             return [
                 [MenuItem(name: "Burrito", price: "$6.50"),
-                MenuItem(name: "Burrito Bowl", price: "$6.50"),
-                MenuItem(name: "Taco", price: "$3.00"),
-                MenuItem(name: "Salad", price: "$5.00")]
+                 MenuItem(name: "Burrito Bowl", price: "$6.50"),
+                 MenuItem(name: "Taco", price: "$3.00"),
+                 MenuItem(name: "Salad", price: "$5.00")]
+            ]
+        }
+        // Panera
+        if (restaurant == 1) {
+            return [
+                [MenuItem(name: "Summer Corn Chowder", price: "$4.79"),
+                 MenuItem(name: "Ten Vegetable Soup", price: "$4.79"),
+                 MenuItem(name: "Chicken Noddle Soup", price: "$4.79"),
+                 MenuItem(name: "Broccoli Cheddar Soup", price: "$4.79"),
+                 MenuItem(name: "Vegeterian Creamy Tomato Soup", price: "$4.79"),
+                 MenuItem(name: "Cream of Chicken & Wild Rice Soup", price: "$4.79"),
+                 MenuItem(name: "Bistro French Onion Soup", price: "$4.79")],
+                [MenuItem(name: "Mac & Cheese", price: "$5.19"),
+                 MenuItem(name: "Bacon Mac & Cheese", price: "$5.99"),
+                 MenuItem(name: "BBQ Chicken Mac & Cheese", price: "$5.99"),
+                 MenuItem(name: "Baja Mac & Cheese", price: "$5.99"),
+                 MenuItem(name: "Build Your Own Mac & Cheese", price: "$6.49")],
+                [MenuItem(name: "Toasted Tuscan Grilled Chicken", price: "$6.89"),
+                 MenuItem(name: "Roasted Turkey & Avocado BLT", price: "$7.09"),
+                 MenuItem(name: "Cuban Sandwich", price: "$6.89"),
+                 MenuItem(name: "Chipotle Chicken Avocado Melt", price: "$6.39"),
+                 MenuItem(name: "Bacon Tomato Grilled Cheese", price: "$5.99"),
+                 MenuItem(name: "Roasted Turkey, Apple & Cheddar", price: "$6.89"),
+                 MenuItem(name: "Steak & White Cheddar Panini", price: "$7.09"),
+                 MenuItem(name: "Steak & Argula Sandwich", price: "$7.09"),
+                 MenuItem(name: "Modern Caprese Sandwich", price: "$6.89"),
+                 MenuItem(name: "Frontega Chicken Panini", price: "$5.99"),
+                 MenuItem(name: "Bacon Turkey Bravo Sandwich", price: "$5.99"),
+                 MenuItem(name: "Napa Almond Chicken Salad", price: "$5.69"),
+                 MenuItem(name: "Four Cheese Grilled Sandwich", price: "$5.19"),
+                 MenuItem(name: "Classic Grilled Cheese", price: "$5.19"),
+                 MenuItem(name: "Heritage Ham & Swiss", price: "$5.19"),
+                 MenuItem(name: "Tuna Salad Sandwich", price: "$5.19"),
+                 MenuItem(name: "Turkey Sandwich", price: "$5.19"),
+                 MenuItem(name: "Mediterranean Veggie", price: "$5.19")]
             ]
         }
         // Jerusalem Garden
-        else if (restaurant == 1) {
+        else if (restaurant == 2) {
             return [
                 [MenuItem(name: "Falafel Plate", price: "$8.50"),
                  MenuItem(name: "Chicken Shawarma Plate", price: "$12.50"),
@@ -102,7 +137,7 @@ final class MenuData {
             ]
         }
         // Pizza House
-        else if (restaurant == 2) {
+        else if (restaurant == 3) {
             return [
                 [MenuItem(name: "Three Cheese Nachoes", price: "$12.49"),
                  MenuItem(name: "Capri Tomato and Fresh Mozzerella", price: "$9.49"),
@@ -302,7 +337,7 @@ final class MenuData {
             ]
         }
         // Starbucks
-        else if (restaurant == 3) {
+        else if (restaurant == 4) {
             return [
                 [MenuItem(name: "Coffee", price: "$2.50"),
                  MenuItem(name: "Macchiato", price: "$3.00"),
@@ -323,13 +358,17 @@ final class MenuData {
         if (restaurant == 0) {
             return ["Entree"]
         }
+        // Panera
+        if (restaurant == 1) {
+            return ["Soups", "Mac", "Sandwiches"]
+        }
         // Jerusalem Garden
-        else if (restaurant == 1) {
+        else if (restaurant == 2) {
             return ["Plates", "Sides", "Soup, Small Plates & Sampler Sides", "A La Carte",
             "Sandwiches", "Desserts", "Drinks"]
         }
         // Pizza House
-        else if (restaurant == 2) {
+        else if (restaurant == 3) {
             return ["Appetizers", "Beverages, Shakes & Malts!", "From The Bar", "Chipati",
                     "Salad", "World Class Pizza", "Pasta Creations", "Sweet Stuff",
                     "Burgers & Chicken Sandwiches", "Daily Lunch Specials", "Subs, Deli, & Premium Sandwiches",
@@ -337,7 +376,7 @@ final class MenuData {
             
         }
         // Starbucks
-        else if (restaurant == 3) {
+        else if (restaurant == 4) {
             return ["Drinks"]
         }
         // Zingerman's Roadhouse
