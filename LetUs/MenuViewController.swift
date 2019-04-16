@@ -25,15 +25,7 @@ class MenuViewController: UITableViewController {
         sectionItems = MenuData.generateSectionData(restaurant: restaurantSource)
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
-    {
-        if let indexPath = tableView.indexPathForSelectedRow {
-            let vc = segue.destination as? CustomizationViewController
-            vc?.restaurantSource = restaurantSource
-            vc?.sourceSection = indexPath.section
-            vc?.sourceRow = indexPath.row
-        }
-    }
+    
     
     // MARK: - Table view data source
     

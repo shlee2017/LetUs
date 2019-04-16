@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E40AE155BE53BCE955D1B94AC6FFEBD1E36EE8E6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E40AE155BE53BCE955D1B94AC6FFEBD1E36EE8E6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "03C4B5E2-D35F-43CA-97D3-E08AA2487A85",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E40AE155BE53BCE955D1B94AC6FFEBD1E36EE8E6" : "LetUs\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LetUs",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LetUs.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shlee2017\/LetUs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E40AE155BE53BCE955D1B94AC6FFEBD1E36EE8E6"
+    }
+  ]
+}
