@@ -381,6 +381,9 @@
                                             <state key="normal" title="Add to Cart">
                                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                             </state>
+                                            <connections>
+                                                <action selector="addCart:" destination="Nyb-YS-cQV" eventType="touchUpInside" id="MEJ-KV-AX6"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -462,6 +465,11 @@
                                 <action selector="cancel:" destination="6b6-px-Qy7" id="4Rs-df-UjX"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Help" id="4V5-Fg-w5c">
+                            <connections>
+                                <segue destination="Z7G-kk-iGO" kind="show" id="dMK-J1-OWu"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dRW-tB-4OU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -521,7 +529,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0SC-y3-OMz">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.34917548300000001" green="0.70622175929999997" blue="0.1542115211" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.34901960784313724" green="0.70588235294117641" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -570,6 +578,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BV7-YO-K3o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1495.6521739130435" y="-137.27678571428569"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="Lrk-j1-uL6">
+            <objects>
+                <tableViewController id="Z7G-kk-iGO" customClass="HelpViewController" customModule="LetUs" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="yaE-Kz-W8u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HelpViewCell" rowHeight="90" id="nCS-E6-gqm" customClass="HelpViewCell" customModule="LetUs" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nCS-E6-gqm" id="5aT-C5-JmX" customClass="HelpViewCell" customModule="LetUs" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02K-hn-TM0">
+                                            <rect key="frame" x="20" y="34" width="374" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="request" destination="02K-hn-TM0" id="iOS-S8-u0d"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Z7G-kk-iGO" id="ymZ-L6-33H"/>
+                            <outlet property="delegate" destination="Z7G-kk-iGO" id="5gs-vL-m2Q"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Title" id="LzD-fG-XNP">
+                        <barButtonItem key="rightBarButtonItem" title="Request" id="qc5-qI-dDs">
+                            <connections>
+                                <action selector="requestButton:" destination="Z7G-kk-iGO" id="kNe-Vv-8Wa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YCK-7R-5uO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3269.5652173913045" y="-137.27678571428569"/>
         </scene>
     </scenes>
     <resources>

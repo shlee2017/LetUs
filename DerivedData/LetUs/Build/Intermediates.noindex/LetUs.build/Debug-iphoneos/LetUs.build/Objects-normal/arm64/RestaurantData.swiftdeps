@@ -9,7 +9,6 @@ provides-dynamic-lookup:
 depends-top-level:
 - "Restaurant"
 - "RestaurantData"
-- !private "StringLiteralType"
 - !private "UIImage"
 depends-member:
 - !private ["s7CVarArgP", "init"]

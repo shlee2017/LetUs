@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>74C5555D-F74F-419F-9984-25D1D8683321</key>
+		<key>E1479100-8CB2-488B-8121-8B81D8086538</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>74C5555D-F74F-419F-9984-25D1D8683321.xcactivitylog</string>
+			<string>E1479100-8CB2-488B-8121-8B81D8086538.xcactivitylog</string>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -30,45 +30,13 @@
 			<key>signature</key>
 			<string>Build LetUs</string>
 			<key>timeStartedRecording</key>
-			<real>575570729.712852</real>
+			<real>577251080.631055</real>
 			<key>timeStoppedRecording</key>
-			<real>575570811.25842905</real>
+			<real>577251146.70515096</real>
 			<key>title</key>
 			<string>Build LetUs</string>
 			<key>uniqueIdentifier</key>
-			<string>74C5555D-F74F-419F-9984-25D1D8683321</string>
-		</dict>
-		<key>B500638A-E8EA-4B83-AEF1-2D3106509ED3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B500638A-E8EA-4B83-AEF1-2D3106509ED3.xcactivitylog</string>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>LetUs project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>LetUs</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build LetUs</string>
-			<key>timeStartedRecording</key>
-			<real>575422341.59781504</real>
-			<key>timeStoppedRecording</key>
-			<real>575422386.63769901</real>
-			<key>title</key>
-			<string>Build LetUs</string>
-			<key>uniqueIdentifier</key>
-			<string>B500638A-E8EA-4B83-AEF1-2D3106509ED3</string>
+			<string>E1479100-8CB2-488B-8121-8B81D8086538</string>
 		</dict>
 	</dict>
 </dict>

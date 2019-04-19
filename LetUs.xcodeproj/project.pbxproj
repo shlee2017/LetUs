@@ -19,7 +19,6 @@
 		1424F2812251907100F8F4E7 /* CustomizationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424F2802251907100F8F4E7 /* CustomizationItem.swift */; };
 		1424F2832251907F00F8F4E7 /* SectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424F2822251907F00F8F4E7 /* SectionItem.swift */; };
 		1424F28522519C2F00F8F4E7 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424F28422519C2F00F8F4E7 /* CheckBox.swift */; };
-		1424F2CD225A86E600F8F4E7 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 1424F2CB225A86E600F8F4E7 /* awsconfiguration.json */; };
 		1424F2CE225A86E600F8F4E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1424F2CC225A86E600F8F4E7 /* Constants.swift */; };
 		146683082249C3A000269C3F /* CustomizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146683072249C3A000269C3F /* CustomizationViewController.swift */; };
 		1466830A2249C42000269C3F /* CustomizationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146683092249C42000269C3F /* CustomizationData.swift */; };
@@ -31,6 +30,9 @@
 		2D246C9E2204A7C800166E8A /* LetUsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246C9D2204A7C800166E8A /* LetUsTests.swift */; };
 		2D246CAB2204B22400166E8A /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D246CAA2204B22400166E8A /* CustomTabBar.swift */; };
 		2D2D7B7D224472E300A49566 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D7B7C224472E300A49566 /* OrderViewController.swift */; };
+		2D30F78D226590B600203A67 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D30F78C226590B600203A67 /* awsconfiguration.json */; };
+		2D30F7902265924A00203A67 /* HelpViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D30F78E2265924700203A67 /* HelpViewCell.swift */; };
+		2D30F7912265924A00203A67 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D30F78F2265924A00203A67 /* HelpViewController.swift */; };
 		2D6349292210CACE00AE5E77 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6349282210CACD00AE5E77 /* QRScannerController.swift */; };
 		2D7087BD224025B4002751B0 /* letus-operations.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 2D7087BC224025B4002751B0 /* letus-operations.graphql */; };
 		2D7087C122402E11002751B0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7087C022402E11002751B0 /* API.swift */; };
@@ -60,7 +62,6 @@
 		1424F2802251907100F8F4E7 /* CustomizationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationItem.swift; sourceTree = "<group>"; };
 		1424F2822251907F00F8F4E7 /* SectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionItem.swift; sourceTree = "<group>"; };
 		1424F28422519C2F00F8F4E7 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
-		1424F2CB225A86E600F8F4E7 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		1424F2CC225A86E600F8F4E7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		146683072249C3A000269C3F /* CustomizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationViewController.swift; sourceTree = "<group>"; };
 		146683092249C42000269C3F /* CustomizationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationData.swift; sourceTree = "<group>"; };
@@ -76,6 +77,9 @@
 		2D246C9F2204A7C900166E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D246CAA2204B22400166E8A /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		2D2D7B7C224472E300A49566 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		2D30F78C226590B600203A67 /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		2D30F78E2265924700203A67 /* HelpViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewCell.swift; sourceTree = "<group>"; };
+		2D30F78F2265924A00203A67 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		2D6349282210CACD00AE5E77 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 		2D7087BC224025B4002751B0 /* letus-operations.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = "letus-operations.graphql"; sourceTree = "<group>"; };
 		2D7087C022402E11002751B0 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = SOURCE_ROOT; };
@@ -136,8 +140,8 @@
 			children = (
 				2D7087BB22402572002751B0 /* GraphQLOperations */,
 				2D246C882204A7C800166E8A /* AppDelegate.swift */,
+				2D30F78C226590B600203A67 /* awsconfiguration.json */,
 				2D7087C022402E11002751B0 /* API.swift */,
-				1424F2CB225A86E600F8F4E7 /* awsconfiguration.json */,
 				1424F2CC225A86E600F8F4E7 /* Constants.swift */,
 				2D246C8C2204A7C800166E8A /* Main.storyboard */,
 				2D246CAA2204B22400166E8A /* CustomTabBar.swift */,
@@ -149,7 +153,6 @@
 				14124268223A215D0011E813 /* MenuItemCell.swift */,
 				14124264223A1AE90011E813 /* MenuItem.swift */,
 				14124266223A1BB60011E813 /* MenuData.swift */,
-				146683072249C3A000269C3F /* CustomizationViewController.swift */,
 				1424F27E22518F2200F8F4E7 /* CustomizationCell.swift */,
 				1424F28422519C2F00F8F4E7 /* CheckBox.swift */,
 				1424F2802251907100F8F4E7 /* CustomizationItem.swift */,
@@ -158,6 +161,9 @@
 				2D2D7B7C224472E300A49566 /* OrderViewController.swift */,
 				2D6349282210CACD00AE5E77 /* QRScannerController.swift */,
 				1412429A223F58EF0011E813 /* SettingsViewController.swift */,
+				2D30F78E2265924700203A67 /* HelpViewCell.swift */,
+				2D30F78F2265924A00203A67 /* HelpViewController.swift */,
+				146683072249C3A000269C3F /* CustomizationViewController.swift */,
 				2D246C8F2204A7C800166E8A /* Assets.xcassets */,
 				2D246C912204A7C800166E8A /* LaunchScreen.storyboard */,
 				2D246C942204A7C800166E8A /* Info.plist */,
@@ -275,7 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1424F2CD225A86E600F8F4E7 /* awsconfiguration.json in Resources */,
+				2D30F78D226590B600203A67 /* awsconfiguration.json in Resources */,
 				2D246C932204A7C800166E8A /* LaunchScreen.storyboard in Resources */,
 				2D246C902204A7C800166E8A /* Assets.xcassets in Resources */,
 				2D246C8E2204A7C800166E8A /* Main.storyboard in Resources */,
@@ -385,6 +391,8 @@
 				1424F28522519C2F00F8F4E7 /* CheckBox.swift in Sources */,
 				14124263223A1AAD0011E813 /* MenuViewController.swift in Sources */,
 				1466830A2249C42000269C3F /* CustomizationData.swift in Sources */,
+				2D30F7912265924A00203A67 /* HelpViewController.swift in Sources */,
+				2D30F7902265924A00203A67 /* HelpViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,7 +557,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78G3K9TQHP;
+				DEVELOPMENT_TEAM = J5L9AYFLDT;
 				INFOPLIST_FILE = LetUs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -570,7 +578,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 78G3K9TQHP;
+				DEVELOPMENT_TEAM = J5L9AYFLDT;
 				INFOPLIST_FILE = LetUs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
