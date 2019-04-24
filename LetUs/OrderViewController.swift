@@ -34,6 +34,7 @@ class OrderViewController: UITableViewController{
             vc?.restaurantSource = restaurantSource
             vc?.sourceSection = indexPath.section
             vc?.sourceRow = indexPath.row
+            vc?.menuName = menuItems[indexPath.section][indexPath.row].name ?? "Food"
         }
     }
     

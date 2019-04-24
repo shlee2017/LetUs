@@ -15,7 +15,7 @@ import AWSAppSync
 class HelpViewController: UITableViewController{
     
     // MARK: - Properties
-    var helpOption:[String] = ["Water refill", "Extra Spoon", "Extra Knife", "Extra Fork", "Extra Plate"]
+    var helpOption:[String] = ["Water refill", "Extra Spoon", "Extra Knife", "Extra Fork", "Extra Plate", "Check"]
     var numHelp = 0;
     var appSyncClient: AWSAppSyncClient?
     var event: Event?

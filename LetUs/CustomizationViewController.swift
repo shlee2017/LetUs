@@ -18,6 +18,7 @@ class CustomizationViewController: UITableViewController {
     var restaurantSource:Int = 0
     var sourceSection:Int = 0
     var sourceRow:Int = 0
+    var menuName:String = ""
     var customizations:[[CustomizationItem]] = [[]]
     var sectionItems:[SectionItem] = []
     var selectedItems:[[CustomizationItem]] = [[]]
@@ -35,6 +36,8 @@ class CustomizationViewController: UITableViewController {
         let tap = UITapGestureRecognizer(target: self.view, action: Selector("endEditing:"))
         tap.cancelsTouchesInView = false
         self.view.addGestureRecognizer(tap)
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appSyncClient = appDelegate.appSyncClient
     }
     
     // Returns number of sections
@@ -118,7 +121,8 @@ class CustomizationViewController: UITableViewController {
         let name = AWSMobileClient.sharedInstance().username //name
         let table = "tableA" //where table#
         let type = "Order" //when
-        let order = "" //desc
+        let order = menuName //desc
+        
         //adds the event
         let addEventMutation = AddEventMutation(name: name!,
                                                 when: type,
@@ -181,7 +185,7 @@ class CustomizationViewController: UITableViewController {
                 }
             }
         }
-        let confirmController = UIAlertController(title: "Help Sent", message: "Please wait patiently. Your waiter will help you shortly.", preferredStyle: .alert)
+        let confirmController = UIAlertController(title: "Order Sent", message: "Please wait patiently. Your waiter will get your order shortly.", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default)
         confirmController.addAction(okAction)
         present(confirmController, animated: true)

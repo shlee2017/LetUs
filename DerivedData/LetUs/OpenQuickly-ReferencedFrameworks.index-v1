@@ -7,22 +7,22 @@
 	<string>CommonCrypto</string>
 	<string>objc</string>
 	<string>SQLite3</string>
-	<string>the</string>
 	<string>AWSCognitoIdentityProvider</string>
-	<string>LetUs</string>
+	<string>the</string>
+	<string>SQLiteObjc</string>
 	<string>AWSMobileClient</string>
 	<string>AWSAuthCore</string>
 	<string>CoreData</string>
 	<string>CSQLite</string>
-	<string>arpa</string>
+	<string>LetUs</string>
 	<string>sqlite3</string>
 	<string>AWSCore</string>
 	<string>sys</string>
-	<string>SQLiteObjc</string>
+	<string>arpa</string>
 	<string>CoreServices</string>
 	<string>SQLite</string>
-	<string>StoreKit</string>
 	<string>dispatch</string>
+	<string>StoreKit</string>
 	<string>AWSUserPoolsSignIn</string>
 	<string>AWSAppSync</string>
 	<string>unicode</string>
@@ -32,9 +32,9 @@
 	<string>Dispatch</string>
 	<string>SQLCipher</string>
 	<string>Foundation</string>
+	<string>mach</string>
 	<string>Security</string>
 	<string>os</string>
-	<string>mach</string>
 	<string>AppKit</string>
 	<string>AWSAuthUI</string>
 	<string>CocoaLumberjack</string>
